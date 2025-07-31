@@ -263,14 +263,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **AI Visualization**: Neural network research papers
 - **Performance**: Web.dev and MDN documentation
 
-## >> Support
-
-- **Documentation**: [docs.cybershield-nexus.com](https://docs.cybershield-nexus.com)
-- **Issues**: [GitHub Issues](https://github.com/yourusername/cybershield-nexus/issues)
-- **Discord**: [Join our community](https://discord.gg/cybershield-nexus)
-- **Email**: support@cybershield-nexus.com
-
----
 
 ## >> Why This is Revolutionary
 
