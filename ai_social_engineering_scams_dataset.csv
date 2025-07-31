@@ -1,0 +1,1001 @@
+incident_id,scam_type,attack_vector,ai_used,loss_amount_usd,victim_type,detection_method,was_detected,was_successful,location,behavioral_flag,time_of_attack
+7dbb8fe0-d1d2-401a-8560-2fd852264a3f,SMS Phishing,Email,No,300.89,Retail Customer,Law Enforcement,Yes,No,US,Unusual Login,Morning
+90e7b4fa-eacb-4a59-90b7-1a8efe07eba5,Deepfake Video Scam,Video,Yes,278953.89,Fintech User,Manual Report,No,Yes,Australia,Odd Hours Activity,Morning
+15d6e260-5340-45e4-8c37-0e5693e27fca,Voice Phishing,Website,No,2399.32,Bank Employee,AI Detection,Yes,No,US,Odd Hours Activity,Evening
+0455a764-be27-4eb9-ab13-e16b5f2e7adf,Fake Bank App,Email,No,212343.55,Fintech User,AI Detection,No,Yes,South America,Odd Hours Activity,Afternoon
+58f01b0f-a5a3-43f6-ab6b-278617819d8c,SMS Phishing,Email,Yes,9866.99,Business Owner,AI Detection,No,Yes,Asia,None,Evening
+d1a47146-5336-4d64-a2ad-517516524712,Voice Phishing,Social Media,No,703.16,Retail Customer,Law Enforcement,Yes,Yes,EU,None,Night
+f252c5a6-6ba9-40c9-9ddf-720300118c98,Fake Bank App,Video,No,22.9,Retail Customer,Bank Flag,No,Yes,Asia,Unusual Login,Afternoon
+5fabcf52-c09e-4ccc-84c0-271f82069928,Social Media Scam,Video,No,89621.48,Fintech User,Manual Report,No,Yes,EU,High Transfer Volume,Evening
+e451b7cb-a500-411b-b2c3-5f7be009c298,Impersonation Fraud,Website,No,997.59,Business Owner,Law Enforcement,No,Yes,US,Unusual Login,Morning
+3b041e92-41ed-4049-ac13-f9983d051cb8,Voice Phishing,Phone Call,No,157174.94,Fintech User,Law Enforcement,No,Yes,Australia,Odd Hours Activity,Morning
+d6492660-f758-4a6e-8b53-c9f52de28527,SMS Phishing,App,No,29.35,Business Owner,User Realization,Yes,No,Australia,High Transfer Volume,Morning
+83a4bff5-5206-4b54-a244-a5936c825920,Fake Bank App,Video,Yes,7862.6,Retail Customer,Law Enforcement,No,Yes,Africa,Unusual Login,Morning
+28fd156e-bd55-44de-b559-afbcfe8845f0,Social Media Scam,App,Yes,24.09,Retail Customer,AI Detection,No,Yes,US,High Transfer Volume,Afternoon
+bb1a736a-2cac-43f7-bfce-60118976d6cf,Fake Investment Scam,Phone Call,No,885189.74,Fintech User,Manual Report,Yes,No,Africa,Odd Hours Activity,Night
+3a15f722-53b8-45b9-9a89-4b236b638179,Fake Investment Scam,SMS,Yes,157.62,Retail Customer,Law Enforcement,Yes,Yes,US,Unusual Login,Morning
+14da5db1-1ee1-4fa0-845b-c1d97e630646,Deepfake Video Scam,SMS,Yes,1637.72,Business Owner,Bank Flag,No,Yes,EU,High Transfer Volume,Night
+ffd3453e-bfb7-41b3-880c-7379c4017eb1,Deepfake Video Scam,In-person,No,184.89,Fintech User,Bank Flag,No,Yes,Africa,None,Morning
+74ce66e8-eeb2-4544-9171-6a89975476fe,SMS Phishing,Email,No,8205.33,Retail Customer,Manual Report,Yes,Yes,Australia,None,Afternoon
+98417391-f339-447f-8984-42706d54bf31,Impersonation Fraud,Phone Call,No,32482.58,Retail Customer,User Realization,Yes,Yes,South America,Unusual Login,Morning
+c67ae7ba-c820-4c11-8e3f-f2dd29c5176c,Deepfake Video Scam,Phone Call,No,53322.26,Fintech User,AI Detection,Yes,No,US,None,Evening
+1d1a7013-8694-4679-bed8-b11e4f3cfa4d,Fake Investment Scam,App,No,695684.18,Fintech User,Manual Report,Yes,No,EU,Unusual Login,Morning
+3917629c-4650-4d57-80f4-e0b2ca5828fb,Social Media Scam,Email,Yes,529109.67,Business Owner,AI Detection,Yes,Yes,US,Unusual Login,Afternoon
+cbf81b95-85c9-48df-ba0e-4195cdcb2fd4,Impersonation Fraud,SMS,Yes,635067.24,Retail Customer,User Realization,No,Yes,Asia,High Transfer Volume,Evening
+a3d067c9-2d4d-41c6-9e7b-ea1e7eda0e00,Deepfake Video Scam,App,No,704.52,Bank Employee,User Realization,No,Yes,US,Unusual Login,Night
+6880af45-83f5-4c89-9918-e67112d99fdd,SMS Phishing,SMS,Yes,338680.37,Bank Employee,AI Detection,Yes,No,Asia,High Transfer Volume,Night
+c4ecc638-8e30-4636-b428-98e3022675a0,Fake Bank App,Email,No,93.89,Business Owner,Bank Flag,Yes,Yes,South America,High Transfer Volume,Evening
+51f88904-5b10-4a53-a11c-b600c9c9bf4a,Fake Bank App,Video,No,718.75,Bank Employee,Law Enforcement,No,Yes,Asia,Unusual Login,Morning
+2459eb30-42b5-4a5c-8059-8ff1beed971b,Impersonation Fraud,App,Yes,33.36,Business Owner,Bank Flag,Yes,No,Australia,None,Morning
+9cb4a083-2ded-4a35-8e6a-db964740e2b0,SMS Phishing,SMS,Yes,132425.32,Bank Employee,Law Enforcement,Yes,No,EU,Unusual Login,Evening
+6e12e960-8aa8-4337-9398-b89f79e9b91b,Social Media Scam,Email,No,713.86,Retail Customer,Bank Flag,No,Yes,Australia,High Transfer Volume,Afternoon
+9de69940-e9e7-47cd-9416-73f3755f57a1,Voice Phishing,Phone Call,No,17.94,Bank Employee,User Realization,Yes,No,EU,Unusual Login,Night
+0b556728-3d28-456c-b9b1-71cdbbcea836,Phishing Email,In-person,Yes,834.93,Fintech User,Bank Flag,No,Yes,EU,High Transfer Volume,Morning
+0abbb3d0-479e-4c86-af75-57a1a1d88ce8,Deepfake Video Scam,Website,No,8779.18,Bank Employee,Bank Flag,No,Yes,South America,Odd Hours Activity,Morning
+9bd0b7f7-2e8a-42e4-bd07-07c61b25c4fd,SMS Phishing,App,Yes,966280.88,Bank Employee,AI Detection,Yes,No,Asia,Odd Hours Activity,Night
+11c57dd9-7d01-40bd-8d75-179ec3bebc17,SMS Phishing,Website,Yes,1399.48,Fintech User,AI Detection,Yes,No,Africa,Unusual Login,Evening
+d4b0cb85-6a06-496c-bc26-1a45f8066a8e,Social Media Scam,SMS,No,378356.2,Fintech User,Bank Flag,No,Yes,South America,Odd Hours Activity,Afternoon
+eae4d8f9-8ec1-46b7-a00f-77533275251d,Deepfake Video Scam,Website,No,653.96,Bank Employee,User Realization,Yes,No,Asia,High Transfer Volume,Night
+2825373e-c374-48f5-989b-a292df2fe70d,Social Media Scam,In-person,No,70806.45,Fintech User,Manual Report,Yes,No,Australia,Odd Hours Activity,Morning
+3677e1be-26ea-493b-aeea-3bbddfb0e637,Deepfake Video Scam,App,Yes,232.62,Retail Customer,Manual Report,No,Yes,Australia,Unusual Login,Night
+d2722d7b-f77e-470e-909b-df9ec6a77ef9,Impersonation Fraud,Video,No,45968.76,Business Owner,AI Detection,Yes,No,EU,High Transfer Volume,Night
+7c06f64a-a6f0-40ba-aaea-a24221d80795,Phishing Email,Video,Yes,22000.52,Fintech User,Law Enforcement,No,Yes,Africa,None,Night
+2276fa2e-e86d-4962-b7c8-e4dca477c84f,Voice Phishing,In-person,No,7765.99,Bank Employee,Law Enforcement,No,Yes,South America,High Transfer Volume,Evening
+0fce1c1e-2e80-46d8-a5ed-83ee4a708f03,Fake Investment Scam,SMS,No,344.54,Bank Employee,Law Enforcement,Yes,Yes,EU,High Transfer Volume,Night
+abbd0712-34ad-4ca9-8ea0-ffa56ef218ae,Voice Phishing,Video,Yes,46683.94,Fintech User,User Realization,Yes,Yes,Africa,None,Morning
+45eb11b6-d045-4963-a348-5f030d7a5744,Impersonation Fraud,In-person,Yes,3687.51,Fintech User,User Realization,Yes,No,EU,Odd Hours Activity,Night
+fa5f23c6-9a0a-4c84-9633-c080116aabb9,Fake Investment Scam,Email,No,7019.86,Fintech User,Manual Report,No,Yes,EU,Unusual Login,Night
+9557f5ea-abd4-494a-8ab1-5a4ba8e82cc7,Phishing Email,SMS,No,880.17,Business Owner,AI Detection,No,Yes,Africa,Odd Hours Activity,Afternoon
+e75ea539-59ce-43cb-8624-d041eb748a25,Fake Investment Scam,Social Media,No,35043.1,Fintech User,Bank Flag,Yes,No,US,Unusual Login,Evening
+ba6ff776-dbf5-430c-ab34-e53e2b845235,Deepfake Video Scam,SMS,Yes,94.96,Business Owner,AI Detection,Yes,Yes,EU,None,Morning
+c1fc07be-ee88-4938-84c9-92c862cb9fa1,Deepfake Video Scam,In-person,No,2510.1,Retail Customer,Manual Report,No,Yes,US,Unusual Login,Evening
+cfac32e0-31ec-4f58-bf20-2db3ff2c77da,Impersonation Fraud,Website,Yes,59.21,Business Owner,AI Detection,No,Yes,South America,Unusual Login,Morning
+684d089d-7915-4262-843a-c6f148c78c42,Social Media Scam,Website,No,50.6,Bank Employee,AI Detection,No,Yes,Africa,Unusual Login,Night
+569a9a05-1666-4d72-a721-e2ad2685b14f,Social Media Scam,In-person,Yes,25852.33,Bank Employee,Law Enforcement,No,Yes,Africa,None,Evening
+a8bf0b20-c738-46eb-adb0-2db48fbd6b48,Social Media Scam,Video,Yes,8934.68,Business Owner,User Realization,No,Yes,Asia,Unusual Login,Night
+7391a506-3d4f-463b-8b11-68f6c05f5fc2,Social Media Scam,Phone Call,No,419.34,Bank Employee,Bank Flag,No,Yes,Australia,Odd Hours Activity,Morning
+f8cf32e3-5751-457e-9d0b-1f408853f435,Deepfake Video Scam,SMS,Yes,53972.01,Business Owner,User Realization,No,Yes,Africa,Unusual Login,Morning
+dff9a12d-9450-4d00-a207-aaff4407966d,Fake Bank App,Video,No,375.59,Bank Employee,User Realization,No,Yes,Africa,Odd Hours Activity,Evening
+8b46d868-0395-4f60-9948-7c6068b0be50,Fake Investment Scam,App,No,3074.84,Business Owner,Bank Flag,Yes,Yes,EU,High Transfer Volume,Night
+c112368b-ac8f-4a10-bd5a-16edfc3c5a07,Fake Bank App,App,Yes,366.62,Bank Employee,Manual Report,No,Yes,US,High Transfer Volume,Evening
+3cbf8a8e-d564-4b6d-98d0-b63cd2f92443,Phishing Email,Email,No,674.08,Fintech User,AI Detection,Yes,No,Africa,None,Night
+c05eea22-2efc-449a-8594-8030071fb8ee,Social Media Scam,Phone Call,Yes,9469.57,Fintech User,AI Detection,Yes,No,Africa,Unusual Login,Morning
+e3f4fb0b-d4ab-40c4-b4b1-0b12371a174a,Voice Phishing,Phone Call,No,99.39,Retail Customer,Law Enforcement,No,Yes,Australia,High Transfer Volume,Night
+f3d029de-837c-42c5-9bde-48e8b2110633,Fake Investment Scam,In-person,No,991028.13,Bank Employee,Law Enforcement,Yes,Yes,EU,High Transfer Volume,Evening
+856b91d0-f387-4319-821e-00354a46c962,SMS Phishing,Phone Call,Yes,596.79,Business Owner,AI Detection,No,Yes,Africa,None,Evening
+409a2d56-dc61-42da-8aaf-46898b18bd66,Phishing Email,Video,No,7326.89,Fintech User,AI Detection,Yes,No,South America,High Transfer Volume,Night
+907ff206-eb91-4415-9791-0cedffe28bf8,SMS Phishing,Video,Yes,8439.68,Retail Customer,AI Detection,Yes,No,Australia,Odd Hours Activity,Night
+b34d0a86-a49e-48aa-a743-e85bac2fecfd,SMS Phishing,In-person,No,94840.86,Fintech User,User Realization,Yes,Yes,Africa,Odd Hours Activity,Evening
+9a4e720d-c1c2-4b6e-893b-0876224f2f25,Phishing Email,SMS,Yes,628410.64,Retail Customer,Bank Flag,Yes,Yes,Africa,None,Evening
+a300c792-8075-48c0-a3f6-f38663471242,Voice Phishing,Website,No,47.0,Fintech User,Bank Flag,No,Yes,South America,Unusual Login,Afternoon
+1994346e-06db-48de-b014-7b3a6e4928d6,Social Media Scam,Website,No,6963.25,Fintech User,Law Enforcement,Yes,No,US,Odd Hours Activity,Evening
+f4fca933-5ad6-4958-9210-d4f32c6440f5,Social Media Scam,SMS,No,842434.48,Retail Customer,Law Enforcement,No,Yes,Africa,Unusual Login,Afternoon
+aa301b61-7b65-43d6-80ed-7f7df1a20902,Social Media Scam,In-person,No,20.36,Business Owner,Bank Flag,No,Yes,South America,None,Morning
+a6c072e1-9b3e-41a8-b8d6-541a75f5c310,Phishing Email,Video,Yes,5957.55,Fintech User,AI Detection,Yes,Yes,Africa,Unusual Login,Afternoon
+636b4edf-3d86-4970-ad7c-41b931655a86,Fake Investment Scam,App,No,85125.16,Fintech User,Manual Report,No,Yes,Australia,High Transfer Volume,Night
+9e48e374-0aea-455c-809b-5c29efc55e36,Deepfake Video Scam,Phone Call,Yes,7954.08,Fintech User,Bank Flag,No,Yes,US,Odd Hours Activity,Evening
+80e900a4-6430-4a47-b45d-de316d5e1486,Fake Investment Scam,Phone Call,No,535907.25,Bank Employee,Law Enforcement,No,Yes,Africa,Odd Hours Activity,Afternoon
+c93e280f-03ea-471e-94e3-ccd292e45798,Deepfake Video Scam,Website,Yes,13928.26,Fintech User,User Realization,No,Yes,South America,High Transfer Volume,Night
+c2ffd99f-2722-402a-a0c9-daa59c19f57d,Phishing Email,Phone Call,No,87.42,Fintech User,AI Detection,No,Yes,US,High Transfer Volume,Night
+0a476d03-464c-4938-9709-6011f194e76e,Voice Phishing,SMS,No,4047.05,Fintech User,AI Detection,No,Yes,South America,None,Evening
+50789938-ef05-45a2-87bb-6e6ba057ff3d,Fake Investment Scam,Email,Yes,668.04,Bank Employee,Manual Report,Yes,No,US,Unusual Login,Night
+c73e9c49-4957-48ee-878a-7a27949fd4e4,Voice Phishing,App,Yes,32.44,Retail Customer,Bank Flag,No,Yes,Asia,None,Afternoon
+2805c052-a229-4174-9022-a7dcc7d21ff0,Deepfake Video Scam,Website,Yes,257.56,Fintech User,Law Enforcement,Yes,No,Australia,High Transfer Volume,Afternoon
+359bc66e-1c0d-4b11-ba32-1cd7296f4c00,Fake Investment Scam,App,No,7001.57,Fintech User,Bank Flag,Yes,Yes,Africa,Odd Hours Activity,Evening
+2afd6b33-ccbf-46a3-b408-09a36e27e75c,Impersonation Fraud,App,No,2792.95,Fintech User,User Realization,Yes,Yes,Africa,Odd Hours Activity,Evening
+ffc5ab05-542b-42e6-a1b7-7a03da9a77ea,Fake Bank App,Email,No,1072.88,Retail Customer,Law Enforcement,No,Yes,Asia,High Transfer Volume,Evening
+f82218b1-da0b-4559-ab73-71ca6d9baadc,Deepfake Video Scam,Video,No,665.42,Retail Customer,Bank Flag,No,Yes,US,Odd Hours Activity,Afternoon
+df38513f-3ca3-4306-909d-813b6a83e08b,SMS Phishing,App,No,25807.61,Business Owner,Law Enforcement,No,Yes,Australia,Odd Hours Activity,Afternoon
+22853d36-df47-4e4c-9eac-a3bf8dbde36c,Fake Bank App,In-person,No,8238.09,Fintech User,AI Detection,Yes,Yes,South America,None,Evening
+f01453f1-abcf-4b8c-b4cb-eac623805153,SMS Phishing,Website,Yes,5829.15,Fintech User,Bank Flag,No,Yes,Australia,None,Evening
+a41ba542-4686-41e3-828f-8406fc9d633e,SMS Phishing,Video,No,61.95,Bank Employee,Law Enforcement,Yes,Yes,South America,None,Evening
+a5db6720-f24d-4529-91ca-9f5e4f376a9f,Impersonation Fraud,SMS,Yes,94.63,Bank Employee,User Realization,Yes,Yes,EU,High Transfer Volume,Night
+34aa696f-f400-4d3e-adce-1c6f77824a99,Fake Investment Scam,Social Media,No,768042.11,Business Owner,User Realization,Yes,No,Australia,None,Evening
+ff984d2b-4fb7-4fc1-b3f0-f06b2d581e90,Phishing Email,Social Media,Yes,50022.63,Business Owner,Bank Flag,Yes,No,Australia,Odd Hours Activity,Morning
+d1c34a9c-59fa-400d-8c97-cdd74fffb366,Impersonation Fraud,App,Yes,94.9,Fintech User,AI Detection,Yes,Yes,US,Odd Hours Activity,Afternoon
+20489f4a-c466-4d13-a9dd-9eb1f783661c,Voice Phishing,Video,Yes,286441.63,Business Owner,Manual Report,No,Yes,EU,Unusual Login,Evening
+2da03713-5795-40da-81ff-713f345ca54b,Voice Phishing,Phone Call,No,198.93,Retail Customer,Manual Report,Yes,No,EU,Odd Hours Activity,Morning
+562c6bfe-d2a7-476d-bbce-751030360c4c,Voice Phishing,App,Yes,767.55,Retail Customer,AI Detection,No,Yes,Africa,Odd Hours Activity,Morning
+07d6c5f5-affb-464f-b362-dbeee061739d,Fake Investment Scam,Video,Yes,371467.3,Retail Customer,AI Detection,No,Yes,Africa,None,Morning
+4bbe6f88-2aac-48e2-baeb-cadea59275c9,Fake Investment Scam,In-person,Yes,32.21,Business Owner,AI Detection,Yes,No,Australia,Odd Hours Activity,Night
+d40c3325-8ef5-4856-ba31-aa40491372ba,Fake Bank App,In-person,No,79.31,Retail Customer,Law Enforcement,Yes,No,Africa,High Transfer Volume,Night
+42f440bc-ada2-4150-beba-da169d3adebf,Social Media Scam,In-person,No,75665.13,Bank Employee,User Realization,No,Yes,South America,Odd Hours Activity,Evening
+a81df911-1721-4ec5-b731-d4168217959c,Voice Phishing,In-person,Yes,83.18,Retail Customer,User Realization,Yes,No,EU,Unusual Login,Evening
+ac3498b6-7ce7-4dc2-a74f-90fac9765f31,SMS Phishing,Website,No,88128.29,Retail Customer,Bank Flag,No,Yes,Asia,Unusual Login,Afternoon
+bc73d489-0b2c-4140-8bea-38d651af2650,Voice Phishing,In-person,Yes,35.01,Bank Employee,AI Detection,No,Yes,Australia,High Transfer Volume,Night
+930a0ca2-1b2d-48aa-b00f-6c4cc8e54540,Phishing Email,App,Yes,345.94,Bank Employee,Bank Flag,No,Yes,US,High Transfer Volume,Afternoon
+51954703-44b9-4d26-933d-edbb425456e3,Impersonation Fraud,SMS,Yes,9.18,Business Owner,User Realization,No,Yes,Africa,Odd Hours Activity,Afternoon
+5011c332-4b5d-4602-9454-dd1d8311ed0e,Social Media Scam,App,No,636601.39,Retail Customer,Manual Report,Yes,Yes,South America,Unusual Login,Evening
+a7decff7-6951-4d7d-bd3f-1525d9747944,Fake Investment Scam,Website,No,497839.77,Bank Employee,Manual Report,Yes,No,Africa,Unusual Login,Evening
+679eacca-e08d-4381-b899-f3109850cf9a,Fake Investment Scam,App,Yes,455.74,Retail Customer,AI Detection,Yes,No,EU,High Transfer Volume,Evening
+90370da5-1d08-42f3-86cc-2710dcb9f3d8,Fake Bank App,Social Media,Yes,49.74,Fintech User,Manual Report,Yes,No,Australia,High Transfer Volume,Evening
+5e8b891b-f736-42dc-a72f-3aaf6d63bc8d,SMS Phishing,Website,Yes,11686.74,Retail Customer,Bank Flag,No,Yes,Australia,None,Night
+d978edc5-00f4-41e0-ba37-0bf933103e2d,Fake Bank App,SMS,No,96.62,Business Owner,Law Enforcement,No,Yes,South America,Odd Hours Activity,Morning
+81c64110-7e35-49eb-a00b-731052d7f7a4,Impersonation Fraud,SMS,Yes,62998.42,Retail Customer,User Realization,No,Yes,South America,Odd Hours Activity,Afternoon
+bbdd897c-2738-4c45-91fd-2c54ade83bc7,Social Media Scam,Phone Call,Yes,669902.2,Business Owner,Bank Flag,No,Yes,South America,High Transfer Volume,Afternoon
+3ef49972-c76e-4da8-8d89-ac1590c4547b,SMS Phishing,Phone Call,No,256.15,Business Owner,AI Detection,Yes,No,Africa,None,Evening
+df4a7910-9961-48ef-bdcd-68b9e980460c,Social Media Scam,Phone Call,No,46.89,Bank Employee,Bank Flag,Yes,No,Australia,Unusual Login,Evening
+47566add-ecef-4323-b808-6f189ae96fd1,Fake Investment Scam,In-person,Yes,36.87,Bank Employee,AI Detection,Yes,No,Africa,Unusual Login,Night
+b063ec38-4dd9-486a-a500-8a927f796f72,Deepfake Video Scam,Social Media,No,235774.97,Retail Customer,User Realization,Yes,No,South America,Unusual Login,Afternoon
+769b7adf-8ec3-40df-9f67-92b3455b2238,Phishing Email,Video,No,57166.17,Business Owner,Bank Flag,No,Yes,Asia,None,Night
+bcc41f01-be86-4f5e-97dc-6e36a39a3dba,Social Media Scam,Email,No,32.97,Fintech User,Bank Flag,No,Yes,South America,High Transfer Volume,Evening
+52acac32-9a25-4ad9-8eb5-d4e61c48065b,SMS Phishing,Phone Call,No,9709.27,Fintech User,Manual Report,Yes,No,Australia,None,Evening
+c82cb57c-7245-4d95-b890-e7b3b01df443,Voice Phishing,SMS,No,425645.29,Bank Employee,Bank Flag,Yes,Yes,Asia,None,Afternoon
+ddf5a343-01ca-4bbe-a3dc-0f125e9f653c,Deepfake Video Scam,Phone Call,Yes,29.58,Retail Customer,Law Enforcement,Yes,No,Australia,High Transfer Volume,Night
+136bb156-67a9-4e1c-87ee-58b0be440328,Voice Phishing,Phone Call,Yes,828139.35,Business Owner,User Realization,Yes,No,Asia,High Transfer Volume,Night
+bd6fd3ad-2771-401e-90f7-e5f867cce3e4,Fake Bank App,In-person,Yes,315251.65,Fintech User,Manual Report,No,Yes,South America,None,Night
+0485103d-6756-436c-8dfa-76795fe32baa,Fake Bank App,Website,No,835.2,Business Owner,Bank Flag,Yes,No,Asia,Unusual Login,Morning
+aa958c3d-5ee5-43e4-855b-405cf4db6410,Fake Bank App,SMS,Yes,5043.87,Business Owner,User Realization,Yes,Yes,Africa,Odd Hours Activity,Morning
+d4219752-5398-438e-88b4-8025de474408,Impersonation Fraud,Email,No,436565.34,Fintech User,AI Detection,No,Yes,EU,Unusual Login,Evening
+01272963-4f51-47fc-b68e-e6482aef1a2c,SMS Phishing,Social Media,Yes,134.47,Fintech User,Manual Report,No,Yes,Africa,Unusual Login,Morning
+54bb7663-32a2-4533-8021-1f8e83102a86,Phishing Email,App,Yes,593.92,Fintech User,AI Detection,No,Yes,EU,Odd Hours Activity,Morning
+00e70e47-4643-4d7e-a699-de3fe8d37ab6,Phishing Email,Video,No,511402.25,Retail Customer,User Realization,Yes,Yes,South America,High Transfer Volume,Evening
+a8b5fc97-21b0-41ff-af56-a4b0d1cd4356,Impersonation Fraud,Email,No,613.6,Business Owner,AI Detection,No,Yes,US,Unusual Login,Night
+e3afed2b-dd61-4c25-b18f-7187d21a7746,Fake Investment Scam,Email,No,3282.85,Retail Customer,Bank Flag,Yes,No,EU,Unusual Login,Evening
+f474949e-5736-48bb-9502-27e7bb6f657e,Voice Phishing,Email,No,404692.53,Business Owner,User Realization,No,Yes,South America,High Transfer Volume,Afternoon
+762bf38f-43b4-48ad-afab-65724d379f5c,SMS Phishing,In-person,Yes,2814.32,Business Owner,AI Detection,No,Yes,Asia,None,Night
+c4b3e9f4-f013-42b9-8405-900a5b3d74e0,Fake Bank App,Email,Yes,4212.77,Retail Customer,Bank Flag,No,Yes,US,Odd Hours Activity,Night
+e0b7ce1e-e93e-4b26-8175-4cb60cc4c371,Impersonation Fraud,In-person,No,9763.51,Fintech User,User Realization,No,Yes,Australia,Odd Hours Activity,Morning
+4e497cfb-8bb4-4a97-87c4-3e3dfa7c7e50,Impersonation Fraud,SMS,No,995588.35,Business Owner,Law Enforcement,No,Yes,Asia,Unusual Login,Morning
+6326baad-a672-4527-81b2-8d88d576aeb6,Social Media Scam,App,No,64235.95,Fintech User,Manual Report,No,Yes,Asia,None,Morning
+daf70c06-d6ad-48af-98ad-031ca71c70cc,Social Media Scam,Website,No,7.5,Fintech User,Bank Flag,Yes,Yes,EU,None,Morning
+47fb009c-4940-4865-ba2d-ceaf252e1f73,Voice Phishing,SMS,Yes,4259.36,Retail Customer,Law Enforcement,Yes,No,Asia,Odd Hours Activity,Night
+577306ed-19c8-4fdc-9300-f6b052b32adc,SMS Phishing,Phone Call,No,38294.69,Bank Employee,Manual Report,Yes,Yes,South America,High Transfer Volume,Night
+3051eb63-6d6b-4a5b-80b9-d94773a6998e,Impersonation Fraud,SMS,No,7336.34,Business Owner,Law Enforcement,No,Yes,South America,None,Afternoon
+bcc3f760-8102-4733-af56-6d66892f005f,SMS Phishing,Phone Call,Yes,25539.07,Fintech User,AI Detection,No,Yes,South America,Odd Hours Activity,Morning
+074b1564-0a59-4d38-9ce4-8acdf91982f3,Fake Bank App,App,Yes,814.33,Business Owner,AI Detection,Yes,Yes,EU,None,Morning
+bbabae51-985a-4e9e-9896-6cc5e106f9ba,Social Media Scam,Social Media,No,216794.11,Retail Customer,AI Detection,No,Yes,Africa,None,Night
+9a763738-32bb-4155-8ece-57981a397917,Impersonation Fraud,SMS,Yes,6781.05,Fintech User,User Realization,No,Yes,EU,High Transfer Volume,Afternoon
+71032b5d-5d75-46fb-83e8-88727d99f342,Impersonation Fraud,Email,Yes,237713.92,Business Owner,Manual Report,No,Yes,South America,High Transfer Volume,Evening
+345bfb73-d999-48ea-8fd8-c45fc1f37c99,Fake Bank App,SMS,No,671.55,Bank Employee,Manual Report,No,Yes,Australia,Unusual Login,Afternoon
+f1a24d29-1656-45e3-b63b-1b7ace48fb6f,Voice Phishing,Phone Call,No,137074.87,Retail Customer,AI Detection,Yes,No,South America,High Transfer Volume,Night
+26bfc58d-0e9b-4143-951a-fb9cca1f6dd8,Phishing Email,In-person,No,5346.5,Fintech User,Bank Flag,No,Yes,US,Unusual Login,Afternoon
+63feaa87-9599-46c4-bc3a-95ca1788630e,Fake Investment Scam,Website,No,28362.07,Business Owner,Bank Flag,No,Yes,South America,Odd Hours Activity,Night
+4be4a24a-bda8-49bf-a2ee-97d4b22e0662,Voice Phishing,Social Media,Yes,3175.64,Retail Customer,Bank Flag,No,Yes,EU,High Transfer Volume,Morning
+8c86782f-5498-437d-9581-91d7a3608e48,Phishing Email,App,No,476321.27,Business Owner,Bank Flag,No,Yes,EU,High Transfer Volume,Night
+b5145b30-8592-414f-905e-6a1e3983eb19,Fake Investment Scam,In-person,No,12085.87,Fintech User,Law Enforcement,No,Yes,EU,High Transfer Volume,Evening
+9057477d-e6a3-4702-89ce-17a97daa9cb5,Phishing Email,Email,No,63776.69,Fintech User,Bank Flag,Yes,Yes,Africa,High Transfer Volume,Evening
+72ccf565-1158-45e0-a76b-a8434a4c9644,Social Media Scam,Website,No,40.06,Business Owner,Bank Flag,No,Yes,US,None,Night
+ed89beab-7f1d-46fc-bedf-dca747cd2c6b,Fake Bank App,SMS,Yes,39.39,Bank Employee,Law Enforcement,No,Yes,EU,High Transfer Volume,Night
+8d7566bd-d9ab-454c-b813-1100f86501ef,Phishing Email,Email,Yes,742.23,Fintech User,Law Enforcement,No,Yes,EU,High Transfer Volume,Evening
+91c244b7-4a71-4cda-b346-f2a754b6ab20,Social Media Scam,Phone Call,No,765387.42,Bank Employee,Law Enforcement,No,Yes,Australia,None,Evening
+960cadec-5391-47f8-8956-78e51b9c7fbf,Fake Investment Scam,Email,No,7064.26,Fintech User,Law Enforcement,No,Yes,South America,Unusual Login,Night
+a6baa964-e553-4e25-a2e3-749bae63400f,Fake Bank App,Video,Yes,532403.91,Fintech User,Manual Report,Yes,Yes,Australia,Unusual Login,Afternoon
+2774c201-bfe7-46c8-aaa2-a9241cb0bd58,Phishing Email,In-person,No,23628.81,Business Owner,User Realization,No,Yes,South America,Unusual Login,Afternoon
+c7a77a0b-b671-4f7f-80db-d6848fe5c42b,Deepfake Video Scam,Social Media,No,439142.3,Business Owner,User Realization,No,Yes,Australia,Odd Hours Activity,Evening
+32b9b1dc-a6e6-4d33-8c95-907edd17b5e9,Fake Investment Scam,Video,Yes,6022.78,Business Owner,Bank Flag,No,Yes,South America,High Transfer Volume,Night
+3ed37d37-8dc7-43b9-8c16-67070372d04a,Social Media Scam,In-person,No,940330.34,Bank Employee,Bank Flag,Yes,No,Africa,Odd Hours Activity,Afternoon
+1f0fe815-353e-4ae5-b4cc-33c3166d5779,Fake Bank App,Email,No,34.64,Fintech User,Bank Flag,No,Yes,EU,High Transfer Volume,Evening
+b5b46a80-e3c6-4f37-8b41-912e4f395e26,Fake Bank App,Phone Call,Yes,766801.88,Business Owner,Manual Report,Yes,Yes,South America,High Transfer Volume,Morning
+ee79439b-b589-4193-962e-da762f616a05,SMS Phishing,Website,No,19049.04,Business Owner,AI Detection,Yes,No,South America,None,Night
+c43b40e6-3ecf-47ed-8141-b7fff6e48cd3,Deepfake Video Scam,App,No,6813.08,Retail Customer,Law Enforcement,Yes,Yes,EU,None,Afternoon
+524e102e-723b-4dfb-85a0-d9b21b18e927,Phishing Email,Website,No,942.95,Bank Employee,AI Detection,Yes,No,Australia,Unusual Login,Evening
+beda2c0e-a08c-488e-9e75-ac56b64acbd3,Fake Bank App,In-person,No,865.95,Fintech User,Bank Flag,Yes,Yes,Asia,High Transfer Volume,Night
+ba968277-c7ae-42ee-b32f-4ab032dde58b,Fake Bank App,Phone Call,Yes,8116.91,Business Owner,Manual Report,No,Yes,Africa,Odd Hours Activity,Morning
+7b259951-3d4c-4266-b202-dc0c3ebf88aa,Impersonation Fraud,SMS,Yes,529.71,Business Owner,AI Detection,No,Yes,Africa,High Transfer Volume,Night
+4637a7d9-c209-421e-9c92-46e247f8c815,Fake Bank App,Social Media,No,750594.28,Retail Customer,Bank Flag,No,Yes,South America,High Transfer Volume,Morning
+81003635-b812-44e1-9e6e-170d43edfc29,SMS Phishing,In-person,No,464.87,Bank Employee,AI Detection,No,Yes,Asia,High Transfer Volume,Afternoon
+c61ee6a6-f51f-4a65-9b3d-2b15b5c42890,Voice Phishing,In-person,Yes,77296.14,Bank Employee,User Realization,No,Yes,Australia,High Transfer Volume,Afternoon
+1351ba55-e3f8-4f41-befe-3a052d937df2,SMS Phishing,In-person,No,91.72,Retail Customer,AI Detection,Yes,Yes,EU,Odd Hours Activity,Night
+3e1298e1-d559-49bd-8a9b-43d791d39c7d,SMS Phishing,Video,No,89.89,Fintech User,AI Detection,No,Yes,EU,None,Night
+c5471344-58ac-4bce-8d01-18c587f110c6,Phishing Email,In-person,No,39.59,Retail Customer,Manual Report,Yes,Yes,Africa,Odd Hours Activity,Morning
+f09aa26c-758d-449e-8459-0dd66e6988f0,Phishing Email,SMS,No,28.71,Business Owner,Manual Report,No,Yes,Asia,None,Night
+961a5b43-06d2-4455-945d-2f65f5b5dafb,Impersonation Fraud,Website,Yes,219690.83,Bank Employee,AI Detection,Yes,No,Australia,High Transfer Volume,Afternoon
+fbb08c3d-5a1c-455d-8cf5-0d8615089d87,Phishing Email,Email,No,70614.99,Fintech User,Law Enforcement,No,Yes,EU,High Transfer Volume,Night
+11c71c52-b550-4886-ba14-038402cc36fc,Social Media Scam,Phone Call,No,943.67,Retail Customer,AI Detection,No,Yes,Australia,Unusual Login,Afternoon
+242144f7-9cf3-4fe1-a8f0-000907e89b7f,Deepfake Video Scam,SMS,Yes,130218.65,Retail Customer,Manual Report,Yes,No,Africa,High Transfer Volume,Afternoon
+06b13545-31e3-4663-9575-4c04bab75353,Phishing Email,Phone Call,No,834.21,Bank Employee,Law Enforcement,No,Yes,EU,Odd Hours Activity,Afternoon
+7a0b6445-6670-4612-a293-17a18c58a9f9,Deepfake Video Scam,Website,No,1548.62,Business Owner,User Realization,No,Yes,US,Odd Hours Activity,Night
+e14b366f-90cb-4200-a380-49d8394c9472,Social Media Scam,Website,No,369.9,Business Owner,Law Enforcement,No,Yes,EU,High Transfer Volume,Evening
+69841b4b-5a5a-4360-82ae-b35c9c72251b,Voice Phishing,In-person,Yes,471409.74,Fintech User,Law Enforcement,Yes,No,EU,Odd Hours Activity,Afternoon
+7d4dfad1-cae0-4aca-bef4-3478259f1d0f,Social Media Scam,SMS,No,1832.18,Business Owner,AI Detection,No,Yes,Africa,Unusual Login,Morning
+97345621-55f2-443a-913e-a96b006903f3,Deepfake Video Scam,Video,No,882.53,Bank Employee,Bank Flag,Yes,Yes,EU,Unusual Login,Night
+91ef8a4c-6fa2-4327-9503-319130836e28,Deepfake Video Scam,Video,No,596.87,Bank Employee,User Realization,No,Yes,Australia,Odd Hours Activity,Evening
+c4de27e4-c7f3-4ced-acf6-84aacfcba9bd,Fake Bank App,Social Media,No,18874.74,Fintech User,Bank Flag,Yes,No,Asia,None,Morning
+98bc29e7-28d0-4942-a442-530d84abb1cc,Deepfake Video Scam,Phone Call,Yes,5979.8,Fintech User,Bank Flag,Yes,Yes,Asia,High Transfer Volume,Night
+e7cefa76-80de-48fa-8846-6854cb32824d,Deepfake Video Scam,In-person,No,7870.25,Fintech User,User Realization,No,Yes,EU,Odd Hours Activity,Afternoon
+962df651-b575-4f71-abc0-3b81f3d92190,Voice Phishing,In-person,Yes,991291.19,Retail Customer,Law Enforcement,Yes,Yes,South America,Unusual Login,Morning
+030000a2-caad-4b10-9669-574c41d8b9a8,Impersonation Fraud,Phone Call,Yes,70.72,Retail Customer,Manual Report,No,Yes,Asia,Unusual Login,Night
+d3fd5401-1cb1-4cbd-bbe1-7b61d7fc4965,Fake Investment Scam,Email,Yes,596479.2,Retail Customer,AI Detection,No,Yes,Australia,Odd Hours Activity,Morning
+c4f23cc7-af89-4585-998e-471fbdbe6c08,Impersonation Fraud,Phone Call,Yes,52.44,Business Owner,Manual Report,No,Yes,Asia,Odd Hours Activity,Night
+d8c86154-39b6-40ac-a00b-d937d7a0ba57,SMS Phishing,Social Media,No,60850.2,Business Owner,Bank Flag,Yes,Yes,US,None,Night
+0a6cee68-5ac3-4f85-9de3-7ef08f302e0d,Impersonation Fraud,In-person,Yes,70.28,Retail Customer,User Realization,No,Yes,South America,Odd Hours Activity,Morning
+fa4683a6-675c-4b99-bf78-d12b51e2b6de,Phishing Email,Video,Yes,527950.26,Retail Customer,AI Detection,No,Yes,Australia,Unusual Login,Afternoon
+4801e1b9-ecd5-45b9-92c6-f97607a57b14,Social Media Scam,Email,Yes,229772.41,Fintech User,AI Detection,No,Yes,EU,High Transfer Volume,Night
+1185f923-9014-41f0-b251-7aef028c8ccf,Social Media Scam,Website,Yes,50.08,Bank Employee,AI Detection,Yes,No,EU,Unusual Login,Evening
+4380d23d-5ea6-40e0-bbf6-2d2aead09e85,Impersonation Fraud,Social Media,Yes,8051.93,Fintech User,User Realization,Yes,No,Australia,None,Night
+d2f71011-e73d-4594-9fac-ba39504f22e1,Voice Phishing,Website,Yes,365841.53,Business Owner,AI Detection,Yes,No,EU,None,Afternoon
+094d72ef-8349-48cf-aef4-397e30d80528,Impersonation Fraud,Social Media,No,9.15,Bank Employee,User Realization,No,Yes,Asia,Unusual Login,Afternoon
+13926e7d-504b-4223-85eb-a235724b5970,SMS Phishing,Phone Call,No,60128.65,Fintech User,AI Detection,Yes,Yes,Asia,Unusual Login,Evening
+32b59d6d-09c7-4c3f-96de-2c54d9ae31af,Impersonation Fraud,Email,No,44901.96,Retail Customer,Law Enforcement,Yes,Yes,South America,None,Afternoon
+78d46603-f931-471e-a724-2670bb3a3375,Voice Phishing,App,No,5438.12,Retail Customer,Manual Report,No,Yes,Asia,None,Evening
+9265ef14-6914-42b1-b197-215e422c52cd,Fake Investment Scam,SMS,No,9498.0,Fintech User,Law Enforcement,Yes,No,US,High Transfer Volume,Evening
+a3c6dbac-158c-47e2-a5cf-4bc2f897d6a2,Phishing Email,Website,No,441900.96,Bank Employee,User Realization,No,Yes,Africa,High Transfer Volume,Evening
+efeb8cf3-c853-4ff7-b8e1-1fd78c0a8d2d,Social Media Scam,Video,No,2598.74,Fintech User,Bank Flag,No,Yes,South America,None,Afternoon
+79a7029e-419c-484d-b330-dc0c578aa967,Social Media Scam,Website,No,42851.4,Business Owner,Law Enforcement,Yes,Yes,South America,None,Afternoon
+71aa5821-c1cb-4e45-8a43-d96c5267225b,Fake Investment Scam,App,Yes,70567.99,Business Owner,Bank Flag,Yes,No,South America,High Transfer Volume,Night
+04d46f31-f952-4c61-8ce6-fd9cbaf9d05b,Impersonation Fraud,SMS,No,531311.23,Fintech User,Law Enforcement,No,Yes,Australia,Unusual Login,Evening
+5e981fe7-dc47-4621-987d-1f52de72e1ad,SMS Phishing,SMS,Yes,2497.05,Retail Customer,Law Enforcement,No,Yes,Asia,None,Morning
+5c27d7a8-28d1-4c9a-b211-365641da8d9a,Phishing Email,SMS,No,559.61,Business Owner,User Realization,No,Yes,Africa,None,Afternoon
+bde27340-043e-4554-a7f2-28a4821142eb,Social Media Scam,Email,No,29.54,Retail Customer,AI Detection,Yes,No,Asia,Odd Hours Activity,Night
+9dbc9420-d079-4581-b693-9b32bd9730ab,Deepfake Video Scam,In-person,No,18786.07,Fintech User,Bank Flag,Yes,No,US,Unusual Login,Morning
+9f393337-64d0-4f38-85f5-b1ad5df43d86,Social Media Scam,SMS,Yes,564.39,Business Owner,Bank Flag,No,Yes,Africa,High Transfer Volume,Night
+f3178bed-e4ec-4813-95dc-0e1942787ac0,Voice Phishing,Phone Call,No,12627.3,Business Owner,User Realization,No,Yes,Africa,Unusual Login,Afternoon
+2d871153-35fe-400b-9539-f1bb3783db84,Deepfake Video Scam,App,Yes,191576.84,Business Owner,Bank Flag,No,Yes,EU,None,Morning
+a605b71c-4543-4cf2-b61b-b60cc7680d00,Fake Bank App,In-person,No,449775.33,Fintech User,Law Enforcement,Yes,No,Asia,None,Afternoon
+522527e9-881a-4ac6-9621-fc840f90a527,Fake Bank App,SMS,Yes,2060.75,Bank Employee,AI Detection,Yes,No,South America,High Transfer Volume,Night
+24fdd09c-7971-42f4-a24d-57b5e1686695,Impersonation Fraud,Phone Call,No,26717.83,Business Owner,Law Enforcement,Yes,No,Asia,High Transfer Volume,Afternoon
+5405845c-2517-4fb9-b4b1-fce50b2d7d62,Social Media Scam,In-person,Yes,9566.58,Fintech User,Manual Report,Yes,No,Australia,None,Night
+bb0cd06f-c043-42cb-b201-9da8c6007215,Fake Investment Scam,Website,No,25052.81,Retail Customer,Manual Report,No,Yes,US,Odd Hours Activity,Afternoon
+2d50e109-8bd2-4eb8-a74f-2e77d6375ad4,Fake Bank App,Phone Call,No,768266.43,Fintech User,Law Enforcement,Yes,Yes,Asia,Odd Hours Activity,Morning
+ca0cf1c0-26b6-4ee6-819a-7fdf316f07ba,Fake Investment Scam,Video,No,73.6,Business Owner,Bank Flag,Yes,No,Asia,Odd Hours Activity,Morning
+9cb59c05-ea8b-460e-9fa0-eb4cac8c4cd0,Fake Investment Scam,SMS,Yes,829.63,Bank Employee,Law Enforcement,No,Yes,EU,High Transfer Volume,Afternoon
+0bd7ea6f-e835-4497-9575-9aee0b729f6e,Deepfake Video Scam,Email,No,352976.52,Business Owner,Bank Flag,No,Yes,Asia,Odd Hours Activity,Morning
+4cbbef88-e42b-4ad6-8da8-847fae2628f9,Voice Phishing,Website,Yes,8803.43,Business Owner,Manual Report,Yes,Yes,South America,Odd Hours Activity,Afternoon
+a1ec4cb4-5796-4306-970b-cdfdea57edc4,Impersonation Fraud,In-person,Yes,669161.78,Fintech User,User Realization,No,Yes,US,Unusual Login,Night
+6d89672a-6d3b-42fc-9263-8888bbdf8b6a,Fake Bank App,Social Media,No,39456.04,Retail Customer,AI Detection,No,Yes,South America,Odd Hours Activity,Morning
+66710d81-c363-4990-bc3c-23120384555a,Impersonation Fraud,Video,No,545.24,Bank Employee,Bank Flag,No,Yes,Australia,High Transfer Volume,Night
+ef0bd182-b90e-4b94-a0b4-f0434cbe40bb,Social Media Scam,Email,Yes,62.62,Fintech User,AI Detection,Yes,Yes,Africa,None,Morning
+34d964d8-eadb-4958-9c22-6d00d986df38,Impersonation Fraud,Video,Yes,2430.8,Bank Employee,AI Detection,No,Yes,Asia,Unusual Login,Evening
+f1ff808d-cf52-41d2-a084-987f08ef296d,Voice Phishing,Email,No,7533.9,Business Owner,User Realization,Yes,Yes,US,High Transfer Volume,Night
+e8445760-d54c-45ef-9461-5c3ee9cfa291,SMS Phishing,Phone Call,Yes,711984.45,Retail Customer,AI Detection,No,Yes,US,None,Afternoon
+2a3e5618-3016-46f6-a38d-83289bfbe1ad,Fake Investment Scam,SMS,Yes,18039.8,Retail Customer,AI Detection,No,Yes,Asia,Odd Hours Activity,Afternoon
+c3c7ac41-f131-4084-9c45-ef96a7e6925b,Impersonation Fraud,Phone Call,Yes,53.05,Retail Customer,Law Enforcement,Yes,No,Asia,High Transfer Volume,Afternoon
+380c17bb-52b1-4673-b49b-cbd05f56bf7e,Impersonation Fraud,In-person,Yes,89.66,Business Owner,AI Detection,No,Yes,Asia,None,Evening
+061c0ca8-6e1d-4c33-9ee2-24fb8fd5afc9,Voice Phishing,Video,No,24.82,Bank Employee,AI Detection,No,Yes,EU,High Transfer Volume,Night
+193cda55-b197-4a82-a413-2bbb35dcbb62,Fake Bank App,Email,Yes,44729.7,Business Owner,User Realization,Yes,Yes,Asia,Odd Hours Activity,Afternoon
+b661d637-1f19-4a38-83d7-77e87fdeef9e,Impersonation Fraud,Website,No,714647.84,Fintech User,AI Detection,Yes,Yes,US,Odd Hours Activity,Afternoon
+754af518-6c7b-47ae-9be9-31bf9abc61f2,Phishing Email,Email,No,357839.02,Fintech User,User Realization,No,Yes,US,High Transfer Volume,Evening
+efba758c-0fc8-4f0b-92ed-a03a3639a775,SMS Phishing,App,Yes,928832.37,Business Owner,Law Enforcement,No,Yes,Africa,Unusual Login,Evening
+4e59c2c1-9eba-4bb8-9cfe-d90c06c9591c,Impersonation Fraud,Video,Yes,177.59,Fintech User,AI Detection,No,Yes,Australia,Unusual Login,Evening
+cd52be23-bad2-4bfc-88b1-3ceb30d81e20,Voice Phishing,SMS,Yes,731.35,Business Owner,User Realization,No,Yes,Australia,Odd Hours Activity,Afternoon
+a6d5b56b-b8e1-49b4-b670-79bcb7d17018,Social Media Scam,Phone Call,No,77.14,Retail Customer,Bank Flag,No,Yes,Asia,Unusual Login,Evening
+fb307324-19e6-4164-923d-a2ae8c4731f0,SMS Phishing,In-person,No,424111.51,Fintech User,Law Enforcement,Yes,No,EU,Odd Hours Activity,Morning
+b84cba58-5e72-4f75-94c7-fe991c61c01e,SMS Phishing,Video,Yes,85.87,Retail Customer,Manual Report,Yes,No,Asia,None,Afternoon
+1054c420-695f-43da-ae34-661f5ae4e110,Voice Phishing,Email,No,389.62,Fintech User,Bank Flag,No,Yes,US,Odd Hours Activity,Morning
+14a99bf5-d55d-409a-9804-074c6a903198,Phishing Email,Phone Call,Yes,983272.48,Fintech User,AI Detection,No,Yes,Asia,Odd Hours Activity,Evening
+77acb818-b681-45a9-9215-04f776c54cb2,SMS Phishing,In-person,Yes,2806.04,Bank Employee,Law Enforcement,Yes,No,Asia,None,Afternoon
+cc86e599-d6c4-48a6-afd2-0599c56c07e0,Deepfake Video Scam,Phone Call,Yes,12151.92,Bank Employee,AI Detection,No,Yes,US,None,Evening
+f6bcd36c-eff9-4f06-9a99-1fbdb81c0c10,SMS Phishing,Video,Yes,54282.6,Retail Customer,Manual Report,No,Yes,US,Unusual Login,Afternoon
+36d35abb-2f41-48cc-8b00-bb9c9d7ffb98,Impersonation Fraud,Social Media,No,58.08,Business Owner,User Realization,Yes,Yes,Africa,High Transfer Volume,Afternoon
+8fa3720f-5bcc-4fc1-8e17-361ae4e60308,Fake Bank App,App,No,73065.3,Bank Employee,Bank Flag,No,Yes,Asia,High Transfer Volume,Morning
+0b4c8549-ab66-416e-b90e-f39c8a68e912,Deepfake Video Scam,Phone Call,Yes,195.09,Fintech User,User Realization,No,Yes,Africa,Unusual Login,Evening
+3fdccaa5-f7d7-4ae0-bdbf-4320962c02ed,Deepfake Video Scam,In-person,No,33850.71,Retail Customer,AI Detection,Yes,No,South America,Unusual Login,Afternoon
+b08ee68f-153c-4c49-b333-aa5ea1648530,Social Media Scam,Phone Call,Yes,971.56,Fintech User,Law Enforcement,Yes,No,Asia,High Transfer Volume,Morning
+69dd5a3e-522e-48b0-9677-cd492de81008,Impersonation Fraud,In-person,Yes,46.2,Business Owner,AI Detection,Yes,Yes,EU,High Transfer Volume,Afternoon
+a921ed8c-aa97-42c5-9da0-139e433e6087,Impersonation Fraud,Social Media,Yes,627506.88,Retail Customer,AI Detection,Yes,Yes,South America,None,Afternoon
+ff039685-af81-4d3b-b782-0bb2c033be57,SMS Phishing,Social Media,Yes,94.23,Retail Customer,Manual Report,No,Yes,South America,None,Night
+5d769c06-78ab-4a40-8cd0-de62cfd45c46,Phishing Email,Website,No,418.55,Business Owner,Bank Flag,No,Yes,Africa,High Transfer Volume,Morning
+63ff8847-6c0d-473b-906e-91cb9a8c8ebf,Deepfake Video Scam,App,No,89450.07,Fintech User,AI Detection,Yes,No,Africa,High Transfer Volume,Night
+2e73ac4e-7738-4042-8ddb-c58c271c513d,Deepfake Video Scam,Video,Yes,80372.42,Bank Employee,User Realization,No,Yes,Asia,Odd Hours Activity,Night
+8980d06e-8bc4-44c8-883a-b8447b115086,Fake Bank App,Phone Call,Yes,6374.05,Retail Customer,Bank Flag,Yes,No,Australia,Odd Hours Activity,Afternoon
+3d1be073-6df3-44b3-a385-3f8c98df3ce4,Voice Phishing,SMS,Yes,339.87,Retail Customer,Manual Report,No,Yes,Asia,High Transfer Volume,Afternoon
+9a0273d1-0de2-4044-807d-61535b98986b,Deepfake Video Scam,Social Media,No,125385.91,Bank Employee,Law Enforcement,Yes,Yes,Africa,Odd Hours Activity,Afternoon
+23bd7d52-5218-478f-b34a-6c7f39e7b9f4,Fake Investment Scam,Email,Yes,23.26,Business Owner,AI Detection,No,Yes,US,Odd Hours Activity,Afternoon
+407458e3-fbe6-45c3-996d-ecc2fb736251,Voice Phishing,Social Media,Yes,1536.0,Business Owner,Law Enforcement,Yes,Yes,Australia,Odd Hours Activity,Morning
+9c0ddc77-b248-4d92-b718-4f5225950b59,Social Media Scam,Website,Yes,3715.89,Business Owner,Manual Report,No,Yes,South America,None,Evening
+c4f28d50-53d5-4fb7-bd68-edfa42b991da,Voice Phishing,Social Media,Yes,833008.81,Fintech User,Bank Flag,No,Yes,EU,High Transfer Volume,Morning
+29275c31-5778-481b-8f5a-54e46f67c65b,Impersonation Fraud,Email,Yes,386395.22,Business Owner,Law Enforcement,Yes,No,EU,Odd Hours Activity,Morning
+bda0c9cb-ed49-4a2b-acf8-700056c06f35,Deepfake Video Scam,Social Media,No,672.57,Retail Customer,Bank Flag,No,Yes,US,Odd Hours Activity,Afternoon
+22159a5b-0adb-4d39-985e-1ce21ce9a42d,Deepfake Video Scam,SMS,No,8083.18,Retail Customer,AI Detection,No,Yes,Africa,None,Afternoon
+f1103367-5a67-4186-8d9e-d5aaaef3d671,Impersonation Fraud,In-person,No,5914.22,Retail Customer,User Realization,Yes,Yes,Africa,Unusual Login,Morning
+4e4e3948-f1e9-4f21-800a-60a2d881ee99,Fake Bank App,Email,No,9564.96,Retail Customer,Bank Flag,Yes,No,EU,Unusual Login,Morning
+ba5d0f0d-2abd-414e-bd4a-f0019b4eff9c,Social Media Scam,In-person,Yes,94819.8,Business Owner,Law Enforcement,No,Yes,EU,Unusual Login,Morning
+190f00d5-f43a-471e-bb28-8ca9d510eeea,Social Media Scam,Video,Yes,72747.7,Bank Employee,Bank Flag,No,Yes,EU,Unusual Login,Morning
+d0210576-703e-433c-9610-a6e90657a2a6,Impersonation Fraud,In-person,Yes,36.08,Fintech User,AI Detection,No,Yes,South America,None,Afternoon
+611abc99-0cc3-4354-a9f8-bee3cb1ce31b,SMS Phishing,Email,Yes,674.37,Retail Customer,User Realization,Yes,No,Africa,None,Night
+58f57b13-ba03-4a64-b532-90ff08334d6f,Fake Bank App,SMS,No,433.92,Fintech User,Bank Flag,Yes,No,US,Odd Hours Activity,Night
+dcce0f72-93c6-4a16-861a-bab2cc29679d,Fake Investment Scam,App,Yes,6078.22,Business Owner,AI Detection,Yes,No,Australia,None,Afternoon
+3c9ea774-997b-4a0d-85ff-7e395b2757d8,Phishing Email,Website,No,718361.14,Fintech User,Law Enforcement,Yes,No,Asia,Unusual Login,Night
+f8317171-81e6-4790-a76d-3f86f48ee78f,Phishing Email,Phone Call,Yes,25559.11,Business Owner,Manual Report,Yes,Yes,US,None,Morning
+e022b88f-a52b-4bdf-806f-394fe1ffec0c,Impersonation Fraud,Video,Yes,332097.72,Retail Customer,AI Detection,No,Yes,Australia,None,Evening
+db2f9d55-b084-435c-b4d7-135fb2f9cd5f,Fake Bank App,In-person,Yes,628818.48,Fintech User,AI Detection,No,Yes,EU,High Transfer Volume,Morning
+2cf0c81c-26ac-4278-bea5-66029344d9d3,SMS Phishing,SMS,No,892122.21,Fintech User,Bank Flag,No,Yes,South America,None,Night
+2b6afd8f-11c2-4dbd-bf2c-3ef973b1b188,Phishing Email,Phone Call,No,22946.74,Fintech User,AI Detection,No,Yes,Asia,High Transfer Volume,Morning
+587c0035-f2c2-455f-850c-076a02591947,Fake Investment Scam,App,No,33.79,Bank Employee,Bank Flag,No,Yes,Africa,Unusual Login,Afternoon
+09797093-e269-4994-a7b2-a3eb38844283,Voice Phishing,App,No,3424.78,Fintech User,Law Enforcement,Yes,Yes,Africa,High Transfer Volume,Night
+a7e09d82-ccc1-446c-8aec-e78e1338b495,Fake Investment Scam,Social Media,Yes,812341.35,Retail Customer,Bank Flag,No,Yes,EU,Unusual Login,Afternoon
+881f71a9-4f43-4ca7-8f2e-ba28fd213d86,Deepfake Video Scam,Video,Yes,129.76,Retail Customer,Bank Flag,Yes,No,Asia,None,Night
+8e3d0163-99e7-4f1c-81e8-4af6a87b4ef0,SMS Phishing,Email,Yes,5399.08,Fintech User,Manual Report,No,Yes,Australia,Odd Hours Activity,Evening
+1a25366b-8fb3-481b-850a-be5a9b404614,Voice Phishing,App,Yes,1247.05,Retail Customer,Manual Report,Yes,Yes,South America,High Transfer Volume,Afternoon
+3161fe15-858f-4681-9197-42a004f240f2,Fake Bank App,Website,Yes,47.41,Business Owner,Manual Report,Yes,Yes,Asia,Odd Hours Activity,Evening
+af87b802-0fce-46d3-97c9-2f3f4c39e79a,Impersonation Fraud,Website,No,32679.88,Fintech User,Bank Flag,No,Yes,Australia,Unusual Login,Morning
+4ecec6f4-3dc2-4193-98c5-f94ce0e90c29,Social Media Scam,App,No,48.17,Bank Employee,Bank Flag,No,Yes,Asia,Odd Hours Activity,Evening
+af5415d8-410a-46ce-b412-43af5b39e33b,Deepfake Video Scam,Phone Call,Yes,80.54,Fintech User,Bank Flag,Yes,Yes,South America,None,Evening
+6f76b81d-cf2a-4119-81e6-fab65e8e7287,Fake Bank App,Website,No,76305.89,Business Owner,Bank Flag,Yes,No,South America,Odd Hours Activity,Evening
+d2d23c5d-c09f-4f56-96c4-b0badbcd663c,Voice Phishing,Phone Call,No,47.08,Bank Employee,Law Enforcement,Yes,No,South America,Unusual Login,Afternoon
+47973cbe-0914-4e14-93bc-79c899dcddd3,Social Media Scam,Video,No,80928.14,Bank Employee,Bank Flag,No,Yes,Australia,Odd Hours Activity,Night
+bcced9f8-8ec2-41ce-9630-10447ac0c102,SMS Phishing,In-person,Yes,622281.8,Retail Customer,User Realization,Yes,Yes,South America,None,Evening
+10a8e1b7-5209-404d-b2ec-bdf0152fbeb8,Impersonation Fraud,Email,Yes,993.11,Bank Employee,User Realization,No,Yes,EU,Odd Hours Activity,Afternoon
+967afd73-d2a6-4412-a4d9-49e4a01420b7,SMS Phishing,In-person,No,382.07,Retail Customer,AI Detection,No,Yes,Asia,High Transfer Volume,Afternoon
+f8d339e7-b673-4d02-b006-7a5b340237ea,Voice Phishing,In-person,Yes,653.03,Fintech User,User Realization,No,Yes,Africa,None,Morning
+4d825244-745a-4a66-b588-819f3ec9c544,Phishing Email,Video,No,89.2,Business Owner,AI Detection,Yes,Yes,EU,Odd Hours Activity,Evening
+65979c6f-b49c-442e-81c2-78e906a36c18,Voice Phishing,SMS,No,629803.62,Business Owner,AI Detection,Yes,No,Asia,None,Evening
+b6597688-0478-4584-bde9-d6606d08bf9d,Impersonation Fraud,Phone Call,No,42332.58,Business Owner,Manual Report,No,Yes,US,High Transfer Volume,Afternoon
+a238ced3-a10b-4d4a-96fb-8d23ea3d690e,Voice Phishing,Video,Yes,554170.2,Retail Customer,Bank Flag,Yes,No,South America,Odd Hours Activity,Morning
+c9a3f9fe-e218-4057-b66b-d325de86a4f0,Phishing Email,SMS,Yes,68.97,Fintech User,User Realization,No,Yes,US,Odd Hours Activity,Night
+e6578964-b42b-4fde-a04c-1fb8da1055f2,Voice Phishing,Video,Yes,4787.84,Retail Customer,Law Enforcement,No,Yes,Australia,High Transfer Volume,Night
+aaf7a3b5-f861-4419-a35d-3b20062a52b3,SMS Phishing,SMS,No,78.48,Fintech User,Manual Report,Yes,No,Australia,High Transfer Volume,Evening
+96847f6a-6150-43b4-b809-64e47c131897,Impersonation Fraud,App,Yes,54.81,Business Owner,User Realization,No,Yes,EU,Unusual Login,Morning
+482fd8b1-2b87-4a65-9a98-3c9b70400dee,SMS Phishing,SMS,No,954.5,Retail Customer,AI Detection,No,Yes,South America,High Transfer Volume,Night
+3a206014-e276-4d38-b95d-cd75d33f5903,Fake Bank App,App,No,9.98,Business Owner,AI Detection,No,Yes,Asia,Odd Hours Activity,Night
+1ec17c37-68a0-4d68-8d6c-752d0bbf12ef,SMS Phishing,SMS,Yes,85.2,Business Owner,Bank Flag,No,Yes,Africa,Odd Hours Activity,Morning
+91a89526-66fb-4bdb-8c60-fba5f6f9fe18,Social Media Scam,Social Media,Yes,40.08,Fintech User,Bank Flag,No,Yes,South America,None,Night
+4c088e3c-1265-406f-b570-d416129a7b88,Voice Phishing,SMS,Yes,98.16,Business Owner,AI Detection,No,Yes,Australia,None,Night
+41bcd50b-688d-415f-ac88-1436a7a3b123,Voice Phishing,Website,No,125934.61,Business Owner,User Realization,No,Yes,US,None,Night
+72fdf0d0-a219-48cf-a135-4e4355e94450,Phishing Email,SMS,No,1111.24,Business Owner,Bank Flag,Yes,No,South America,High Transfer Volume,Night
+f187c515-b355-4c86-9377-08fcc278fd8f,Social Media Scam,Website,Yes,902855.69,Retail Customer,AI Detection,Yes,No,Africa,High Transfer Volume,Morning
+044ae113-5602-4925-91bb-7abd48effaad,Fake Investment Scam,Social Media,Yes,9731.31,Retail Customer,Law Enforcement,Yes,No,Africa,High Transfer Volume,Morning
+e7e74818-dfed-46dc-a59a-13f4834865d9,Fake Investment Scam,In-person,No,85.66,Fintech User,Bank Flag,Yes,No,South America,Unusual Login,Morning
+665c0697-2c08-49b9-8978-bf01c7ae667d,Impersonation Fraud,Website,Yes,594188.91,Retail Customer,Law Enforcement,No,Yes,Australia,High Transfer Volume,Night
+c0d8b276-7abe-48b2-9809-788c75a2ac4b,Social Media Scam,Social Media,Yes,859.89,Bank Employee,Law Enforcement,No,Yes,South America,Odd Hours Activity,Night
+980396ad-8285-4ac3-8305-082387a6332c,SMS Phishing,SMS,Yes,34.14,Bank Employee,Law Enforcement,No,Yes,South America,Unusual Login,Morning
+101afcd7-81ff-4ca6-b598-a8693a3d503c,Voice Phishing,In-person,Yes,19626.54,Business Owner,Manual Report,Yes,No,EU,None,Afternoon
+906457d2-7b0f-4f9e-a20a-a3a33d796372,Social Media Scam,SMS,No,92.66,Retail Customer,User Realization,No,Yes,South America,High Transfer Volume,Night
+e5b95894-8db7-4e9e-b624-cabdb1248716,Phishing Email,Email,No,534638.77,Business Owner,Law Enforcement,Yes,Yes,US,None,Evening
+6169d614-3108-4533-aa8c-03c4e6287d58,Impersonation Fraud,Website,Yes,4580.83,Bank Employee,Bank Flag,No,Yes,EU,High Transfer Volume,Night
+0bd5f758-7184-4376-8150-985a6cd5b4fc,Fake Bank App,Social Media,Yes,288.74,Bank Employee,Bank Flag,Yes,Yes,Australia,Odd Hours Activity,Morning
+1644a4ff-abb8-4b8f-9c1f-40889d2129f6,Social Media Scam,In-person,No,357335.18,Fintech User,AI Detection,Yes,Yes,Africa,High Transfer Volume,Morning
+cfad0d69-293e-479d-a81a-ea3b4958e0c9,Phishing Email,Video,No,985.18,Bank Employee,Manual Report,Yes,No,EU,Unusual Login,Evening
+4805b660-b923-4949-acd1-73d056f71f40,Fake Investment Scam,SMS,Yes,449998.0,Bank Employee,AI Detection,No,Yes,Africa,None,Evening
+a5c96c70-977c-485d-9512-d3b3f05b737f,Phishing Email,Email,No,658.51,Fintech User,Manual Report,No,Yes,Australia,High Transfer Volume,Afternoon
+a81d7819-ca49-4a77-80a4-3c465d1ea6ac,Fake Bank App,In-person,Yes,18.7,Business Owner,Law Enforcement,Yes,No,US,None,Evening
+b608c475-a15a-4584-b584-a2c5365dbe48,Fake Bank App,Phone Call,Yes,861412.78,Retail Customer,Bank Flag,No,Yes,South America,High Transfer Volume,Morning
+72da5eba-1dc5-4208-8159-91f84c84e921,Voice Phishing,Social Media,Yes,858825.98,Bank Employee,User Realization,No,Yes,US,Odd Hours Activity,Afternoon
+1b180be5-c638-40a5-9f79-8d72c9548f84,Voice Phishing,SMS,Yes,58877.21,Fintech User,AI Detection,No,Yes,EU,High Transfer Volume,Evening
+339c419d-3737-4dcf-8e74-4440fc81f099,Social Media Scam,Social Media,No,955.28,Fintech User,Law Enforcement,Yes,Yes,South America,Odd Hours Activity,Night
+65698581-6c66-450d-96e9-9bdf8fe95dd1,Deepfake Video Scam,Video,Yes,4432.35,Retail Customer,User Realization,No,Yes,Australia,Odd Hours Activity,Morning
+03a0a0d2-53da-4177-b450-0532e315fe21,Social Media Scam,In-person,No,29.64,Business Owner,Bank Flag,Yes,Yes,EU,Unusual Login,Morning
+9d074a7b-c6bf-4f00-9a31-54f3e32b6328,Deepfake Video Scam,Video,No,20.56,Fintech User,AI Detection,Yes,Yes,Africa,Odd Hours Activity,Morning
+e5de21c1-8aea-4921-8918-1f1013bcc8a6,SMS Phishing,SMS,Yes,814.79,Retail Customer,Law Enforcement,Yes,No,Africa,None,Night
+d986733c-a962-4c60-a119-5c6782e39ad7,Impersonation Fraud,Website,No,38.95,Retail Customer,Law Enforcement,Yes,Yes,South America,Unusual Login,Morning
+0428bb60-3bd0-4a97-9214-7dc1dba17536,Social Media Scam,SMS,No,6459.09,Bank Employee,User Realization,No,Yes,Africa,Unusual Login,Night
+5e71a0ee-b8a8-4ec4-a08e-ac023e3b2859,Voice Phishing,Video,Yes,81709.34,Bank Employee,Manual Report,No,Yes,South America,Odd Hours Activity,Morning
+96faf1e3-4898-4bea-aebe-eee2ed96f99c,Voice Phishing,SMS,Yes,57.27,Fintech User,Law Enforcement,Yes,No,EU,Odd Hours Activity,Afternoon
+c9e8cfb1-5fb5-47dd-a406-afdf06797e93,Impersonation Fraud,Phone Call,Yes,298.71,Bank Employee,Manual Report,Yes,Yes,South America,Unusual Login,Night
+1f151609-924f-4358-afa5-d084f3f8c850,SMS Phishing,App,Yes,1883.82,Fintech User,Bank Flag,No,Yes,EU,High Transfer Volume,Morning
+1cac7a83-4420-4a42-8ae8-cda2e8bd2e56,Fake Bank App,SMS,Yes,5372.75,Bank Employee,Law Enforcement,No,Yes,South America,High Transfer Volume,Evening
+19f57d0c-6ed0-4cae-9c04-19493114e03b,Social Media Scam,Website,Yes,31.32,Business Owner,User Realization,No,Yes,Asia,High Transfer Volume,Evening
+11d21be8-37ea-40cc-9947-c654338fd523,Fake Investment Scam,In-person,No,7972.9,Fintech User,Law Enforcement,Yes,Yes,South America,Unusual Login,Evening
+63c96f73-55d6-4beb-b144-d76d47386d99,Voice Phishing,Video,No,72.74,Retail Customer,Law Enforcement,Yes,No,Australia,High Transfer Volume,Morning
+98847d03-269b-4ab1-9eeb-0b141877b0e8,Fake Bank App,In-person,Yes,4532.49,Bank Employee,Manual Report,No,Yes,Australia,Unusual Login,Night
+15d3c354-903f-4b00-8990-e316cd131038,Social Media Scam,Email,Yes,715745.49,Business Owner,User Realization,Yes,Yes,Australia,High Transfer Volume,Night
+11fac423-b2b3-4fde-8c00-31a9574309e1,Social Media Scam,Email,Yes,30857.49,Bank Employee,Bank Flag,Yes,Yes,South America,High Transfer Volume,Evening
+d0bce6cf-8501-48e1-af78-c369066efb80,Impersonation Fraud,In-person,No,3.99,Bank Employee,AI Detection,No,Yes,South America,Odd Hours Activity,Afternoon
+43617b28-aae8-466e-ae4b-148847c62fb2,Impersonation Fraud,Website,No,688002.89,Retail Customer,Law Enforcement,No,Yes,Africa,High Transfer Volume,Night
+f392129e-51ab-4e3f-8c74-b0d068b7648d,Social Media Scam,Social Media,No,89845.47,Retail Customer,Law Enforcement,Yes,No,EU,High Transfer Volume,Morning
+69dde53e-d23e-4f52-ab05-b25f228127d8,Fake Bank App,Video,Yes,241.62,Retail Customer,Manual Report,No,Yes,Asia,Unusual Login,Night
+59f23797-812b-48f2-942d-e77a9af39258,Fake Investment Scam,In-person,Yes,245121.63,Fintech User,AI Detection,Yes,Yes,EU,High Transfer Volume,Afternoon
+74d9467b-578f-4d3c-a556-a86daec49a82,Phishing Email,Phone Call,Yes,332.43,Business Owner,Law Enforcement,No,Yes,Australia,Unusual Login,Evening
+2ddb0591-1bbb-4589-9521-20e52ac54276,SMS Phishing,Video,No,993498.24,Fintech User,Manual Report,Yes,No,Australia,High Transfer Volume,Afternoon
+9daf5b90-d887-40e5-9548-88f2ec881140,Fake Bank App,Phone Call,No,63688.0,Retail Customer,Manual Report,No,Yes,Africa,High Transfer Volume,Morning
+540afd27-a317-4116-83e5-9a02f021a17c,Phishing Email,Video,No,644.96,Business Owner,User Realization,Yes,Yes,US,None,Afternoon
+bad7cbe2-841a-4e62-b1af-84086f69b6cf,Phishing Email,Website,No,8873.42,Fintech User,Manual Report,No,Yes,Africa,Odd Hours Activity,Morning
+4b72e28c-55de-452b-a016-7a2009976091,Impersonation Fraud,Phone Call,No,78927.3,Retail Customer,Bank Flag,No,Yes,Asia,High Transfer Volume,Morning
+436c974e-c3b6-47a3-9d44-4f4f0686744c,Phishing Email,SMS,Yes,68909.15,Bank Employee,User Realization,No,Yes,US,High Transfer Volume,Night
+5f69209f-33b0-42fa-b330-110449b0c8fa,Fake Bank App,App,No,429079.68,Bank Employee,User Realization,Yes,No,Australia,None,Afternoon
+f451f9e8-9c64-4e09-b525-4dce71cfacfb,Social Media Scam,In-person,No,6198.86,Fintech User,Manual Report,Yes,Yes,Africa,High Transfer Volume,Morning
+d0f47309-2c8e-4af5-a64a-99153f23c87b,Deepfake Video Scam,Website,No,652622.83,Retail Customer,Manual Report,No,Yes,South America,Unusual Login,Morning
+e00340fb-add3-4ebb-b3b5-1cfaf3f2bb01,Voice Phishing,In-person,No,6.41,Business Owner,Bank Flag,Yes,Yes,South America,None,Night
+00a1d17d-7153-4e5e-af9d-b6d3c76e9325,Fake Bank App,Email,Yes,49507.48,Business Owner,Law Enforcement,No,Yes,EU,Unusual Login,Afternoon
+35a390d5-ad9b-492c-8ec1-1ab65a2a5713,Voice Phishing,Email,No,689.52,Business Owner,AI Detection,No,Yes,Africa,Odd Hours Activity,Night
+e55884af-554f-4dcd-b851-334b8691fc92,Impersonation Fraud,Video,Yes,91.92,Bank Employee,Law Enforcement,No,Yes,Asia,Odd Hours Activity,Afternoon
+05121ad8-e324-445d-9e48-7f566e320702,Deepfake Video Scam,In-person,No,104186.31,Business Owner,User Realization,Yes,Yes,Australia,Odd Hours Activity,Evening
+152c57b7-6d93-4a7a-8acb-dd47c44036b0,SMS Phishing,App,No,96944.99,Fintech User,Manual Report,No,Yes,Africa,None,Morning
+b474214d-d467-4e23-a77a-4d9b239d2e78,Fake Investment Scam,SMS,No,38.27,Business Owner,Manual Report,No,Yes,Africa,Odd Hours Activity,Morning
+c0b6b7b3-69da-4e2b-b386-62435b49d685,Fake Bank App,Video,No,39.89,Bank Employee,AI Detection,Yes,No,Asia,Odd Hours Activity,Afternoon
+f5609130-35a2-4b52-8030-0974f5ca3b76,Fake Bank App,Phone Call,Yes,76340.1,Business Owner,Manual Report,No,Yes,EU,High Transfer Volume,Afternoon
+a34214bb-1e94-443a-8347-e884f5d3430c,Deepfake Video Scam,Social Media,Yes,11.99,Retail Customer,User Realization,Yes,Yes,Africa,Odd Hours Activity,Evening
+0fb3e0b6-0df2-4280-ae58-d8146b45b823,Fake Investment Scam,App,No,985.96,Bank Employee,User Realization,Yes,Yes,US,None,Night
+06e9b08d-5cf0-4970-a383-dbe99a6384b7,Phishing Email,Social Media,No,511.48,Retail Customer,Law Enforcement,No,Yes,Asia,Unusual Login,Morning
+9959a1c4-0232-4e00-a964-c39f48faa425,Deepfake Video Scam,Website,Yes,4254.42,Bank Employee,Manual Report,No,Yes,EU,Odd Hours Activity,Night
+2b5f6b4b-5d26-469e-b65e-76f360a79410,Social Media Scam,Social Media,Yes,48154.86,Fintech User,Bank Flag,No,Yes,Africa,Odd Hours Activity,Night
+a719a315-bdb0-44f1-b8d0-9cb4d732da9e,Voice Phishing,Phone Call,Yes,72.08,Business Owner,Law Enforcement,No,Yes,Africa,High Transfer Volume,Afternoon
+38eaa887-e00a-4f1b-ac6a-c57770cd12a9,Voice Phishing,In-person,Yes,479.37,Business Owner,Law Enforcement,No,Yes,Africa,Odd Hours Activity,Evening
+67030735-a318-4efe-a18f-553ecbb118c7,Phishing Email,Website,Yes,154.03,Bank Employee,User Realization,Yes,No,South America,Odd Hours Activity,Evening
+a90320a0-3473-47bf-9c06-b8dd4ef3ddb6,Social Media Scam,Social Media,No,1178.52,Retail Customer,Bank Flag,Yes,Yes,Asia,Odd Hours Activity,Evening
+803be17e-0f1b-4825-9fed-2b4b4e9db31f,Fake Investment Scam,In-person,Yes,65229.74,Fintech User,Manual Report,Yes,No,Africa,None,Morning
+d051395f-c8e8-452f-97c0-e641785aed7e,SMS Phishing,Phone Call,No,382.13,Bank Employee,Bank Flag,No,Yes,Asia,None,Evening
+6414b939-bc5d-43aa-aa66-71e0677bdfa2,Fake Investment Scam,Website,Yes,868.79,Business Owner,Manual Report,No,Yes,South America,Unusual Login,Afternoon
+8c4e6694-ed16-449e-80e9-6b8931b05851,Voice Phishing,Website,Yes,6.38,Fintech User,Law Enforcement,Yes,Yes,Africa,Unusual Login,Morning
+e2c3c9fc-2912-4498-a455-89365e326fb3,Fake Bank App,Phone Call,Yes,37843.36,Business Owner,Bank Flag,No,Yes,South America,High Transfer Volume,Afternoon
+d9acc438-3683-403c-aa85-94a5dfa76e3b,Voice Phishing,Email,Yes,8743.32,Bank Employee,User Realization,No,Yes,Australia,Odd Hours Activity,Night
+8ad7a651-41f2-4613-9056-47c68c66ac1b,Voice Phishing,Phone Call,No,491479.63,Bank Employee,Bank Flag,No,Yes,Australia,High Transfer Volume,Morning
+40e364cf-75c3-4000-b008-affeb4c03a22,Fake Investment Scam,App,No,33382.63,Bank Employee,AI Detection,Yes,Yes,Asia,Odd Hours Activity,Night
+2d39fd59-487a-4d6f-9dff-e834ddef86f6,Phishing Email,In-person,No,1082.19,Fintech User,Bank Flag,Yes,Yes,Australia,Odd Hours Activity,Afternoon
+d9335263-fbc3-4558-80ec-c1a47ad65ea5,Impersonation Fraud,Website,No,246.94,Fintech User,User Realization,Yes,No,US,None,Afternoon
+d2cc7814-51a4-446a-afcd-9efb69153961,Fake Bank App,App,No,26920.06,Retail Customer,Manual Report,Yes,No,US,None,Night
+7e4f4367-fcb5-4d15-95f9-20fe581d5f8f,Fake Bank App,In-person,Yes,1174.56,Retail Customer,Law Enforcement,Yes,Yes,US,Odd Hours Activity,Evening
+2c04fa48-d3da-46b9-bfe9-98a9405fddcc,Voice Phishing,In-person,Yes,181.18,Retail Customer,User Realization,Yes,No,Africa,Odd Hours Activity,Night
+94343f24-87d5-4b98-b3c5-aa1a5e818dc2,Social Media Scam,In-person,Yes,1722.01,Business Owner,AI Detection,No,Yes,Africa,Unusual Login,Night
+efed7788-f8f5-466b-8c62-025703d5a281,Voice Phishing,Video,No,84542.68,Retail Customer,Manual Report,No,Yes,Africa,High Transfer Volume,Morning
+5387601f-c3f4-45c9-b536-0aa382b85717,Deepfake Video Scam,In-person,Yes,699407.1,Business Owner,User Realization,No,Yes,South America,Odd Hours Activity,Evening
+a0120d5f-fa0f-4d77-99b9-c7e51a3d878f,Voice Phishing,Email,Yes,5331.07,Bank Employee,Manual Report,No,Yes,US,High Transfer Volume,Morning
+94f9d3bd-da7c-4d0e-9d34-e7d266677c4f,Deepfake Video Scam,Website,No,16.74,Bank Employee,Law Enforcement,Yes,No,EU,Unusual Login,Morning
+8532d357-8231-468c-8464-10a27bb2dd14,Fake Investment Scam,Phone Call,No,24.87,Fintech User,AI Detection,No,Yes,South America,Unusual Login,Morning
+81cd41cc-aa58-459c-95f7-e3c93c3dd59b,Social Media Scam,Phone Call,Yes,539.06,Bank Employee,Law Enforcement,No,Yes,Africa,High Transfer Volume,Morning
+bf5a0a57-fe6f-4bd5-9901-d74b62df6454,Impersonation Fraud,Social Media,Yes,9087.97,Fintech User,User Realization,No,Yes,Australia,None,Afternoon
+4e48bc37-9ab1-49ad-91aa-8f9d87524186,Voice Phishing,Social Media,No,34779.2,Business Owner,AI Detection,Yes,No,Asia,Odd Hours Activity,Evening
+adc1841c-9c93-44b9-b08b-c260a96137d7,Fake Investment Scam,Email,No,894.64,Bank Employee,Law Enforcement,Yes,No,South America,Unusual Login,Night
+cdd32dfc-ad42-4a23-8d80-3deba22247e6,Deepfake Video Scam,In-person,Yes,354816.18,Fintech User,Bank Flag,Yes,Yes,Australia,Unusual Login,Morning
+01b0428e-d74c-4f0d-8c35-b2d60b1a117d,Voice Phishing,Phone Call,Yes,196.35,Business Owner,AI Detection,Yes,No,South America,None,Evening
+1ebdb7a1-54f7-40c8-b27b-a101cc618b21,Phishing Email,Social Media,Yes,746060.68,Retail Customer,Manual Report,No,Yes,US,None,Morning
+b2ac59bc-a903-47d4-80ff-758b3c8751fc,Social Media Scam,Website,No,82.36,Bank Employee,Law Enforcement,Yes,Yes,Asia,Unusual Login,Afternoon
+0d09e7e4-f559-4848-8bb6-9ac9e3df8efa,SMS Phishing,SMS,Yes,446797.98,Business Owner,Law Enforcement,Yes,Yes,Australia,None,Morning
+42654c27-9638-4132-9f24-48f368993b2e,Social Media Scam,In-person,No,16.68,Business Owner,Law Enforcement,No,Yes,Australia,Odd Hours Activity,Afternoon
+b9bba89e-63de-453e-81f8-b758c7cb567b,Fake Investment Scam,Social Media,No,992316.69,Bank Employee,Bank Flag,No,Yes,South America,None,Evening
+65c38fae-7f88-4568-b6fe-2c6eb12bce77,Deepfake Video Scam,Video,No,933532.23,Bank Employee,Bank Flag,No,Yes,Africa,None,Morning
+3727142e-8cbc-4357-a8a3-01c9a9867d86,Phishing Email,App,Yes,221577.14,Bank Employee,AI Detection,No,Yes,EU,High Transfer Volume,Evening
+3bbd2fb9-8940-42c6-8d44-f08509ff48fe,Phishing Email,App,Yes,3.77,Bank Employee,Manual Report,Yes,No,Asia,High Transfer Volume,Afternoon
+5e6db676-daf5-4c95-8d23-0e5eb5cc8019,Fake Bank App,App,Yes,459818.42,Business Owner,AI Detection,No,Yes,Africa,High Transfer Volume,Night
+84193faa-f93b-44d0-a4b8-0440e6eb3a6b,SMS Phishing,App,Yes,443391.5,Retail Customer,Bank Flag,No,Yes,Africa,None,Morning
+c5da251e-024e-414f-bc7e-8c1b516124a5,Deepfake Video Scam,Email,No,30.48,Retail Customer,Bank Flag,Yes,No,Australia,High Transfer Volume,Afternoon
+994ea885-aa88-47d2-809b-2672debdca28,Phishing Email,Website,No,617729.37,Retail Customer,Manual Report,No,Yes,Asia,None,Afternoon
+27c8611f-8bb2-4f0d-9891-29d7f9aff5a2,Voice Phishing,Social Media,Yes,61429.65,Retail Customer,Law Enforcement,No,Yes,Asia,Unusual Login,Night
+b5c9b49a-7389-444c-8e14-66756cbf88d0,Impersonation Fraud,Phone Call,Yes,60336.66,Fintech User,User Realization,Yes,Yes,EU,Unusual Login,Evening
+a97302a5-d7a2-4f31-93d1-fd3ec650d814,Impersonation Fraud,Social Media,Yes,67.17,Fintech User,Bank Flag,No,Yes,EU,Odd Hours Activity,Evening
+04400209-2423-4f76-a2b0-d1ec35e6c4dc,Phishing Email,App,Yes,6545.99,Fintech User,Law Enforcement,Yes,No,US,High Transfer Volume,Afternoon
+267713fc-7ff7-4437-bcbc-2ef0858166b8,Social Media Scam,Phone Call,Yes,73.96,Business Owner,Law Enforcement,Yes,No,US,Odd Hours Activity,Morning
+da7006fd-a64e-4472-9df9-bb2571063823,Fake Bank App,In-person,No,33.19,Business Owner,Manual Report,No,Yes,Australia,None,Afternoon
+030d5e78-4029-4ce5-8807-324c83086ed8,Phishing Email,Website,Yes,2532.88,Bank Employee,Manual Report,No,Yes,US,None,Morning
+a6eeb0b8-0f1d-4c31-a7a1-6193e87db3c2,SMS Phishing,Website,No,8778.54,Retail Customer,Bank Flag,No,Yes,EU,None,Morning
+9310a025-715a-4c27-8f02-ef1d5507c4f6,Social Media Scam,In-person,Yes,278.99,Fintech User,Law Enforcement,Yes,Yes,EU,Odd Hours Activity,Evening
+d1dc73c4-22e6-4d21-8615-fede72b9488e,Fake Investment Scam,Website,Yes,34.68,Bank Employee,Bank Flag,No,Yes,EU,Odd Hours Activity,Morning
+5d7f3f91-599e-44d0-8bc9-c48fa7222444,Fake Bank App,Website,Yes,954204.78,Business Owner,Manual Report,No,Yes,Africa,High Transfer Volume,Morning
+4e8732d2-f87f-48ac-bb14-a86c20b4a735,Impersonation Fraud,Video,No,615.61,Fintech User,Bank Flag,No,Yes,Africa,High Transfer Volume,Afternoon
+9a19f306-666c-4440-83df-6f0fea15ab6e,Voice Phishing,Video,Yes,7196.79,Business Owner,User Realization,Yes,Yes,Asia,Unusual Login,Morning
+63eefb6a-76b2-47b2-9e35-33741cec2d8d,Voice Phishing,Social Media,Yes,76.54,Fintech User,User Realization,No,Yes,Africa,Odd Hours Activity,Afternoon
+4dd2a8e1-0564-44c3-9da1-40a8cc67e198,Deepfake Video Scam,SMS,Yes,123.58,Bank Employee,Law Enforcement,Yes,Yes,EU,Unusual Login,Evening
+75d69e8b-2f9c-4ecd-ab50-388fe5e24589,SMS Phishing,In-person,Yes,861524.41,Fintech User,Bank Flag,Yes,No,Africa,None,Afternoon
+1785d48d-0f6b-4836-b484-5dc5d26ab11b,Voice Phishing,Video,Yes,40.86,Retail Customer,Bank Flag,No,Yes,EU,High Transfer Volume,Afternoon
+0c75fdac-a94e-4447-9671-64bd998961bc,SMS Phishing,Phone Call,No,540948.61,Bank Employee,User Realization,Yes,No,Africa,Unusual Login,Night
+eb9bc4c2-c32b-4a5a-bfec-192bf39c2ec6,Social Media Scam,Website,Yes,198384.66,Fintech User,AI Detection,Yes,No,South America,Unusual Login,Night
+b3e7b41a-077b-4ed2-8aa5-9d9127dfc81d,Phishing Email,Video,No,45823.59,Bank Employee,Bank Flag,No,Yes,EU,None,Evening
+cbccf0e3-23da-4654-a52b-c5c8a028ccf5,Phishing Email,Phone Call,No,18139.67,Retail Customer,Manual Report,Yes,No,Africa,Odd Hours Activity,Night
+72e52368-e5e5-4fde-978c-2ead1ac8e246,Phishing Email,Phone Call,No,906955.76,Business Owner,User Realization,Yes,No,Asia,High Transfer Volume,Morning
+334918ad-5a7c-4aa7-95dc-06337fe44b33,SMS Phishing,SMS,No,1767.76,Fintech User,Law Enforcement,Yes,No,Australia,None,Morning
+c166a528-f815-4dea-8928-ccb1d0f07640,Voice Phishing,Social Media,Yes,881.94,Business Owner,AI Detection,No,Yes,Asia,Odd Hours Activity,Night
+23d493f4-dc0d-4310-832a-2e86e340606f,Fake Bank App,Phone Call,Yes,964.39,Retail Customer,Law Enforcement,No,Yes,US,None,Night
+23860a9d-6395-43cd-95c6-14a329babf80,Fake Investment Scam,Email,No,295.19,Fintech User,User Realization,No,Yes,Africa,Unusual Login,Morning
+b36cf0be-dc6b-4ad1-b022-3cde86f435af,Deepfake Video Scam,App,Yes,18.48,Retail Customer,Bank Flag,Yes,Yes,US,Odd Hours Activity,Evening
+3559222f-586c-4602-aa89-b354ac5978c2,SMS Phishing,Email,Yes,99436.17,Business Owner,Bank Flag,Yes,No,South America,Odd Hours Activity,Morning
+3159e200-7e53-4b99-b603-659131d49051,SMS Phishing,App,No,9077.77,Retail Customer,User Realization,Yes,No,Africa,High Transfer Volume,Morning
+070d6424-5a27-440e-a706-bda9ec83aef8,Fake Bank App,Social Media,No,288860.83,Business Owner,Law Enforcement,Yes,Yes,Australia,Unusual Login,Night
+d6c0ac00-6249-4fff-9167-458e8bab9762,Fake Bank App,Website,No,5728.52,Bank Employee,Manual Report,No,Yes,Australia,None,Night
+e8f971d3-2527-471a-a9e3-479e2372416e,Voice Phishing,Video,No,101.42,Retail Customer,User Realization,Yes,Yes,Australia,None,Night
+ad73f214-e4a7-45b1-812b-9b2b936846d2,Phishing Email,Social Media,No,825439.17,Business Owner,AI Detection,Yes,No,Asia,Unusual Login,Evening
+2c41f388-7215-4468-b31d-327775a0b70b,Fake Bank App,Social Media,Yes,68.58,Bank Employee,User Realization,Yes,Yes,EU,Odd Hours Activity,Evening
+463d83df-c44b-44c9-b70a-9e22b0bced2c,Fake Investment Scam,In-person,Yes,533.35,Fintech User,Law Enforcement,No,Yes,Africa,None,Morning
+831b28e2-4c15-4fe4-b622-73ee1cba48f9,Fake Bank App,Social Media,Yes,619.66,Bank Employee,Bank Flag,Yes,Yes,Asia,Unusual Login,Evening
+8f703977-b294-49ab-bb4a-7b5fe3f77431,Impersonation Fraud,Phone Call,No,635.67,Bank Employee,Bank Flag,Yes,No,Africa,Unusual Login,Night
+8212266a-1cc4-4046-a752-3c7b63108d4f,Deepfake Video Scam,Social Media,No,2945.26,Bank Employee,Manual Report,Yes,No,US,High Transfer Volume,Morning
+5401fb16-26c3-4e10-b258-a42e1f81f0b9,Fake Investment Scam,Email,No,238670.0,Bank Employee,User Realization,No,Yes,Asia,High Transfer Volume,Morning
+0f2dd882-f982-45ce-bc0f-4ce251f7114f,Voice Phishing,Video,Yes,44882.94,Retail Customer,AI Detection,No,Yes,US,Unusual Login,Evening
+f704536c-62be-465b-906e-81294afe2945,Fake Investment Scam,Email,Yes,789562.17,Bank Employee,AI Detection,No,Yes,South America,High Transfer Volume,Evening
+166a2eae-6d18-4f4f-a6ad-c89fcfe1acc8,Deepfake Video Scam,Video,No,5790.48,Fintech User,AI Detection,No,Yes,EU,High Transfer Volume,Evening
+f069aa4f-1a58-424b-b0b2-a1c56756e242,SMS Phishing,Email,Yes,588.28,Bank Employee,Bank Flag,Yes,No,Australia,High Transfer Volume,Afternoon
+be445bc7-8777-4de5-a0ef-b59f72fcd8fd,SMS Phishing,App,No,499282.87,Business Owner,AI Detection,No,Yes,South America,Unusual Login,Morning
+f75c049a-441e-4a91-a57a-386b21af6756,Impersonation Fraud,Email,Yes,45272.51,Fintech User,Law Enforcement,No,Yes,Asia,Odd Hours Activity,Afternoon
+54819751-89aa-4644-9eca-c45fd3b2ce3d,SMS Phishing,In-person,Yes,81.29,Fintech User,AI Detection,No,Yes,Asia,None,Night
+0b390d95-da12-4675-88ca-39cff6e108b5,Deepfake Video Scam,Video,Yes,332247.49,Bank Employee,User Realization,Yes,No,Asia,None,Night
+4c2ed6c0-36b6-4bb7-be50-0cc949115a09,Phishing Email,SMS,No,35.14,Fintech User,Manual Report,No,Yes,Asia,High Transfer Volume,Morning
+9d19df71-05eb-487a-a9c9-646d90f6a43e,Impersonation Fraud,SMS,No,684506.27,Bank Employee,Law Enforcement,No,Yes,Africa,None,Afternoon
+f0488f3d-6b58-495f-a499-1666d28543d9,Deepfake Video Scam,Phone Call,No,15945.39,Business Owner,Law Enforcement,No,Yes,Africa,Odd Hours Activity,Afternoon
+9859478e-b107-4a1d-9b3e-cca1c200b7c5,Voice Phishing,SMS,No,59.22,Fintech User,Bank Flag,Yes,No,EU,Odd Hours Activity,Night
+e22b8c4a-ecd0-42ab-866c-7913daf3f66b,SMS Phishing,SMS,No,5448.66,Retail Customer,AI Detection,Yes,Yes,Australia,Unusual Login,Afternoon
+7b1e90ee-34e6-4dca-9556-53648843abbf,Voice Phishing,In-person,No,65401.49,Fintech User,Manual Report,Yes,No,Asia,Odd Hours Activity,Night
+bda0b653-72e6-4029-a7e2-d2fe54add91f,Social Media Scam,SMS,Yes,987779.48,Fintech User,Manual Report,No,Yes,US,Odd Hours Activity,Morning
+05074519-e8fb-4112-8d90-fcaeb599c624,Phishing Email,Social Media,Yes,8791.12,Business Owner,User Realization,No,Yes,South America,Odd Hours Activity,Night
+910adb7b-ad53-4a4e-8d8f-86408cf525ec,Impersonation Fraud,Website,No,290094.47,Business Owner,User Realization,Yes,Yes,Australia,None,Evening
+b53e6637-4b29-4fa8-9f67-29855f41b13f,Impersonation Fraud,Phone Call,No,220.85,Retail Customer,AI Detection,Yes,No,South America,None,Afternoon
+bf35058a-6f0e-4b2c-b00a-cceb605ce9e7,SMS Phishing,Phone Call,No,90422.42,Fintech User,Law Enforcement,Yes,No,Australia,None,Night
+44319c91-bd39-4141-a594-cf94260487e6,Impersonation Fraud,Social Media,Yes,482.29,Retail Customer,Law Enforcement,No,Yes,South America,High Transfer Volume,Evening
+175d09ed-52ec-4c8f-a798-418588ba7798,Impersonation Fraud,Social Media,Yes,56.81,Bank Employee,AI Detection,No,Yes,South America,Unusual Login,Afternoon
+b2b3496f-83e0-4236-ac05-e7af71305eb6,Fake Bank App,In-person,Yes,900923.93,Retail Customer,Manual Report,No,Yes,South America,Unusual Login,Evening
+8a4f7f4e-e083-4f77-88be-b660a3c029c1,Phishing Email,Social Media,Yes,50863.13,Fintech User,Law Enforcement,No,Yes,Africa,Odd Hours Activity,Evening
+2eb47ebb-c93e-45f3-a4ed-56dbb58f004a,Fake Bank App,Phone Call,Yes,774482.75,Bank Employee,AI Detection,No,Yes,Australia,High Transfer Volume,Morning
+93601c15-a611-478d-aa12-53ba355ada66,Fake Bank App,Email,No,17425.92,Retail Customer,Bank Flag,No,Yes,EU,Odd Hours Activity,Evening
+cb726963-bed3-484b-889d-1cd40a10c2b4,Fake Bank App,Email,Yes,257152.46,Business Owner,User Realization,No,Yes,EU,Odd Hours Activity,Afternoon
+a375bb3c-4554-4fad-9d1a-601075a110b8,Fake Investment Scam,Phone Call,Yes,9856.64,Business Owner,Law Enforcement,Yes,No,Africa,None,Afternoon
+0886e0df-597f-4d19-a4df-477a7b3c6a3b,Fake Investment Scam,Phone Call,Yes,760925.0,Bank Employee,AI Detection,No,Yes,US,Unusual Login,Afternoon
+390a3a21-fa90-47a9-ad00-abde1ad26b4d,Fake Investment Scam,Website,No,5286.4,Business Owner,User Realization,No,Yes,Africa,Odd Hours Activity,Afternoon
+5402b531-72c8-43de-903a-7860aaee3820,Impersonation Fraud,Email,No,44380.37,Bank Employee,Law Enforcement,Yes,Yes,Australia,Odd Hours Activity,Night
+9de12378-37ac-4cee-91be-59f8c33aaccd,Fake Bank App,Social Media,No,8220.85,Bank Employee,Law Enforcement,No,Yes,Africa,High Transfer Volume,Afternoon
+ca553e13-b198-4c0a-8f83-e62104ec3442,Social Media Scam,Phone Call,No,109520.19,Retail Customer,AI Detection,Yes,No,US,Unusual Login,Night
+1bdaf846-64f0-4d65-8d8f-6d22dfcf278a,Social Media Scam,Video,No,2737.72,Retail Customer,Law Enforcement,Yes,Yes,Australia,High Transfer Volume,Morning
+62d35ea1-647f-43d4-96aa-93731cb67b2a,SMS Phishing,SMS,Yes,69075.52,Business Owner,AI Detection,Yes,No,Asia,None,Morning
+a4237767-d932-4234-9375-34d3b81bfb2e,Fake Investment Scam,App,No,3316.03,Retail Customer,Bank Flag,Yes,No,Africa,Odd Hours Activity,Morning
+1887da92-20f3-4e61-a08d-878656080d6c,Fake Bank App,App,Yes,16245.86,Business Owner,Law Enforcement,No,Yes,EU,None,Morning
+5ff0444b-a3ce-404d-8b9c-a1a6860b9a41,Voice Phishing,Website,Yes,679004.35,Fintech User,Bank Flag,Yes,Yes,US,Unusual Login,Evening
+64bde1c4-f157-4066-8746-7cf31028131d,Fake Investment Scam,Email,No,687.58,Retail Customer,AI Detection,No,Yes,Asia,High Transfer Volume,Evening
+58c49433-dc87-46c8-b0a7-d50b099dbbe5,Impersonation Fraud,Email,No,49245.19,Retail Customer,Law Enforcement,Yes,Yes,Africa,None,Morning
+27566b99-9410-4383-81c6-9191c6f51d55,Social Media Scam,Social Media,No,14967.52,Retail Customer,Bank Flag,No,Yes,US,None,Evening
+3d3ef56a-c7be-4d79-a374-7f8c4baf5fbf,Deepfake Video Scam,Phone Call,Yes,69466.07,Bank Employee,User Realization,Yes,No,Africa,Unusual Login,Night
+fa82f2f4-537d-459d-ad28-bc3fc5356f0f,Deepfake Video Scam,Phone Call,Yes,122.83,Business Owner,User Realization,No,Yes,US,Odd Hours Activity,Night
+7ceca885-696f-4d48-ad7f-0613adf8cdae,Fake Investment Scam,Email,Yes,1504.49,Retail Customer,User Realization,Yes,Yes,South America,None,Afternoon
+562e9b2a-b93b-4c5f-99cf-397b696c688a,Deepfake Video Scam,SMS,Yes,540.01,Retail Customer,User Realization,Yes,Yes,South America,High Transfer Volume,Morning
+8ab83202-5ee4-4483-a8b0-b2567318be01,Voice Phishing,Email,No,45.62,Business Owner,Law Enforcement,Yes,Yes,US,None,Afternoon
+b527dc45-2c9d-41d8-b25e-27be976904c7,SMS Phishing,Video,No,8303.69,Fintech User,Bank Flag,Yes,Yes,Asia,High Transfer Volume,Morning
+e9137104-fa2c-4693-89ab-0e8dd3b00a32,Voice Phishing,Social Media,Yes,27.39,Fintech User,Manual Report,No,Yes,Australia,High Transfer Volume,Night
+3e7ec122-c802-42c5-b95e-58a7eb4da114,Deepfake Video Scam,Email,Yes,79.11,Fintech User,Manual Report,Yes,No,US,Unusual Login,Morning
+a62c57a5-83c4-4600-914b-d2762e56a457,Voice Phishing,SMS,No,72415.32,Fintech User,Manual Report,Yes,Yes,South America,Odd Hours Activity,Night
+c225b226-3c11-42a9-8279-764d7294cd11,Impersonation Fraud,Video,Yes,722506.21,Business Owner,User Realization,Yes,No,Asia,None,Morning
+314acfd7-d368-4e0a-8ca4-1784174f8d92,Deepfake Video Scam,Video,Yes,979112.33,Bank Employee,Law Enforcement,Yes,No,South America,High Transfer Volume,Evening
+5b433ad3-300d-4099-a60a-24c894778999,Phishing Email,Video,Yes,716.72,Fintech User,User Realization,Yes,Yes,South America,Unusual Login,Morning
+54fcef4d-1f77-495f-b6b4-3db3c90ba0e2,Social Media Scam,App,Yes,32624.36,Fintech User,AI Detection,Yes,Yes,Australia,High Transfer Volume,Afternoon
+27b72926-a6df-49a0-859d-c1dfd4c3830c,Phishing Email,In-person,Yes,89.51,Fintech User,Law Enforcement,No,Yes,Africa,High Transfer Volume,Evening
+61e081f6-070e-44c4-aef8-274a7ff367f5,Deepfake Video Scam,SMS,No,188.26,Fintech User,Manual Report,No,Yes,EU,Unusual Login,Night
+9cb0f9b8-5e67-41de-8888-d7ca00ac076a,Fake Investment Scam,Email,No,294.55,Fintech User,Manual Report,No,Yes,Asia,High Transfer Volume,Night
+c639abce-4780-4eed-8b4a-5dba8fd72de8,Deepfake Video Scam,Social Media,No,402.3,Retail Customer,Law Enforcement,Yes,No,EU,Unusual Login,Night
+ecb04e8d-5e58-4c38-8908-cdc3fb2f16a2,Fake Investment Scam,Website,Yes,2978.68,Bank Employee,Law Enforcement,Yes,Yes,Australia,High Transfer Volume,Morning
+832f0303-6d15-4e8c-acdb-a3053e1e20c4,Impersonation Fraud,In-person,Yes,526140.09,Fintech User,Bank Flag,Yes,No,South America,High Transfer Volume,Afternoon
+a54311cd-4e86-42c2-9a20-6ea63a6fb516,Social Media Scam,Website,Yes,951627.12,Retail Customer,User Realization,Yes,Yes,Africa,Unusual Login,Night
+5e79e9c6-5564-409d-8c33-438fde738a1c,Impersonation Fraud,In-person,Yes,54575.65,Retail Customer,Law Enforcement,Yes,No,EU,High Transfer Volume,Evening
+2db9ff0a-dfaa-4906-83be-a27869799d14,Fake Bank App,Video,Yes,47.98,Bank Employee,Manual Report,No,Yes,Australia,Unusual Login,Night
+5d7b38aa-e3a3-4164-ac29-afa450444983,Fake Investment Scam,Phone Call,No,810.87,Bank Employee,User Realization,Yes,Yes,Africa,Odd Hours Activity,Morning
+fdd6cab8-ae73-403c-a205-05c5a40a9be3,Fake Bank App,Website,No,588191.6,Business Owner,AI Detection,No,Yes,South America,Unusual Login,Evening
+ba764f1b-a923-4567-9197-a9b301908f8b,Phishing Email,SMS,No,5188.18,Retail Customer,Bank Flag,No,Yes,EU,Unusual Login,Afternoon
+c6c801b1-68e2-4533-990c-89d013294060,Voice Phishing,Social Media,Yes,202201.91,Fintech User,Law Enforcement,Yes,Yes,Asia,Odd Hours Activity,Evening
+5d84ddd9-fb41-428a-8b0f-15ebbe6c84cf,Impersonation Fraud,App,Yes,37.28,Fintech User,User Realization,Yes,No,South America,Odd Hours Activity,Night
+a17fceaf-a7a6-4084-8efd-612eef027198,Social Media Scam,SMS,Yes,17857.79,Fintech User,Manual Report,No,Yes,US,Unusual Login,Afternoon
+03f8a60a-11c7-4fe2-800c-d694df2f6c8c,Fake Bank App,SMS,Yes,23544.83,Business Owner,Law Enforcement,Yes,No,Africa,High Transfer Volume,Night
+471a37b8-395f-4200-b50b-5f90d41b8857,Social Media Scam,Website,No,29.15,Retail Customer,AI Detection,Yes,No,Africa,Odd Hours Activity,Evening
+47612de2-a5b1-46f7-9ee8-56fd096a9257,Fake Investment Scam,In-person,No,6105.26,Bank Employee,Manual Report,No,Yes,EU,None,Evening
+ad0bdd65-ec2b-4353-8021-ba72b3002a25,Fake Bank App,Email,Yes,3559.44,Business Owner,Law Enforcement,Yes,No,EU,High Transfer Volume,Afternoon
+22587498-7163-4905-b2cd-06e0632ec46e,Voice Phishing,Video,Yes,99.38,Business Owner,User Realization,No,Yes,Asia,High Transfer Volume,Afternoon
+467eecd3-617c-4313-97cb-875f613006d0,Phishing Email,Social Media,No,435.62,Business Owner,Law Enforcement,No,Yes,US,Unusual Login,Night
+3e27ffb3-5558-4aa3-955b-c8bb71259387,Fake Investment Scam,Phone Call,No,2404.48,Bank Employee,Bank Flag,No,Yes,Asia,High Transfer Volume,Night
+006c6bff-9630-425c-b5f5-83b50c48d605,Social Media Scam,SMS,No,13.94,Retail Customer,Bank Flag,Yes,No,Australia,High Transfer Volume,Night
+5f677202-440c-4c82-9077-1b97712a223b,Social Media Scam,SMS,No,60.82,Business Owner,Law Enforcement,Yes,No,EU,Unusual Login,Morning
+da294cf9-855b-4541-a341-a0f8767ed060,Fake Investment Scam,SMS,No,541.42,Retail Customer,Bank Flag,No,Yes,EU,None,Evening
+6f1bde57-4ff6-4185-93ab-c20793b2ba5d,Impersonation Fraud,Social Media,Yes,4104.28,Bank Employee,User Realization,Yes,Yes,South America,None,Night
+8b85936a-afb0-4832-9e51-b55fdf03e550,Fake Investment Scam,App,Yes,75574.5,Fintech User,Manual Report,Yes,Yes,EU,Odd Hours Activity,Night
+42804a5d-fb8d-4856-8574-8e1fc476574b,Social Media Scam,SMS,No,0.66,Bank Employee,User Realization,Yes,No,South America,High Transfer Volume,Afternoon
+084e0004-3785-40d2-ae32-08c3f771ccb9,Voice Phishing,Website,No,541527.06,Bank Employee,Law Enforcement,No,Yes,Africa,None,Afternoon
+036cb2bd-3c5d-4327-b437-d7d441310210,Phishing Email,Email,Yes,3701.52,Fintech User,AI Detection,No,Yes,Africa,High Transfer Volume,Night
+ca2bbf28-9f6c-464c-993b-a57903a5917a,Deepfake Video Scam,Email,Yes,5437.45,Retail Customer,Law Enforcement,No,Yes,Australia,None,Night
+4ed45cf2-0d35-47f1-b581-38ad6a8479a2,Fake Bank App,In-person,Yes,5612.73,Retail Customer,Bank Flag,Yes,Yes,EU,Odd Hours Activity,Night
+f3aeec42-be04-43a8-b478-b956acbf020c,Voice Phishing,Social Media,Yes,27.27,Fintech User,Bank Flag,Yes,No,Asia,Unusual Login,Afternoon
+fde8005d-df00-4e22-9225-405dd439657c,Voice Phishing,SMS,Yes,390346.17,Bank Employee,Bank Flag,No,Yes,South America,Odd Hours Activity,Morning
+ebcb8235-cba4-4872-ada5-0c090e43ddf3,Social Media Scam,Phone Call,Yes,566.35,Bank Employee,User Realization,No,Yes,Asia,High Transfer Volume,Morning
+17e85aea-683d-45fa-9602-e2bea5220211,Deepfake Video Scam,Phone Call,Yes,815.6,Retail Customer,User Realization,No,Yes,US,Unusual Login,Afternoon
+a71db992-f3b0-4e8d-b9cb-db6d427e0094,Phishing Email,In-person,No,7219.46,Business Owner,User Realization,No,Yes,EU,Odd Hours Activity,Morning
+9a17e5e5-3da7-4138-96cc-255ee662f0a7,SMS Phishing,Video,Yes,719.24,Bank Employee,Manual Report,Yes,Yes,US,None,Morning
+1b8d24f5-91ed-4b9a-a902-e389bca2868c,SMS Phishing,Email,No,13826.52,Retail Customer,AI Detection,Yes,No,US,Odd Hours Activity,Morning
+b4f917a8-dfcb-4cbc-97e8-da380f928f12,SMS Phishing,App,Yes,78.24,Business Owner,Law Enforcement,Yes,Yes,South America,Odd Hours Activity,Morning
+217db46b-fbab-41f9-929a-a1ff5eabf1cc,SMS Phishing,Phone Call,No,413052.89,Business Owner,Law Enforcement,Yes,Yes,US,Unusual Login,Afternoon
+18f6fcb7-e8a1-47cf-90ad-0153c19d70ca,Deepfake Video Scam,App,Yes,103896.04,Retail Customer,Manual Report,No,Yes,Asia,High Transfer Volume,Night
+476b9ea0-c256-4fae-b4dc-5695466f9448,SMS Phishing,Phone Call,No,48168.27,Business Owner,User Realization,Yes,No,US,None,Morning
+2df01c6b-d5be-4caa-9b4f-3304edf0c943,Voice Phishing,In-person,No,6014.19,Retail Customer,AI Detection,No,Yes,Africa,Unusual Login,Night
+70671188-47e2-4ff9-ad21-242a05f25335,Fake Bank App,In-person,No,30328.61,Fintech User,Bank Flag,No,Yes,EU,Unusual Login,Night
+b2957e60-1cde-44ea-a440-79dc46e039d5,Social Media Scam,Phone Call,Yes,70488.59,Fintech User,User Realization,Yes,Yes,EU,None,Night
+cf7e2e3e-2ae5-4aa2-aa1e-165e683f51ad,SMS Phishing,Phone Call,Yes,9776.87,Bank Employee,Manual Report,No,Yes,US,High Transfer Volume,Night
+81da699c-b42c-4805-a168-fddb033a67d2,Fake Investment Scam,App,No,42048.76,Fintech User,User Realization,No,Yes,EU,None,Morning
+2906e440-e477-47ef-8205-88395de79024,SMS Phishing,App,No,30773.96,Business Owner,AI Detection,Yes,Yes,US,None,Morning
+7c12e863-48d3-4871-aa52-b64e41f607bf,Voice Phishing,Website,No,372.48,Retail Customer,AI Detection,No,Yes,Africa,High Transfer Volume,Evening
+16517dc4-d29b-442c-8e80-994fb30d3ba6,Fake Investment Scam,In-person,No,409254.08,Retail Customer,AI Detection,No,Yes,US,None,Night
+ea6f5dbe-2484-44e5-855d-2bb4fb1b8f42,Social Media Scam,Website,No,13238.3,Business Owner,Law Enforcement,No,Yes,South America,High Transfer Volume,Night
+accc79a1-6091-42fd-8440-ebbae89a035e,Impersonation Fraud,Phone Call,No,53870.94,Retail Customer,Law Enforcement,No,Yes,South America,None,Night
+5b09c0c0-2c51-47dc-b485-e9808f2d3234,Voice Phishing,Email,No,5452.22,Fintech User,Law Enforcement,No,Yes,Asia,Odd Hours Activity,Morning
+a8b5509c-3ecc-4776-8469-04642d7afe69,Phishing Email,Email,Yes,4139.89,Retail Customer,Bank Flag,No,Yes,US,None,Evening
+3cc688b9-0155-44ff-85a7-d837bec4dd1d,Social Media Scam,Website,No,66.12,Business Owner,Manual Report,No,Yes,Australia,Unusual Login,Morning
+5302bc75-9a72-4832-8be2-14f0d50ff509,Fake Bank App,SMS,No,117.74,Bank Employee,AI Detection,No,Yes,South America,None,Night
+84540567-8f8b-4e07-8156-7d42dfa05637,Fake Bank App,Email,No,120012.81,Bank Employee,User Realization,No,Yes,Asia,Unusual Login,Night
+e2b9dfae-22de-4e97-b0cb-5c11db3d641f,SMS Phishing,Video,No,55249.17,Bank Employee,Manual Report,No,Yes,Asia,None,Afternoon
+99b95ece-ca1b-43c6-afbe-d613f702ca7c,Fake Investment Scam,SMS,Yes,3386.4,Bank Employee,Law Enforcement,No,Yes,EU,Unusual Login,Morning
+b8f80f06-bc4e-4f48-a8a8-71a665e0c9d5,Social Media Scam,App,Yes,821067.1,Fintech User,User Realization,Yes,No,US,Odd Hours Activity,Evening
+d169828d-0a48-4620-829a-e70a57f77095,Impersonation Fraud,Social Media,Yes,46207.09,Fintech User,Law Enforcement,Yes,Yes,South America,High Transfer Volume,Night
+0b72e64c-57c8-4e05-9b69-69e7737fdd69,Deepfake Video Scam,In-person,No,828040.13,Fintech User,Law Enforcement,Yes,Yes,Asia,None,Afternoon
+9758f87a-bd3b-4c1b-ada9-9cf287f1b4a8,Deepfake Video Scam,Phone Call,No,46923.42,Retail Customer,Manual Report,No,Yes,Asia,Odd Hours Activity,Afternoon
+620f033e-b46a-4d0c-bbce-95b75867c9e6,Fake Bank App,Video,No,202.2,Business Owner,AI Detection,Yes,No,Africa,None,Night
+b5779d49-7f19-4f5a-a6f5-c34d0fbeecae,Impersonation Fraud,Email,Yes,345.44,Retail Customer,Bank Flag,No,Yes,South America,High Transfer Volume,Morning
+3acdc7e3-cfcd-410b-aa67-731ee635915a,Fake Investment Scam,Email,Yes,31.39,Bank Employee,AI Detection,No,Yes,Asia,Unusual Login,Night
+0d93b4c9-1598-425b-9285-f6656ddd03c3,Voice Phishing,Video,Yes,761032.37,Retail Customer,Law Enforcement,No,Yes,Africa,Unusual Login,Afternoon
+bee50cf6-8eb5-4c35-b998-024225fe97db,SMS Phishing,Social Media,No,763512.72,Business Owner,User Realization,Yes,Yes,US,High Transfer Volume,Afternoon
+403ef4fc-8028-4045-9ef9-889b0a7ecab9,Fake Bank App,In-person,No,8766.1,Retail Customer,User Realization,No,Yes,South America,Unusual Login,Evening
+96a18edc-91c5-4b70-965e-9a86dee486c7,Impersonation Fraud,In-person,Yes,8914.9,Business Owner,Bank Flag,No,Yes,South America,Odd Hours Activity,Evening
+a0c82e00-6570-45c8-b92e-9f64d6aaec1d,Phishing Email,Email,Yes,327.68,Fintech User,Bank Flag,No,Yes,South America,Unusual Login,Afternoon
+8ac682bb-af60-4cc0-b4bb-f5fd65cd622b,Fake Investment Scam,Website,Yes,93475.67,Bank Employee,Bank Flag,Yes,Yes,Asia,High Transfer Volume,Afternoon
+50a10855-98f7-4b25-8d43-6dd7a34c2be1,Fake Investment Scam,Social Media,No,27.4,Retail Customer,User Realization,No,Yes,South America,None,Evening
+1144d701-8668-4e55-8f78-fc4ec5843db9,Impersonation Fraud,SMS,Yes,5557.01,Bank Employee,User Realization,No,Yes,Africa,Unusual Login,Morning
+f182f1cf-a8cc-4222-9554-8f5fa6cb7d2d,Voice Phishing,In-person,Yes,40.07,Bank Employee,Bank Flag,Yes,Yes,EU,High Transfer Volume,Afternoon
+f7e64301-746e-4be0-97e2-5e0530d77d69,Impersonation Fraud,Social Media,No,88615.53,Business Owner,Bank Flag,Yes,No,Asia,High Transfer Volume,Morning
+44b9a660-28c0-47ea-884c-1a6abfdc862f,Impersonation Fraud,Social Media,Yes,88875.1,Business Owner,AI Detection,Yes,Yes,US,None,Afternoon
+99a238f5-f251-4bb8-8dca-c22b81acb0fa,Fake Bank App,Phone Call,Yes,65620.36,Bank Employee,Manual Report,Yes,No,EU,Unusual Login,Morning
+e1238a9f-70eb-4262-a25b-1d602bd55470,Impersonation Fraud,In-person,No,22.45,Business Owner,Manual Report,No,Yes,Asia,None,Night
+d2bab94c-7658-4aae-ba00-be9ce87a5a90,Voice Phishing,Website,Yes,294009.94,Bank Employee,Manual Report,No,Yes,EU,None,Afternoon
+2b53c6d6-2b35-4eb0-9ab8-d7aa137bca1e,Phishing Email,App,No,655.91,Business Owner,Bank Flag,No,Yes,US,Unusual Login,Night
+9a3ed899-76ba-405f-8da8-5335dfb45a81,Voice Phishing,Social Media,No,742.0,Fintech User,Law Enforcement,No,Yes,US,Unusual Login,Morning
+f0827a3c-845b-4fc3-b6d4-57a7c32a8e77,Phishing Email,Social Media,Yes,91740.39,Retail Customer,AI Detection,No,Yes,Australia,None,Evening
+9ae7042d-3963-49fd-9d5c-e8cf40a7c927,Impersonation Fraud,Social Media,Yes,137012.49,Business Owner,Bank Flag,Yes,No,Asia,None,Afternoon
+8136316b-2dc9-448a-a354-5fc3b91fd318,SMS Phishing,Social Media,No,334.37,Bank Employee,AI Detection,Yes,No,Asia,Odd Hours Activity,Night
+8afcf1d6-f261-49b3-ac5d-2877f688765b,Fake Bank App,App,No,381709.28,Business Owner,Bank Flag,No,Yes,EU,None,Morning
+5d8644a2-0a2a-4f6d-97a2-5cc97400de43,Deepfake Video Scam,Phone Call,Yes,264.83,Fintech User,Bank Flag,Yes,No,Africa,Unusual Login,Night
+4296de0f-9b67-4364-8795-ed404ff620bc,Phishing Email,In-person,No,536679.56,Fintech User,AI Detection,Yes,Yes,Asia,Unusual Login,Afternoon
+1651b75c-5545-4b90-aba4-8850efda526c,Fake Bank App,Phone Call,Yes,840314.58,Business Owner,Law Enforcement,Yes,Yes,Africa,Unusual Login,Afternoon
+e018e73c-a645-483f-8312-adadf521e7b6,Fake Investment Scam,SMS,No,28.43,Retail Customer,User Realization,No,Yes,Australia,Unusual Login,Evening
+1732744a-f30a-4727-a99d-29b9f8f298ba,Voice Phishing,Email,Yes,84762.93,Fintech User,User Realization,No,Yes,Australia,Unusual Login,Evening
+58887c03-6a06-41ad-a17b-77597cc23ad8,Phishing Email,In-person,No,216388.18,Retail Customer,Bank Flag,No,Yes,US,Unusual Login,Night
+d322bb9a-9277-4ce9-8d4d-863e571e4133,SMS Phishing,Website,No,316.07,Fintech User,AI Detection,Yes,Yes,EU,None,Night
+a25d1ed9-a645-48fa-98cf-907bd771a23a,Fake Bank App,Phone Call,Yes,5417.61,Fintech User,Bank Flag,Yes,No,South America,Unusual Login,Evening
+072742f9-79f0-4cc4-ae80-d3a2fecb0465,Deepfake Video Scam,In-person,No,52879.57,Fintech User,AI Detection,No,Yes,Asia,High Transfer Volume,Night
+904ae1d6-c0b7-4061-99cb-b339ec228e5d,Impersonation Fraud,SMS,Yes,407570.36,Fintech User,Manual Report,Yes,No,Australia,Unusual Login,Evening
+b71e5677-3c0c-41cc-945c-2463dbbf11bf,Fake Investment Scam,Website,Yes,37035.39,Business Owner,Bank Flag,Yes,No,Asia,Unusual Login,Morning
+4f3c6062-4edb-4ae9-ab3f-ee9a4c4611ed,Phishing Email,SMS,No,18503.59,Bank Employee,Bank Flag,No,Yes,Australia,Unusual Login,Morning
+ee27f513-1b40-40c7-8d2f-ff10114a2fc5,SMS Phishing,In-person,Yes,858.62,Retail Customer,AI Detection,No,Yes,South America,Odd Hours Activity,Evening
+a5488525-1330-4621-b6bd-9e0065b3a8bc,Fake Investment Scam,In-person,No,9700.48,Business Owner,Manual Report,Yes,Yes,South America,Odd Hours Activity,Morning
+b2d328cc-7bc9-4eeb-b98f-34fba872c040,Impersonation Fraud,Email,Yes,20501.04,Business Owner,User Realization,No,Yes,South America,None,Night
+a1177681-5199-4743-ba95-cc58859bc3cc,Fake Bank App,Social Media,No,1788.72,Business Owner,AI Detection,Yes,Yes,US,High Transfer Volume,Morning
+5ce4c574-4a13-4fdb-9dfa-c5a8dff79c96,Deepfake Video Scam,In-person,Yes,492.21,Business Owner,AI Detection,No,Yes,Africa,High Transfer Volume,Night
+b88dff37-639f-41e7-8a05-9e39adb231ca,Impersonation Fraud,Email,Yes,912.17,Fintech User,User Realization,No,Yes,US,None,Afternoon
+dafeedb5-f0b6-45c4-9009-12cc8e3de827,Deepfake Video Scam,App,No,33.39,Retail Customer,User Realization,No,Yes,Africa,Odd Hours Activity,Morning
+45481ca6-e976-4a55-ad64-372595adf0c2,Fake Investment Scam,Website,No,631935.35,Fintech User,Manual Report,Yes,Yes,Africa,Odd Hours Activity,Morning
+8ff37d7e-d96c-4e8c-9f63-d59aea2c0a0c,Fake Bank App,Website,No,49.48,Bank Employee,User Realization,No,Yes,US,High Transfer Volume,Evening
+21f9d7de-7421-4d4a-bf9e-e5d5c853f17d,Deepfake Video Scam,In-person,No,30889.28,Business Owner,Law Enforcement,No,Yes,Australia,None,Afternoon
+bcaa2dfd-35da-4079-8ab1-30fb6c7e65a2,Fake Bank App,Website,No,8163.75,Business Owner,Law Enforcement,Yes,No,South America,Unusual Login,Night
+a7b82015-fd14-4f67-969c-9d9ff05be392,Voice Phishing,Phone Call,Yes,645.17,Retail Customer,User Realization,No,Yes,Asia,High Transfer Volume,Afternoon
+7522a474-c5e7-48e4-8079-a772cb26ea88,Phishing Email,Email,No,4213.39,Business Owner,Manual Report,Yes,Yes,Asia,None,Morning
+67e51529-3f38-4a97-9028-ab9eaa3068d6,Deepfake Video Scam,SMS,Yes,33203.99,Bank Employee,Bank Flag,Yes,No,EU,Unusual Login,Morning
+ca3684e2-1cba-4b43-a945-d1959790c0f6,Fake Investment Scam,In-person,Yes,78.17,Retail Customer,Law Enforcement,Yes,Yes,EU,Unusual Login,Afternoon
+addc5c60-9183-4479-9e18-523968732a76,Social Media Scam,Phone Call,No,78576.82,Fintech User,AI Detection,Yes,No,Asia,High Transfer Volume,Morning
+3c8e1172-85a8-4608-9a0c-ef9e114f58a7,Deepfake Video Scam,In-person,No,24.53,Fintech User,Bank Flag,No,Yes,Australia,High Transfer Volume,Morning
+f5ec2435-eebb-4981-9c1f-eb7129c7f4d0,Fake Bank App,Social Media,No,6664.96,Business Owner,Manual Report,No,Yes,EU,High Transfer Volume,Night
+d3db2b8b-c76e-4fda-bbd2-599250ded7fc,Impersonation Fraud,Website,No,815146.61,Bank Employee,AI Detection,No,Yes,EU,Unusual Login,Morning
+81e22b9d-a612-40f8-82e0-10694d7e49c6,SMS Phishing,Social Media,No,98375.04,Business Owner,User Realization,Yes,No,US,High Transfer Volume,Morning
+46d603d0-1142-4f92-ac4a-f8ff8c8305dd,Fake Bank App,Website,No,886191.73,Bank Employee,Bank Flag,Yes,No,Australia,High Transfer Volume,Night
+368f1ea2-994d-4443-9159-717c8e952766,Fake Investment Scam,Video,No,8989.07,Fintech User,Manual Report,No,Yes,US,Unusual Login,Evening
+4810c535-9037-4c44-b17e-beaf1b03d282,Impersonation Fraud,Phone Call,No,183.54,Bank Employee,Law Enforcement,No,Yes,South America,High Transfer Volume,Morning
+e722593c-38d4-49dd-97c2-62ca58e763da,Phishing Email,App,Yes,7538.58,Retail Customer,AI Detection,No,Yes,Asia,Odd Hours Activity,Morning
+a6731747-f326-485c-a14c-c874e20a83c0,Phishing Email,SMS,No,6151.92,Retail Customer,User Realization,No,Yes,EU,High Transfer Volume,Evening
+5c2a80a5-661d-45fa-9963-579a4f87ec05,Fake Bank App,App,Yes,56770.0,Business Owner,AI Detection,No,Yes,Australia,High Transfer Volume,Evening
+1e4fc0f8-c8db-404a-aa38-f5ff4129aa39,Fake Investment Scam,SMS,Yes,84559.39,Retail Customer,AI Detection,Yes,No,EU,None,Afternoon
+33e1d194-4675-440d-8d16-f742784fcc1e,Fake Investment Scam,SMS,No,462478.34,Fintech User,Bank Flag,No,Yes,South America,None,Night
+446914f5-605b-48a7-be07-0d621b878115,Fake Investment Scam,Website,Yes,555.21,Fintech User,User Realization,Yes,Yes,South America,High Transfer Volume,Night
+8a95eb01-3241-4ce0-80d4-ae5317ec0113,Fake Investment Scam,Email,Yes,432398.85,Retail Customer,Law Enforcement,No,Yes,US,Unusual Login,Evening
+9aa704bd-ef18-46c6-aa28-a5fa9390e323,Fake Bank App,Email,Yes,37.15,Bank Employee,Bank Flag,No,Yes,Africa,Unusual Login,Afternoon
+183d1c61-4486-4e8a-b3d1-35064b683d26,Voice Phishing,Website,Yes,9001.51,Business Owner,Manual Report,No,Yes,US,Unusual Login,Evening
+facc21b0-79cd-4526-9062-40d0bdc56e56,SMS Phishing,Email,No,61575.32,Fintech User,Bank Flag,No,Yes,Africa,High Transfer Volume,Afternoon
+f10af7da-d37c-4061-9b9e-1e56034db338,Fake Investment Scam,In-person,No,879.71,Bank Employee,AI Detection,No,Yes,Africa,High Transfer Volume,Night
+37cd5f23-808b-4152-a62c-001d0fd8e15b,Social Media Scam,Email,No,6813.25,Business Owner,AI Detection,No,Yes,Australia,Unusual Login,Morning
+848c7182-2ecf-46fe-a35b-91e740091099,Deepfake Video Scam,Email,Yes,55237.49,Retail Customer,AI Detection,Yes,Yes,Asia,High Transfer Volume,Afternoon
+ad248d4a-e114-45e4-8d06-1fd52507dc92,Fake Investment Scam,SMS,No,63000.37,Fintech User,AI Detection,No,Yes,Africa,High Transfer Volume,Night
+d14235ae-8819-47b7-ad7a-7428d6f3965c,Phishing Email,Social Media,No,1819.23,Retail Customer,Law Enforcement,Yes,No,EU,High Transfer Volume,Evening
+42deeb6b-4218-4078-9439-e55b52ba9285,SMS Phishing,Phone Call,No,71074.77,Retail Customer,Law Enforcement,No,Yes,EU,Unusual Login,Morning
+52fcf259-dae6-4223-b92e-6baab6871f5d,Fake Bank App,Website,Yes,2282.14,Bank Employee,Bank Flag,No,Yes,US,Unusual Login,Afternoon
+ba6c3c5e-de97-4fa4-8da5-4dd9961c9756,Deepfake Video Scam,Video,No,777150.98,Fintech User,AI Detection,No,Yes,US,Odd Hours Activity,Night
+87fb46d4-fd3e-42db-a832-c8ef512fae9c,Impersonation Fraud,SMS,No,40.75,Business Owner,AI Detection,No,Yes,Australia,Unusual Login,Afternoon
+9285b47c-6b7b-41fc-94f8-a8fc30356ed6,Voice Phishing,App,No,17551.75,Business Owner,Manual Report,No,Yes,Australia,High Transfer Volume,Afternoon
+3f03a33d-0b77-4323-acd6-ff73c52d0c14,Impersonation Fraud,In-person,Yes,81.26,Bank Employee,Manual Report,Yes,Yes,Africa,Odd Hours Activity,Evening
+00ed0a6c-4297-47cf-a012-d525f83789a1,Impersonation Fraud,Social Media,Yes,856615.77,Bank Employee,AI Detection,Yes,Yes,Asia,Unusual Login,Night
+975b09ba-0d96-4b5a-8fab-61d82acacd2a,SMS Phishing,Phone Call,No,28976.52,Bank Employee,Bank Flag,No,Yes,South America,None,Evening
+7cf2bbf2-54a3-4816-8eaf-540b2dd1fe56,Deepfake Video Scam,Social Media,No,513.82,Bank Employee,AI Detection,Yes,Yes,Australia,None,Morning
+ed75db4e-6a61-4cec-96f7-b6c757e813a5,Phishing Email,Phone Call,No,905741.36,Fintech User,User Realization,Yes,Yes,Australia,Unusual Login,Night
+a4970dfe-8fe0-4fdf-8fa4-f70687be9ab1,SMS Phishing,Social Media,No,422169.17,Business Owner,AI Detection,Yes,No,Asia,High Transfer Volume,Night
+1fac022a-a04b-4752-8f8d-aa971e2eda94,Phishing Email,Video,Yes,7124.99,Bank Employee,Manual Report,Yes,No,South America,High Transfer Volume,Afternoon
+9042c1ad-20a3-4605-a75b-dd61d2424c62,Fake Investment Scam,Social Media,Yes,5435.54,Business Owner,AI Detection,Yes,No,US,Odd Hours Activity,Night
+ae1353a5-d3eb-410d-b31a-008106d4cba6,Voice Phishing,Video,Yes,58.82,Retail Customer,Manual Report,No,Yes,Australia,High Transfer Volume,Evening
+7b71c034-1c6b-474f-b23f-8d6d9135c92f,Deepfake Video Scam,Email,No,894791.74,Retail Customer,User Realization,Yes,No,Africa,None,Evening
+8318b3ce-43db-4a16-862b-5d18ea4d7ab0,SMS Phishing,In-person,No,5655.31,Retail Customer,Manual Report,Yes,No,Africa,None,Evening
+a34f7c08-865a-4e3d-aa85-8fab67556b29,Phishing Email,Website,Yes,1736.28,Retail Customer,Manual Report,No,Yes,US,High Transfer Volume,Afternoon
+374d03bc-748b-4242-98e4-23287cdf9654,Voice Phishing,Social Media,No,62.6,Retail Customer,AI Detection,No,Yes,Africa,Unusual Login,Evening
+b4df8d5f-1db5-4109-9bdf-3bbe06e6d19d,Fake Bank App,Video,Yes,31452.33,Bank Employee,AI Detection,No,Yes,Australia,High Transfer Volume,Morning
+00382bbf-fb6e-4a47-997f-d1e39e232edb,Fake Investment Scam,SMS,No,212343.74,Retail Customer,AI Detection,No,Yes,Asia,Unusual Login,Afternoon
+f63bb46f-9557-4f75-bf5c-0f799a05cc62,Phishing Email,In-person,Yes,6496.65,Fintech User,AI Detection,Yes,Yes,Australia,Unusual Login,Evening
+cafc4ad6-9be4-44a0-b004-c3575601d478,Impersonation Fraud,Website,Yes,776767.02,Business Owner,Law Enforcement,Yes,No,Africa,None,Night
+3a0dc316-52ab-4587-ad63-8e72180577d2,SMS Phishing,Social Media,Yes,56549.16,Business Owner,AI Detection,Yes,Yes,Australia,Unusual Login,Afternoon
+e7ba8ca6-d38b-4926-ae14-0757dd34d49d,Voice Phishing,App,No,53325.94,Fintech User,Manual Report,Yes,Yes,US,Unusual Login,Afternoon
+f00c5bb8-d4ab-4560-9bea-b5d2aae562d3,Fake Bank App,Website,No,6252.99,Business Owner,Manual Report,No,Yes,Asia,Odd Hours Activity,Evening
+dd0a3f70-6fc6-45f8-a139-cab00aff43e8,Social Media Scam,Email,Yes,23.74,Retail Customer,User Realization,No,Yes,EU,High Transfer Volume,Afternoon
+050fc80c-31dc-4452-96a5-adc616a94d38,SMS Phishing,Social Media,Yes,72530.34,Fintech User,Law Enforcement,No,Yes,Australia,Odd Hours Activity,Evening
+942c9e18-c73b-4534-9540-471f8f2ddf26,Impersonation Fraud,Social Media,Yes,45.43,Retail Customer,User Realization,Yes,Yes,South America,High Transfer Volume,Afternoon
+3255ce64-2e14-4062-bd10-d008a8995aa9,Fake Investment Scam,Video,Yes,76112.76,Bank Employee,User Realization,Yes,No,EU,Unusual Login,Evening
+a2f51e04-a3e9-410f-bb22-d52199b379c0,Phishing Email,SMS,No,55.47,Business Owner,Bank Flag,No,Yes,EU,Odd Hours Activity,Morning
+88dc6ed0-cfcc-4761-9655-18d23f7341c8,Phishing Email,Video,Yes,2567.32,Bank Employee,Manual Report,No,Yes,Australia,High Transfer Volume,Afternoon
+774ff4a2-e9d2-403e-8e8c-5ef2482819ba,Deepfake Video Scam,Email,Yes,9195.84,Retail Customer,Manual Report,No,Yes,South America,Unusual Login,Evening
+ed380c51-f07b-4c6d-b58a-502e74a287ef,Deepfake Video Scam,App,No,432.68,Bank Employee,Manual Report,No,Yes,South America,Unusual Login,Morning
+df5357f5-7638-4489-bd05-eb4d45ea0f7d,Voice Phishing,Phone Call,Yes,579.3,Bank Employee,Bank Flag,No,Yes,South America,High Transfer Volume,Morning
+2517bd41-4aad-456d-9527-8ff8a94023c9,Deepfake Video Scam,App,Yes,3224.54,Bank Employee,Manual Report,No,Yes,EU,Unusual Login,Night
+253cbad2-4417-445a-83db-cf5acd585ba8,SMS Phishing,Phone Call,No,436839.48,Fintech User,Manual Report,No,Yes,South America,Odd Hours Activity,Night
+af773308-5fd8-48c1-8264-7bb16389cafe,Fake Investment Scam,In-person,No,460851.46,Retail Customer,Manual Report,Yes,Yes,Africa,High Transfer Volume,Night
+3c9e043e-736e-4d5a-a137-5a8101f0bf82,Deepfake Video Scam,App,No,61423.33,Bank Employee,Bank Flag,Yes,Yes,US,Odd Hours Activity,Night
+90fdd1e1-858e-4945-bfa1-f2ee43c1f15e,Social Media Scam,Video,Yes,56103.59,Bank Employee,User Realization,No,Yes,Africa,None,Night
+1f19bf6e-f090-43ec-a134-f7c932ef6459,Social Media Scam,In-person,No,4441.34,Business Owner,User Realization,Yes,No,South America,Unusual Login,Evening
+1d00c950-5297-4680-a233-d0f29eb388ed,SMS Phishing,App,Yes,9339.45,Retail Customer,AI Detection,Yes,No,US,High Transfer Volume,Evening
+149c8d1c-0d98-4b38-b0b3-3f6885dbe0e9,Deepfake Video Scam,Social Media,No,7706.9,Bank Employee,Manual Report,Yes,No,US,Odd Hours Activity,Evening
+d1074752-0ae1-43b3-b1ea-895178c5b2f4,Social Media Scam,Website,No,782025.47,Retail Customer,User Realization,Yes,No,EU,High Transfer Volume,Afternoon
+673245a9-3bf5-41aa-9817-cd565cf5750e,Fake Investment Scam,Video,No,40659.36,Retail Customer,Bank Flag,Yes,No,South America,None,Afternoon
+e8041614-dff2-46ab-8776-2016027e2ec2,Fake Investment Scam,In-person,Yes,2250.55,Business Owner,Bank Flag,Yes,No,South America,Odd Hours Activity,Evening
+cceacb31-7ce5-4553-9cc6-cdff526516a1,Deepfake Video Scam,Website,No,78655.74,Bank Employee,Bank Flag,Yes,Yes,EU,High Transfer Volume,Evening
+3b6e0949-dd3d-4f54-9685-74a73776e4c1,Impersonation Fraud,Website,Yes,15733.83,Fintech User,Manual Report,No,Yes,US,Odd Hours Activity,Night
+fae8c489-13ad-4361-a723-9c46691b099a,Fake Bank App,SMS,Yes,67.49,Business Owner,AI Detection,No,Yes,US,High Transfer Volume,Afternoon
+96fb7bae-4871-4f3f-8084-b035ae6078ee,SMS Phishing,Website,No,309.74,Retail Customer,User Realization,Yes,No,Australia,Unusual Login,Afternoon
+3d168607-f709-49af-9dd4-a23653d0f28e,Social Media Scam,Website,No,990.64,Business Owner,Law Enforcement,No,Yes,Africa,Unusual Login,Night
+a9d79283-562e-4ea9-a196-5be68e83a6df,Deepfake Video Scam,Phone Call,Yes,4889.81,Fintech User,Manual Report,No,Yes,Australia,High Transfer Volume,Night
+fb2e4a72-eb3c-41ef-bea7-ddd79b97a1f9,Fake Bank App,Video,Yes,501.16,Fintech User,Law Enforcement,Yes,No,Australia,None,Night
+8534613c-7158-4dce-b9d0-84c0cd6792e7,Fake Investment Scam,Email,Yes,6816.69,Fintech User,Bank Flag,No,Yes,Africa,High Transfer Volume,Night
+4c52f64b-74a3-430f-a126-37a4e711a2a2,Deepfake Video Scam,Phone Call,No,44619.85,Business Owner,Law Enforcement,Yes,No,South America,Unusual Login,Afternoon
+f157398a-86f6-4080-855e-a793360a51d6,Voice Phishing,App,No,69.8,Business Owner,User Realization,No,Yes,Australia,Unusual Login,Evening
+2c91ed8d-94ec-4c7c-9704-b2e7abc2eeb5,SMS Phishing,SMS,No,50584.24,Bank Employee,Manual Report,Yes,No,US,Unusual Login,Night
+26a60392-9a17-4696-805a-124345223996,Impersonation Fraud,Social Media,No,457.01,Retail Customer,Bank Flag,Yes,Yes,Asia,None,Night
+b9f08639-9c2b-48f1-99e8-882b5372fa17,Fake Investment Scam,SMS,Yes,691320.34,Fintech User,Manual Report,No,Yes,Asia,High Transfer Volume,Afternoon
+8bafc6a2-c614-4f92-aa06-69fabfdef1ab,Phishing Email,SMS,Yes,2117.36,Fintech User,Manual Report,Yes,Yes,South America,Odd Hours Activity,Afternoon
+d753e6ab-8ab4-4fe8-ae17-b21debc42029,Fake Investment Scam,Social Media,Yes,742.97,Business Owner,User Realization,Yes,Yes,Africa,Odd Hours Activity,Night
+734b736c-bc9d-47bd-9e0f-e7b38d50c519,Phishing Email,Email,Yes,79040.28,Business Owner,Bank Flag,Yes,Yes,US,Unusual Login,Night
+6bf892a0-c754-4ee3-993b-25a3345274db,Phishing Email,Email,No,711.96,Retail Customer,Manual Report,Yes,Yes,South America,High Transfer Volume,Morning
+4fb38a5b-af88-424e-bac6-4766cad29aea,Impersonation Fraud,SMS,No,6058.49,Business Owner,Law Enforcement,Yes,No,Africa,Unusual Login,Afternoon
+91a8713f-2dd4-47e8-bd72-aa2ca47ea37e,Deepfake Video Scam,SMS,No,2562.59,Fintech User,Bank Flag,Yes,No,EU,None,Afternoon
+4f5083af-088e-4ff1-9a96-8900e3a5a394,SMS Phishing,App,No,6.73,Business Owner,User Realization,No,Yes,Australia,None,Morning
+d4fbbe17-db02-46bc-816e-c43bdb46dc50,Voice Phishing,App,Yes,391918.86,Fintech User,Manual Report,No,Yes,EU,Odd Hours Activity,Night
+651492e7-0a13-4dbf-87e4-4d3cebf3a42b,SMS Phishing,Social Media,Yes,920892.93,Fintech User,User Realization,Yes,Yes,EU,Unusual Login,Morning
+092a959b-2887-46cb-a6d9-b4d650c5fbad,Fake Bank App,Video,No,657.79,Retail Customer,Manual Report,No,Yes,Africa,Odd Hours Activity,Afternoon
+bcd8f05f-16e0-4e30-bba4-0f0a93962100,Voice Phishing,Website,Yes,23.81,Fintech User,Bank Flag,Yes,No,Asia,Unusual Login,Night
+2cbb69a6-92ce-42d3-a3ad-702f5dfe30eb,Fake Bank App,Email,Yes,4084.56,Business Owner,Law Enforcement,Yes,Yes,South America,High Transfer Volume,Night
+1e05b284-431c-4245-9e1b-dd7ae29cb04e,Social Media Scam,Phone Call,No,6.46,Fintech User,AI Detection,Yes,Yes,South America,High Transfer Volume,Afternoon
+6e2c1a33-703a-4337-8b07-ff24e8474386,Voice Phishing,SMS,Yes,593962.39,Business Owner,Manual Report,Yes,No,South America,None,Evening
+48c3124f-98c3-405f-8f8e-7b8c1201535e,Voice Phishing,Video,Yes,25879.2,Business Owner,Bank Flag,No,Yes,Australia,None,Afternoon
+a583f696-2f34-4a44-b310-e65d1c327fb6,Fake Bank App,In-person,Yes,4584.2,Business Owner,User Realization,No,Yes,Africa,None,Afternoon
+2a8091d0-97e5-4354-9a49-5db62a4bd80c,Fake Investment Scam,Email,No,86863.8,Bank Employee,Law Enforcement,Yes,Yes,Asia,None,Night
+a8a6d00b-9517-4475-89a0-472c8f03ca22,Fake Bank App,In-person,No,60592.79,Fintech User,AI Detection,No,Yes,EU,None,Afternoon
+e534e7e8-e868-477f-91fc-36e4f3460c26,Voice Phishing,Video,Yes,86.17,Bank Employee,User Realization,No,Yes,Africa,None,Evening
+9aafe3bf-8788-4c86-9f54-250861725a12,Impersonation Fraud,In-person,No,164110.92,Retail Customer,AI Detection,No,Yes,Australia,High Transfer Volume,Afternoon
+859b3071-133b-45db-9741-71aab8a61120,Impersonation Fraud,App,No,738215.62,Bank Employee,AI Detection,No,Yes,Africa,High Transfer Volume,Afternoon
+51760191-afed-49cf-b60e-2f1700531dd6,Fake Investment Scam,Email,No,69.75,Business Owner,Bank Flag,No,Yes,South America,High Transfer Volume,Evening
+d1d5f60b-a8df-4d6d-920f-34c03e86ad3f,Deepfake Video Scam,Phone Call,Yes,77.1,Fintech User,User Realization,Yes,Yes,Africa,High Transfer Volume,Night
+72cfd572-2d4d-4a62-80e1-f7565980808d,Fake Bank App,App,No,377180.98,Fintech User,AI Detection,Yes,No,EU,Odd Hours Activity,Afternoon
+1bacab18-4497-4f75-836f-6bc97b235dec,Impersonation Fraud,App,Yes,834.75,Retail Customer,AI Detection,Yes,No,Australia,None,Evening
+2d836700-3926-46f6-92c8-02578403f373,Impersonation Fraud,Phone Call,Yes,2677.6,Business Owner,Manual Report,No,Yes,EU,Unusual Login,Night
+b9a048b8-00db-4952-a7bd-01cf489d9607,Deepfake Video Scam,Phone Call,Yes,74.99,Business Owner,Bank Flag,No,Yes,Africa,Unusual Login,Afternoon
+12e886bc-f2cd-4e45-9fdc-371b42a769be,SMS Phishing,App,Yes,21221.34,Retail Customer,Bank Flag,Yes,Yes,Africa,None,Morning
+412a620b-62a3-4d70-bd06-3ac9e6424826,Phishing Email,Email,No,66.53,Retail Customer,AI Detection,Yes,Yes,Africa,Odd Hours Activity,Night
+17c56621-673d-459b-83d1-683f70a71ede,Fake Investment Scam,Social Media,No,4337.07,Bank Employee,Bank Flag,Yes,No,South America,None,Night
+0d5196af-7480-49ab-9798-5491f40e59ca,Phishing Email,Social Media,No,0.31,Fintech User,Manual Report,Yes,Yes,Australia,Odd Hours Activity,Afternoon
+3985ac75-7132-480e-a6cf-a464ccec7215,Social Media Scam,In-person,No,471813.93,Business Owner,AI Detection,No,Yes,US,Odd Hours Activity,Morning
+33b9619d-a936-4b1e-9b11-ae41af2f169c,Social Media Scam,In-person,Yes,536082.53,Retail Customer,Bank Flag,No,Yes,Africa,Unusual Login,Night
+dddd21cc-fdbe-449b-b0d7-7f5326c45884,Fake Bank App,Video,Yes,888610.61,Retail Customer,Manual Report,No,Yes,US,Odd Hours Activity,Night
+b1bae863-2e12-4186-aabc-3b3697638c95,Voice Phishing,In-person,Yes,69637.79,Business Owner,Manual Report,Yes,Yes,South America,Unusual Login,Morning
+eeaab62f-a089-49bb-94d5-f4be3096fdc2,Impersonation Fraud,Email,Yes,9123.84,Bank Employee,Manual Report,No,Yes,South America,None,Morning
+caf1722f-ca97-47ae-82aa-fac555078eaf,Voice Phishing,In-person,Yes,8847.47,Retail Customer,Bank Flag,No,Yes,South America,None,Night
+46bd8fb1-48be-4cfe-8bae-4d87f422283f,Deepfake Video Scam,Video,No,29.1,Retail Customer,AI Detection,No,Yes,South America,High Transfer Volume,Morning
+cfe2dac4-fdb4-4afc-ae76-e6927908d4ce,Social Media Scam,Phone Call,No,61922.52,Retail Customer,Bank Flag,Yes,Yes,Africa,None,Evening
+716e3658-78d7-481b-bd3b-bbda17fae5dd,Social Media Scam,Phone Call,Yes,39.53,Fintech User,Bank Flag,Yes,No,EU,None,Night
+20617c4e-73fc-408b-b9d6-89d8ec156eeb,Voice Phishing,App,Yes,59.89,Bank Employee,Law Enforcement,Yes,No,South America,None,Afternoon
+93055c5f-ff27-49df-bef6-d786c95e173b,Fake Investment Scam,App,No,98.11,Bank Employee,Manual Report,Yes,Yes,South America,Unusual Login,Afternoon
+f9156e70-2972-4493-8439-b73f17f0e473,Fake Investment Scam,Website,No,991.96,Fintech User,Bank Flag,No,Yes,South America,None,Evening
+30ab0c52-d705-42f1-bf38-8465bd107b42,Impersonation Fraud,Website,Yes,754079.14,Bank Employee,Manual Report,No,Yes,US,High Transfer Volume,Evening
+f12bc1ca-c784-4115-a735-0b13e9699359,Phishing Email,App,No,619.44,Fintech User,User Realization,No,Yes,EU,High Transfer Volume,Afternoon
+79919112-0304-496c-bf06-c18e43c00637,Deepfake Video Scam,Email,No,191753.06,Business Owner,User Realization,No,Yes,South America,High Transfer Volume,Morning
+c2c92b79-ff1a-4ed6-bb80-1ce53fe77e42,SMS Phishing,Social Media,No,950.56,Retail Customer,Law Enforcement,No,Yes,Australia,None,Afternoon
+629ed741-b947-400d-beba-e468ec4037d4,Impersonation Fraud,Video,Yes,24.09,Fintech User,Bank Flag,Yes,No,South America,Unusual Login,Night
+2e916b0b-ca8d-4826-ab5f-7f2e09f7aef0,Impersonation Fraud,App,No,1104.42,Retail Customer,AI Detection,Yes,No,South America,High Transfer Volume,Morning
+d44b7cd2-43f9-4512-b01c-907fd3a2ef70,Fake Investment Scam,App,Yes,262986.93,Fintech User,User Realization,No,Yes,Australia,High Transfer Volume,Morning
+d749bb33-9123-4cd1-9409-815d808a9815,Social Media Scam,SMS,Yes,83158.11,Retail Customer,User Realization,No,Yes,US,Unusual Login,Afternoon
+a9615a98-831f-4552-a83f-43fa99ccc44f,SMS Phishing,Phone Call,Yes,55.47,Bank Employee,AI Detection,Yes,Yes,Australia,High Transfer Volume,Afternoon
+4588b98c-aa20-4657-8a5b-e4fb7067d71f,SMS Phishing,App,Yes,97.99,Bank Employee,Bank Flag,Yes,No,South America,Unusual Login,Afternoon
+df204be6-369e-4132-a5d2-56e02a01fe4c,Fake Bank App,Email,No,500428.26,Fintech User,Bank Flag,No,Yes,Australia,High Transfer Volume,Morning
+05e8ffba-52ed-4b14-a69c-59b0e21b670e,Phishing Email,Video,Yes,227.5,Business Owner,Manual Report,Yes,No,Asia,High Transfer Volume,Night
+6972197f-1ff7-448c-867b-bbce1f4c9eac,SMS Phishing,App,No,68479.2,Business Owner,User Realization,No,Yes,US,Odd Hours Activity,Night
+8105dfd0-5c70-4c14-86ef-dd2617565307,Voice Phishing,Video,Yes,9958.23,Business Owner,Bank Flag,Yes,No,EU,Odd Hours Activity,Night
+4314b154-a087-40cf-b07f-bb7468d3ace7,Impersonation Fraud,Email,Yes,27.01,Retail Customer,Law Enforcement,No,Yes,US,Odd Hours Activity,Morning
+dcb23481-a905-43cc-9546-0d239da1b598,Social Media Scam,Social Media,No,881.97,Business Owner,Bank Flag,Yes,Yes,Africa,High Transfer Volume,Night
+f83fab80-a6ae-4897-bce2-c80877015503,SMS Phishing,SMS,Yes,755494.67,Bank Employee,Law Enforcement,No,Yes,US,Odd Hours Activity,Evening
+20c8db49-3637-411d-aa95-a2419d35856e,Fake Bank App,SMS,Yes,386.2,Fintech User,Manual Report,No,Yes,South America,None,Night
+c0a1339d-7853-485a-9b5f-ed0a4bb79548,Voice Phishing,App,Yes,741900.4,Business Owner,Manual Report,No,Yes,Australia,Odd Hours Activity,Morning
+f613f6ae-dddb-400a-a225-d0ba40e1c5d5,Social Media Scam,Video,No,26479.41,Bank Employee,User Realization,No,Yes,Asia,None,Afternoon
+8bde0b49-d92a-4968-9022-c5018e918eb1,Fake Bank App,SMS,No,79352.06,Retail Customer,AI Detection,Yes,Yes,US,High Transfer Volume,Morning
+33409714-8dce-48aa-b555-f35a13e931f3,SMS Phishing,App,No,96.22,Fintech User,Law Enforcement,Yes,No,Africa,Unusual Login,Night
+6793c2e1-f870-4bc1-95f3-b653a638c75e,Phishing Email,Video,Yes,73233.25,Bank Employee,Manual Report,Yes,No,EU,High Transfer Volume,Afternoon
+05b5010d-6e62-4d31-888d-44f6fa6694c5,SMS Phishing,Social Media,Yes,417962.38,Retail Customer,User Realization,No,Yes,Africa,High Transfer Volume,Evening
+53713243-40aa-4d86-a819-08c79b7b8d0e,SMS Phishing,Social Media,Yes,865699.35,Retail Customer,Bank Flag,No,Yes,Africa,Odd Hours Activity,Evening
+66fe8d46-b1be-4bca-b05e-27b1bcbc5538,Deepfake Video Scam,Email,No,930.75,Retail Customer,User Realization,No,Yes,US,Odd Hours Activity,Morning
+ccd7e9c5-19fa-49f3-a10a-4791e2896b7f,Fake Investment Scam,Social Media,No,1964.48,Bank Employee,Manual Report,No,Yes,Asia,Unusual Login,Morning
+670fc777-1b9e-4c30-8a6e-5aebc1c78755,Impersonation Fraud,In-person,Yes,52.91,Business Owner,User Realization,Yes,No,US,High Transfer Volume,Evening
+658aa748-41b4-4c8a-ac31-db0595a97b55,Deepfake Video Scam,In-person,No,3693.56,Fintech User,Manual Report,No,Yes,US,None,Night
+1e7377d8-6e7c-417b-acc0-6430d7b09981,Voice Phishing,Phone Call,No,10522.92,Business Owner,AI Detection,Yes,No,US,High Transfer Volume,Night
+68451c11-ca29-401f-b59e-3951c2479fed,Impersonation Fraud,Social Media,Yes,699.58,Fintech User,Bank Flag,Yes,No,Africa,None,Afternoon
+c957b303-18fe-4038-91be-0ee4e4392815,Social Media Scam,Website,No,198.76,Retail Customer,AI Detection,Yes,Yes,Asia,Unusual Login,Afternoon
+ad9d02bb-9a64-4264-8716-4289c8b3f15b,Phishing Email,Social Media,No,763688.4,Fintech User,User Realization,No,Yes,Asia,None,Morning
+05fb4349-75aa-4dd4-85da-435c404c07b8,Impersonation Fraud,Video,Yes,268174.21,Bank Employee,AI Detection,No,Yes,South America,High Transfer Volume,Night
+248bc74e-3795-4b65-b02d-e3a908bb43ed,Deepfake Video Scam,In-person,Yes,649990.4,Business Owner,Law Enforcement,Yes,Yes,US,High Transfer Volume,Night
+31f5f1ab-3747-4a1f-b62d-98ffcb0472d8,Phishing Email,App,Yes,483.67,Business Owner,AI Detection,Yes,No,Africa,Odd Hours Activity,Afternoon
+b641e2dc-5f29-4cc1-967b-b4a5f6970ed2,Deepfake Video Scam,Social Media,No,15521.48,Fintech User,AI Detection,No,Yes,US,Odd Hours Activity,Evening
+debb320e-2aa6-4288-9fd2-55e4184b987d,Fake Bank App,Social Media,No,387.86,Retail Customer,Manual Report,Yes,Yes,US,Odd Hours Activity,Afternoon
+335c8c5f-89f3-43e1-9507-ade1618eb268,Fake Bank App,In-person,No,190685.53,Business Owner,Bank Flag,No,Yes,Asia,Odd Hours Activity,Evening
+ab16be01-5c10-47c9-96b2-2f9b50c28875,SMS Phishing,SMS,Yes,793417.28,Business Owner,Bank Flag,No,Yes,South America,Odd Hours Activity,Evening
+feca395b-2bdf-4923-8900-bf0c98d1b559,Deepfake Video Scam,App,Yes,445644.42,Retail Customer,Manual Report,Yes,Yes,Australia,High Transfer Volume,Afternoon
+639b0498-d17b-4ebc-a4a2-d8ca79121115,Fake Investment Scam,SMS,Yes,657109.33,Bank Employee,User Realization,Yes,Yes,US,High Transfer Volume,Afternoon
+6e5f4c74-c36b-48c6-9fcb-ea38c416e88b,Impersonation Fraud,App,No,5036.34,Retail Customer,User Realization,Yes,No,Africa,Unusual Login,Afternoon
+065dc8f8-33e4-44a1-af84-247b9c901847,Fake Bank App,Phone Call,No,95.58,Retail Customer,Manual Report,No,Yes,Africa,Unusual Login,Afternoon
+c5c2e983-6dc4-4ec3-85ac-80089fba47ea,Fake Investment Scam,Website,No,64649.65,Business Owner,Manual Report,Yes,Yes,Australia,High Transfer Volume,Morning
+51b55a53-368f-46f1-8069-fee70264bb5c,Fake Investment Scam,App,No,366.73,Bank Employee,Law Enforcement,Yes,Yes,EU,Unusual Login,Afternoon
+b457d08d-7268-4f34-9733-d9c623b6f2ef,Fake Bank App,Email,Yes,9345.23,Bank Employee,AI Detection,Yes,Yes,Australia,Unusual Login,Morning
+868f035f-b8ba-4ce0-b0b8-c7273c59d4a0,Social Media Scam,Social Media,No,94.64,Bank Employee,Manual Report,No,Yes,Australia,Odd Hours Activity,Evening
+e8df54cb-4cc4-49ab-b6b7-e8be41e5a673,Phishing Email,Email,No,757.43,Bank Employee,Manual Report,No,Yes,US,Unusual Login,Night
+ed0b8cd0-6f91-4344-aee1-b1f5d7ea9f4f,Fake Bank App,Video,No,391.84,Business Owner,Law Enforcement,No,Yes,EU,None,Afternoon
+5970c594-60c7-4d12-8232-7172ca073be5,Impersonation Fraud,Social Media,Yes,18432.2,Business Owner,User Realization,Yes,Yes,EU,None,Afternoon
+6578b21e-44dc-4675-aca4-b2ea5150755f,Fake Bank App,Email,No,896.73,Fintech User,Law Enforcement,Yes,Yes,EU,Unusual Login,Night
+a831158d-83b6-48dc-b772-27506a4a7ec7,Deepfake Video Scam,In-person,No,72.43,Business Owner,AI Detection,Yes,No,Africa,Unusual Login,Morning
+b8543203-9197-4989-a165-10ff70dc6689,Phishing Email,Email,Yes,793.11,Bank Employee,Manual Report,Yes,Yes,US,Odd Hours Activity,Morning
+27b9a749-c26b-4d26-a623-d0f91b5634e8,Deepfake Video Scam,Phone Call,No,903151.26,Business Owner,Bank Flag,No,Yes,Africa,High Transfer Volume,Afternoon
+46ed324d-b68b-4d66-81b6-e85ed605bb2f,Phishing Email,App,Yes,82.49,Retail Customer,Law Enforcement,No,Yes,US,None,Afternoon
+ef08f1fc-315a-4e75-b5cc-9ac5d8386c8d,Phishing Email,Video,Yes,484.42,Business Owner,Bank Flag,No,Yes,EU,None,Morning
+328ea73a-9d8e-4565-8fdd-71bb13f56295,Fake Investment Scam,Phone Call,Yes,191.56,Bank Employee,Bank Flag,Yes,No,US,Odd Hours Activity,Morning
+833498dc-07b2-4c24-b5a3-d57bf40eecf5,Phishing Email,Phone Call,Yes,57743.26,Business Owner,User Realization,Yes,No,Australia,Odd Hours Activity,Evening
+b5ef61d4-2ad7-40f3-b907-e30b399d4d5f,SMS Phishing,App,No,9395.94,Retail Customer,AI Detection,Yes,Yes,Asia,High Transfer Volume,Night
+2b60951d-2f34-4eb6-80d4-8be5c3774522,Fake Investment Scam,In-person,Yes,57.78,Bank Employee,Manual Report,Yes,No,EU,High Transfer Volume,Night
+cc3cebec-1cfc-4469-a4d2-a69b6528a694,Social Media Scam,Social Media,No,53315.97,Fintech User,Law Enforcement,No,Yes,EU,High Transfer Volume,Night
+e326e437-3dda-43e5-80a2-f54ceaee7092,Impersonation Fraud,In-person,No,582591.31,Business Owner,User Realization,Yes,No,Australia,High Transfer Volume,Morning
+c727627c-1d63-4f4f-b0f2-fd47d6e0f434,Deepfake Video Scam,Social Media,Yes,994.51,Retail Customer,Bank Flag,No,Yes,EU,Unusual Login,Morning
+50dacf76-d27a-4dde-aa58-e0dfae8471b2,Social Media Scam,Social Media,Yes,5143.5,Fintech User,Manual Report,Yes,Yes,US,High Transfer Volume,Morning
+2708a746-4434-4b25-b706-8520fc20d07e,Voice Phishing,Website,Yes,43451.58,Retail Customer,Law Enforcement,Yes,No,Australia,High Transfer Volume,Morning
+4407636e-9af9-4491-93cb-d01da05f4128,Voice Phishing,Social Media,Yes,24.5,Retail Customer,Law Enforcement,No,Yes,EU,High Transfer Volume,Night
+20f34553-621d-4aeb-8fcd-405d36b10be7,Voice Phishing,App,No,75030.17,Fintech User,AI Detection,No,Yes,US,High Transfer Volume,Morning
+34557b74-b2de-4925-8108-d5b65e7c9380,Phishing Email,Phone Call,Yes,39.64,Fintech User,User Realization,No,Yes,Australia,Odd Hours Activity,Afternoon
+64242d23-62e8-439b-b7f2-2a4e91224916,Impersonation Fraud,Phone Call,No,52.15,Business Owner,Manual Report,No,Yes,Australia,Unusual Login,Afternoon
+1a0e87c5-d46f-4fc1-a7aa-d666eea58cc2,Impersonation Fraud,Phone Call,Yes,52967.46,Fintech User,User Realization,Yes,Yes,Asia,None,Afternoon
+89fa695e-c437-459f-bf6f-687c9e83db8d,Fake Bank App,SMS,Yes,36.27,Bank Employee,AI Detection,Yes,No,EU,Unusual Login,Morning
+680623b0-9e8e-4cbd-9904-cd486d7a2605,Deepfake Video Scam,Email,No,596.52,Retail Customer,Manual Report,No,Yes,US,Unusual Login,Night
+e55e8355-918e-4887-8481-02be53554eec,Phishing Email,Email,No,94.35,Retail Customer,Bank Flag,No,Yes,Africa,High Transfer Volume,Evening
+59d83403-286f-4096-9810-a0ffc1d8eedd,Impersonation Fraud,Social Media,Yes,33.13,Retail Customer,Law Enforcement,Yes,Yes,Australia,None,Night
+09751f15-1ed1-496e-ab17-fe0b0f23ef39,Phishing Email,App,Yes,714.14,Retail Customer,AI Detection,Yes,Yes,South America,High Transfer Volume,Afternoon
+03d525ee-787a-435b-9441-35463a197c9b,Social Media Scam,In-person,Yes,3617.57,Fintech User,AI Detection,No,Yes,EU,High Transfer Volume,Morning
+ecdab5a3-f1d8-4c58-afed-f44d9904d278,Voice Phishing,In-person,Yes,14.26,Bank Employee,Law Enforcement,Yes,No,US,None,Evening
+24bff770-4b19-41f7-af25-e57f4504111b,Voice Phishing,App,Yes,28.01,Bank Employee,Bank Flag,Yes,Yes,EU,None,Evening
+e9363902-4fb1-4485-97bf-80ff795cd9fc,Fake Investment Scam,App,No,945.85,Fintech User,AI Detection,No,Yes,Asia,None,Night
+f180a558-ecff-46a7-8b9a-16abfbbf53f9,Voice Phishing,In-person,No,860352.08,Bank Employee,Bank Flag,Yes,No,Australia,None,Evening
+e27df78e-ab14-4c10-adad-9c6fde789d59,Phishing Email,Email,Yes,107148.65,Retail Customer,Bank Flag,No,Yes,EU,None,Morning
+bb21e14c-c3f7-43a5-af1b-08ab528406ea,Deepfake Video Scam,Website,No,34.89,Fintech User,Law Enforcement,No,Yes,US,Unusual Login,Afternoon
+cfe2a9c3-ff8b-41f9-8db5-8667ef1d908e,SMS Phishing,Website,No,461.37,Retail Customer,Bank Flag,No,Yes,Australia,None,Afternoon
+8b405a4e-e906-4a12-a8ab-bc27143b8a41,Fake Investment Scam,SMS,No,13445.41,Business Owner,User Realization,Yes,Yes,Asia,Unusual Login,Night
+4ed9a849-cd72-4dc4-8670-87da43adf9f2,Phishing Email,Social Media,No,29207.87,Business Owner,AI Detection,No,Yes,Asia,Odd Hours Activity,Afternoon
+be2db682-cdc8-4b05-95f2-bdeac32f3d0a,SMS Phishing,Phone Call,Yes,4645.62,Bank Employee,User Realization,No,Yes,Australia,High Transfer Volume,Evening
+8cc5a46a-1a4c-4396-8a50-b1e430d70a56,Voice Phishing,Email,Yes,40781.72,Bank Employee,Manual Report,Yes,No,Africa,None,Night
+afaabccc-1613-4e97-a5a4-4d463cd98dd5,Voice Phishing,Website,No,450224.17,Retail Customer,Law Enforcement,Yes,Yes,South America,High Transfer Volume,Evening
+4e18bbd3-361c-4b59-93f4-ae5b16825090,Social Media Scam,Email,Yes,94043.75,Fintech User,Bank Flag,Yes,No,Asia,Unusual Login,Night
+229ccc8d-36bf-4f4f-976a-1b0adbd30b52,Voice Phishing,In-person,Yes,21.86,Business Owner,User Realization,Yes,No,EU,Odd Hours Activity,Afternoon
+c50466df-d552-4bd6-b227-a839e19d2b92,Deepfake Video Scam,Email,No,1145.72,Bank Employee,Law Enforcement,Yes,No,South America,None,Night
+0b577820-67ce-483b-94b1-c18f5f637ec8,Impersonation Fraud,Social Media,No,483264.28,Bank Employee,AI Detection,Yes,No,Africa,Odd Hours Activity,Afternoon
+03d9729f-0d85-4833-9804-d7f5e0739ed2,Voice Phishing,Website,No,8605.82,Fintech User,Bank Flag,Yes,Yes,US,Unusual Login,Morning
+b6e96bd5-407a-4e1f-91b3-09315bc7516c,Impersonation Fraud,SMS,No,934506.02,Retail Customer,User Realization,Yes,No,Africa,High Transfer Volume,Afternoon
+c73ba3e1-425c-4416-ab26-108d770fb687,Fake Investment Scam,Website,Yes,870.71,Retail Customer,Bank Flag,No,Yes,Africa,None,Morning
+9afadc8d-90a9-472a-a0be-878bf049c421,Social Media Scam,Video,No,8916.46,Bank Employee,Bank Flag,No,Yes,South America,High Transfer Volume,Morning
+a979590a-75ab-4bf2-b8ed-80de8849d629,Impersonation Fraud,Email,Yes,15.34,Bank Employee,Law Enforcement,No,Yes,Asia,High Transfer Volume,Night
+a2aec148-eba2-46f5-a102-f101066eee20,Deepfake Video Scam,Website,Yes,679990.92,Retail Customer,Law Enforcement,No,Yes,EU,None,Afternoon
+42ec2bd6-2fc1-4477-b7d9-5e91408e9fec,Impersonation Fraud,Social Media,Yes,30787.26,Business Owner,Law Enforcement,Yes,No,South America,Odd Hours Activity,Afternoon
+a878ae1c-eaf5-4bd1-a628-35342d4e6bbc,Social Media Scam,Video,Yes,2.56,Retail Customer,Law Enforcement,Yes,Yes,Australia,Unusual Login,Night
+4aa9ff1c-547e-4094-93f9-a60b3ce693c0,Phishing Email,Phone Call,No,2679.0,Business Owner,Bank Flag,Yes,Yes,South America,None,Evening
+7bdb91dc-8db4-4555-be32-d1f4e1f600ec,Phishing Email,App,Yes,664.69,Retail Customer,AI Detection,No,Yes,Australia,Unusual Login,Morning
+5dae4ac0-089b-4e69-b978-f8d23aa37d2d,Voice Phishing,App,No,183.5,Fintech User,Bank Flag,Yes,No,US,None,Morning
+77308fb5-b3ad-4e06-9e75-4186e31afa4a,Impersonation Fraud,SMS,No,21.03,Fintech User,User Realization,No,Yes,South America,None,Afternoon
+79f08d2c-1d6c-42ed-9e50-f9c3f332da0b,Voice Phishing,App,Yes,693.7,Retail Customer,AI Detection,No,Yes,Asia,None,Morning
+31334632-c313-4803-a9bb-bbf17b81a036,Voice Phishing,App,Yes,645.5,Retail Customer,Law Enforcement,Yes,Yes,Asia,Unusual Login,Afternoon
+ad8b27bb-b1fd-4128-b4e8-fc828b903030,Phishing Email,Social Media,Yes,175.1,Business Owner,Bank Flag,No,Yes,Africa,High Transfer Volume,Morning
+a7433bb6-20b3-4cd1-8a46-9bbaa961d043,Social Media Scam,App,No,49245.58,Fintech User,Manual Report,No,Yes,EU,High Transfer Volume,Evening
+a1c994ef-8044-4676-8863-1d1760bcdf6d,Impersonation Fraud,SMS,No,814.69,Fintech User,User Realization,No,Yes,Africa,Odd Hours Activity,Evening
+f199e45e-d624-4e67-a5c6-5049b2d67280,SMS Phishing,Website,No,610.43,Bank Employee,AI Detection,No,Yes,EU,Unusual Login,Evening
+6c49dd2b-ae01-4ee7-872e-5901f6e4711b,Impersonation Fraud,App,No,12694.6,Business Owner,Bank Flag,No,Yes,EU,Odd Hours Activity,Afternoon
+2a36ad42-a815-4df9-a3aa-37791a342822,SMS Phishing,Video,No,2305.36,Bank Employee,AI Detection,Yes,No,South America,Unusual Login,Evening
+2d7b04ae-be84-42c7-bf67-77d661c23b2a,Deepfake Video Scam,In-person,No,605.48,Fintech User,Bank Flag,Yes,Yes,US,Odd Hours Activity,Morning
+6a0dcf6c-43d4-447d-b485-7296bbdfadfd,Impersonation Fraud,Website,No,2783.35,Retail Customer,User Realization,No,Yes,US,Odd Hours Activity,Night
+439a4f10-7001-46de-96e6-32e6da04b983,SMS Phishing,SMS,No,641.29,Fintech User,Manual Report,Yes,No,US,Unusual Login,Night
+91597c8d-dc48-45a1-8c42-522e6c666eb1,Fake Bank App,Phone Call,No,89.58,Retail Customer,Bank Flag,Yes,Yes,Africa,Unusual Login,Night
+22ccc0af-6dbb-4cd9-9b4b-3abf02e24f6f,Fake Bank App,App,No,4603.1,Bank Employee,User Realization,Yes,No,Asia,None,Night
+371ab7e7-d02f-4422-a2df-99d8cdebce61,SMS Phishing,Social Media,Yes,22.4,Retail Customer,Manual Report,Yes,No,South America,None,Afternoon
+eea935ae-cd90-46ac-b002-72fbdb05d780,Voice Phishing,SMS,Yes,8345.33,Retail Customer,AI Detection,No,Yes,US,Unusual Login,Morning
+6ce13396-14c3-4acd-9bad-60246849f3c7,Fake Bank App,SMS,No,7191.29,Fintech User,Bank Flag,Yes,Yes,Australia,None,Morning
+96b77e6f-d9ef-4aa9-8254-39ea93efadc2,Voice Phishing,Social Media,Yes,899018.57,Fintech User,User Realization,Yes,Yes,Australia,None,Night
+3c8146e9-a836-4fda-983b-df54de351ec4,Fake Bank App,Social Media,No,182.62,Bank Employee,AI Detection,No,Yes,Australia,High Transfer Volume,Afternoon
+4e31a25c-a612-45bf-b539-c49bb32f8394,SMS Phishing,SMS,No,21.25,Business Owner,User Realization,No,Yes,EU,None,Morning
+85ce4ad8-133f-4b4f-ae9c-975226ddb81e,Social Media Scam,Video,No,7376.61,Business Owner,Law Enforcement,Yes,Yes,EU,Odd Hours Activity,Night
+4fc0b863-fb70-4329-b72b-8ae2c6fb8194,Fake Investment Scam,Video,No,161.78,Fintech User,Manual Report,No,Yes,Australia,Unusual Login,Afternoon
+c42bd1e2-8a55-47f7-97ff-ee7c5326b526,Fake Investment Scam,SMS,Yes,114.93,Fintech User,Manual Report,No,Yes,US,None,Night
+24409e7b-ffc7-4995-ba27-28af51b5c839,Social Media Scam,App,Yes,175660.09,Fintech User,Manual Report,Yes,No,Australia,None,Evening
+b8902d90-5618-4c0f-9a86-d283bc1c0373,Phishing Email,In-person,No,1880.31,Fintech User,User Realization,Yes,No,EU,None,Afternoon
+0293a13e-a399-494c-9a9b-7e93c565ed55,Fake Bank App,In-person,No,68.12,Business Owner,AI Detection,Yes,Yes,US,Unusual Login,Evening
+5832c78f-50d6-4dfb-bc4b-55435740e2b5,Deepfake Video Scam,SMS,Yes,3038.19,Fintech User,User Realization,No,Yes,US,High Transfer Volume,Evening
+0c0510c9-1fec-475b-8b32-b7b2f86c36be,Fake Investment Scam,Video,Yes,412.87,Bank Employee,Law Enforcement,No,Yes,South America,Unusual Login,Morning
+504c2186-cba5-408b-a0f9-92b689ccc7ab,Voice Phishing,In-person,No,253.21,Retail Customer,Manual Report,Yes,No,Africa,High Transfer Volume,Morning
+33db8731-946a-40ea-bd03-6cefdbe43b61,Fake Investment Scam,Website,No,17.75,Bank Employee,AI Detection,Yes,Yes,Australia,Odd Hours Activity,Night
+33bd436c-7520-4d29-8578-89b1a238eb42,Phishing Email,In-person,Yes,19844.74,Retail Customer,Law Enforcement,No,Yes,EU,High Transfer Volume,Afternoon
+047fa0cc-746d-48ef-8b2a-470cf8688ac3,SMS Phishing,SMS,No,5073.55,Bank Employee,Law Enforcement,No,Yes,South America,None,Evening
+f352289a-c178-4b92-967a-1d8bb2f70843,Social Media Scam,In-person,Yes,3710.21,Bank Employee,Law Enforcement,No,Yes,US,Odd Hours Activity,Morning
+5f1e55ec-37c5-4971-9905-0d825ea86dcf,Voice Phishing,Website,Yes,421.47,Retail Customer,Manual Report,No,Yes,Asia,High Transfer Volume,Morning
+927885ee-33c6-4cbc-b572-8dc14028f4c9,Deepfake Video Scam,Website,Yes,8894.3,Fintech User,Law Enforcement,Yes,No,South America,Odd Hours Activity,Evening
+1ae00782-b4ed-4dad-990f-6554058d8b8e,Impersonation Fraud,Website,No,2715.15,Bank Employee,Law Enforcement,Yes,No,Africa,Odd Hours Activity,Evening
+b0e59750-7371-4c47-b6d3-9fecf4f64208,SMS Phishing,Email,No,519.69,Business Owner,Law Enforcement,No,Yes,Australia,High Transfer Volume,Evening
+26553bca-9122-4f65-a11f-01110d7e17c7,Fake Investment Scam,App,Yes,1140.33,Retail Customer,Manual Report,No,Yes,Australia,Unusual Login,Morning
+9c5a71d9-e493-4899-858e-083672904c83,Fake Investment Scam,App,Yes,41703.0,Retail Customer,AI Detection,No,Yes,EU,Odd Hours Activity,Evening
+1a113da9-adf4-43b3-8f6b-a3f1812fddb7,Voice Phishing,SMS,No,996.32,Business Owner,User Realization,Yes,No,EU,Unusual Login,Night
+4791aefd-258b-4866-abf3-0ece79a653d7,Social Media Scam,Video,No,45920.22,Retail Customer,Bank Flag,No,Yes,Australia,Odd Hours Activity,Afternoon
+404e9d7a-144b-4c7c-9b5c-aa6a29ff6949,Impersonation Fraud,Social Media,Yes,325.02,Fintech User,Law Enforcement,Yes,No,Asia,Unusual Login,Evening
+dc5f4e02-0af1-4cd3-b649-8cbd89ae768b,Fake Investment Scam,Phone Call,No,18643.81,Fintech User,Bank Flag,No,Yes,Africa,Odd Hours Activity,Night
+6a40d585-a52e-44fb-9583-b4d1be71d859,Fake Investment Scam,Website,No,12490.56,Retail Customer,User Realization,Yes,Yes,Australia,Odd Hours Activity,Afternoon
+9a0dd315-8a0c-47be-9dc4-616adb915048,Social Media Scam,Phone Call,No,75.53,Fintech User,Manual Report,No,Yes,South America,Unusual Login,Night
+e7e8870b-031b-4868-90e3-fda397494126,Fake Investment Scam,Email,Yes,27.02,Retail Customer,Bank Flag,Yes,No,Australia,None,Evening
+f15ba86c-69f1-4c7d-91a6-d2367fa0b42c,Phishing Email,SMS,Yes,564.64,Fintech User,Manual Report,Yes,Yes,Asia,Odd Hours Activity,Morning
+f72ddd2c-3498-4b15-a4e8-b9e51bacc41f,Fake Investment Scam,Video,Yes,0.0,Retail Customer,Law Enforcement,Yes,Yes,EU,Unusual Login,Night
+a35e2ee2-89fa-45a2-919d-7c0a1b408af7,Phishing Email,In-person,No,92.6,Bank Employee,User Realization,No,Yes,EU,High Transfer Volume,Evening
+bf58c8b6-c560-42c2-9a39-03ec51f9ead8,Fake Investment Scam,SMS,No,672.58,Business Owner,Manual Report,Yes,Yes,Australia,High Transfer Volume,Night
+ae69ae72-23fb-4407-b368-e33b45d74076,Fake Investment Scam,App,No,95.91,Fintech User,Bank Flag,No,Yes,Africa,None,Morning
+ddbd69f6-0bfd-4ae4-9fd1-268ae06c42f6,Fake Investment Scam,Website,No,125.17,Fintech User,AI Detection,No,Yes,US,Odd Hours Activity,Morning
+2850acc7-55f3-4a49-935c-b51d2ce0d4a9,Fake Investment Scam,Email,No,521.12,Fintech User,Bank Flag,Yes,Yes,Asia,High Transfer Volume,Evening
+e02700d7-44ce-461b-a542-498aa4100b0e,Impersonation Fraud,SMS,Yes,416.68,Bank Employee,User Realization,Yes,No,South America,Odd Hours Activity,Night
+706680b4-0809-40cf-a0e7-cc56a2e0e124,SMS Phishing,In-person,No,64525.76,Business Owner,Law Enforcement,No,Yes,EU,Odd Hours Activity,Evening
+95baef63-6554-4f95-81b7-e6ec3fe361eb,Impersonation Fraud,SMS,Yes,85.2,Business Owner,Manual Report,Yes,Yes,Africa,None,Evening
+dd7b770d-d835-4ea5-844c-e8bbd7119b24,Deepfake Video Scam,Video,Yes,755.35,Fintech User,User Realization,Yes,Yes,Australia,Odd Hours Activity,Morning
+29d15262-b762-4a36-bc8e-37d2b6bde01c,Phishing Email,SMS,No,6458.8,Retail Customer,Manual Report,No,Yes,US,None,Night
+b9f64935-0a44-4ebf-9195-837d8b1c451a,Voice Phishing,Video,Yes,5419.93,Bank Employee,Manual Report,Yes,Yes,Africa,High Transfer Volume,Morning
+d8ba1853-187a-4489-970e-345c6118e8a1,Phishing Email,SMS,Yes,81.0,Retail Customer,Bank Flag,No,Yes,Australia,Unusual Login,Evening
+bd59ff1e-9b3d-4bec-afc5-e068b48efd35,Voice Phishing,In-person,Yes,613.33,Fintech User,Law Enforcement,No,Yes,Asia,High Transfer Volume,Morning
+dc6b7643-5eb9-4729-8cba-7a5dae7272fa,Fake Investment Scam,Website,No,56.92,Business Owner,Law Enforcement,No,Yes,US,Unusual Login,Night
+848f8585-dbef-4acc-ab8d-fd854adf5329,Deepfake Video Scam,Email,No,22.4,Bank Employee,Bank Flag,No,Yes,South America,Odd Hours Activity,Morning
+10d6de33-e307-4221-9a4c-fd93774db0e3,Voice Phishing,App,Yes,617820.29,Bank Employee,User Realization,Yes,Yes,Australia,None,Evening
+9bc5a273-79aa-40a5-b336-f7b4e58bcb7f,Phishing Email,Email,No,33479.3,Bank Employee,AI Detection,Yes,Yes,Australia,Odd Hours Activity,Morning
+53775794-a53f-4d28-a3de-5b80688f46e1,Deepfake Video Scam,In-person,Yes,913891.48,Retail Customer,Bank Flag,Yes,No,Australia,Unusual Login,Night
+c4322a9a-8834-4675-9a42-d2e05edc2f38,Voice Phishing,App,Yes,3.56,Business Owner,Bank Flag,No,Yes,Africa,Odd Hours Activity,Afternoon
+963cc4c9-a58e-4427-9e28-cd276c23240c,Phishing Email,Email,Yes,580.77,Fintech User,AI Detection,No,Yes,US,None,Night
+476529a3-865b-49cc-b5f0-0ea99385de6c,Voice Phishing,Website,No,223993.39,Fintech User,AI Detection,No,Yes,Asia,High Transfer Volume,Evening
+d8a77b64-ebee-4dc3-a466-23fab0025e5c,Impersonation Fraud,Email,Yes,182.79,Retail Customer,Manual Report,No,Yes,South America,Unusual Login,Morning
+f9b47334-3c70-4628-8446-7a060447ee0c,Deepfake Video Scam,Email,Yes,12.67,Business Owner,Bank Flag,Yes,No,Asia,High Transfer Volume,Evening
+be98df68-d990-43f7-8c14-34a4a693c380,Voice Phishing,Website,No,65.66,Retail Customer,Bank Flag,Yes,No,South America,Odd Hours Activity,Afternoon
+7a2895f1-e701-4ffe-80ca-7c7780c97a6a,Fake Investment Scam,App,No,363415.07,Business Owner,Law Enforcement,No,Yes,Asia,Unusual Login,Morning
+ab8f9110-fb09-408f-8699-f6cfae2dff81,Social Media Scam,Website,No,1706.01,Business Owner,Law Enforcement,Yes,No,South America,High Transfer Volume,Morning
+2dbea39f-1c48-4c38-9df8-bcdb19c69b50,Social Media Scam,Phone Call,Yes,728.51,Fintech User,AI Detection,Yes,No,US,Odd Hours Activity,Evening
+befeb8ef-9cd0-4e2b-99dc-eb079376357b,Impersonation Fraud,App,Yes,27.91,Fintech User,User Realization,Yes,No,Africa,None,Morning
+ea610df3-0372-4113-af09-142bfb100fbe,Deepfake Video Scam,Video,No,693.93,Retail Customer,Bank Flag,Yes,No,US,Odd Hours Activity,Evening
+a0df6afe-db43-440c-a49e-861fae54d170,Deepfake Video Scam,Email,No,490668.41,Fintech User,AI Detection,Yes,No,South America,Odd Hours Activity,Night
+6ebede49-c65a-4523-a1ad-305f7210b86c,Impersonation Fraud,App,Yes,52059.92,Business Owner,Manual Report,Yes,No,South America,Odd Hours Activity,Morning
+b3c24967-29e1-46a5-934b-87c5e2b33bf3,Deepfake Video Scam,App,No,455141.08,Bank Employee,Bank Flag,No,Yes,South America,Odd Hours Activity,Morning
+288b5e58-e207-4b8b-a1f6-903de74b3e04,SMS Phishing,App,No,8628.33,Fintech User,User Realization,Yes,No,US,None,Morning
+85d8fa76-7a8f-4fd7-812a-d79eac0a55cf,Social Media Scam,In-person,Yes,15272.64,Retail Customer,Bank Flag,No,Yes,US,None,Afternoon
+051ce99a-9f80-4451-92c5-ab0d6f485d93,Fake Bank App,App,No,21450.02,Business Owner,Manual Report,Yes,Yes,US,Unusual Login,Afternoon
+87725f47-cbc3-4807-8a00-0f7a11189524,Fake Investment Scam,Social Media,Yes,745621.93,Retail Customer,Bank Flag,No,Yes,US,Odd Hours Activity,Morning
+25984aa0-8c9e-4325-9805-c53cd96ca43b,Deepfake Video Scam,Social Media,Yes,50.69,Retail Customer,Law Enforcement,Yes,Yes,EU,Odd Hours Activity,Evening
+2c78636e-110b-4818-8a55-82e6ca1ed46f,Impersonation Fraud,SMS,No,2287.72,Bank Employee,Law Enforcement,No,Yes,Asia,None,Evening
+1463dd7a-a247-461c-8602-6cbd77dcfbb0,Fake Investment Scam,App,Yes,431.47,Bank Employee,Manual Report,Yes,Yes,Australia,High Transfer Volume,Evening
+98fb425b-4d86-4736-af5e-73c987625a64,Social Media Scam,Video,No,129339.58,Business Owner,User Realization,Yes,Yes,EU,None,Morning
+a45ff344-0ba6-46fe-9d3f-121cd0cb4307,Phishing Email,In-person,No,3422.64,Bank Employee,Manual Report,No,Yes,EU,Odd Hours Activity,Afternoon
+8edbf85d-4367-40a1-9bee-ed5088ff618e,Fake Investment Scam,Social Media,Yes,500.51,Fintech User,Bank Flag,Yes,No,Australia,Unusual Login,Evening
+790a462f-f2a1-4980-8770-32ffaad5b567,Fake Investment Scam,Video,No,30678.7,Business Owner,Law Enforcement,Yes,No,South America,High Transfer Volume,Evening
+fa56731d-55ad-4518-a3a7-24e8a1eb16de,Fake Bank App,Social Media,No,8.15,Fintech User,Law Enforcement,Yes,No,South America,High Transfer Volume,Afternoon
+87637379-9fbc-4f87-81f5-5943e6b3b142,Fake Investment Scam,Email,Yes,41.86,Fintech User,AI Detection,Yes,Yes,Africa,Unusual Login,Afternoon
+868416a5-c035-44c6-89e1-ac6e1367e060,SMS Phishing,Phone Call,No,41893.1,Fintech User,Law Enforcement,Yes,No,US,Odd Hours Activity,Evening
+ce90c438-9ffb-4212-be84-040a5e8e294d,SMS Phishing,Email,Yes,9549.27,Fintech User,User Realization,No,Yes,Asia,None,Afternoon
+7ff8735c-3819-4052-be0e-cf1c40ab5d33,Voice Phishing,SMS,Yes,59.36,Bank Employee,User Realization,No,Yes,Asia,None,Afternoon
+78aaec6f-34e7-4d92-acb7-130a027d762c,Fake Bank App,SMS,Yes,5439.64,Retail Customer,Law Enforcement,No,Yes,Asia,Odd Hours Activity,Night
+c2946da9-1508-473a-aa61-8e1767c4d236,Social Media Scam,Phone Call,Yes,81.4,Business Owner,User Realization,No,Yes,Australia,Odd Hours Activity,Morning
+ecfa5a48-f41e-4f22-8907-40ce8b4e0c50,Social Media Scam,App,Yes,28.78,Fintech User,User Realization,Yes,Yes,Asia,Odd Hours Activity,Morning
+04a23de0-200f-4529-9c62-7d31f1f76d5f,Deepfake Video Scam,App,Yes,20.68,Business Owner,AI Detection,Yes,Yes,US,None,Morning
+2d77a147-c08a-4ed0-ba0f-02a72921c92a,Social Media Scam,Video,No,483852.3,Fintech User,Law Enforcement,Yes,No,Asia,Unusual Login,Morning
+286b3cb0-31a7-40c9-972a-636267da7dfa,Fake Investment Scam,Website,No,1781.77,Business Owner,Bank Flag,Yes,No,US,High Transfer Volume,Morning
+5caca244-8caf-4433-9f7e-9cb5686a3221,Social Media Scam,Phone Call,No,5081.18,Retail Customer,Bank Flag,Yes,No,US,Odd Hours Activity,Afternoon
+a4dcc7a7-136f-4201-a05c-ec0c523e4874,Phishing Email,Email,Yes,627.71,Business Owner,Manual Report,No,Yes,Africa,High Transfer Volume,Night
+a90f8405-315c-4b7e-9049-7faace79e9bc,Voice Phishing,In-person,No,278.72,Retail Customer,Law Enforcement,Yes,Yes,Africa,Unusual Login,Night
+102c6011-5677-4dd3-9c6b-dd37a29e45af,Deepfake Video Scam,Phone Call,Yes,71918.35,Fintech User,Law Enforcement,Yes,No,Africa,High Transfer Volume,Evening
+d83bc705-29e1-4b67-99f1-923dfdd80cc4,Deepfake Video Scam,App,No,81707.16,Fintech User,Law Enforcement,No,Yes,Australia,None,Evening
+5682a3ab-2788-4f2c-a6d4-a4b83723ef7d,SMS Phishing,Video,Yes,4776.35,Fintech User,Bank Flag,Yes,No,US,High Transfer Volume,Night
+5db7240b-6b59-4330-982d-b5a4dd18132c,Social Media Scam,SMS,No,73433.69,Fintech User,User Realization,No,Yes,South America,High Transfer Volume,Morning
+0f57454a-cba5-4d88-a202-87548bcb7b57,Fake Bank App,App,Yes,15472.29,Bank Employee,Bank Flag,No,Yes,Africa,None,Night
+74e32da9-32b8-4df4-8d0e-fedf9a0b86ec,Impersonation Fraud,Website,No,26.83,Business Owner,Bank Flag,Yes,No,Africa,None,Afternoon
+0bdaa675-75e1-4c8a-895a-6e0ecc7b6948,Voice Phishing,Video,Yes,649676.26,Business Owner,Law Enforcement,Yes,Yes,Africa,Unusual Login,Evening
+1e8a6c65-5047-4b88-a0ba-165490240ec9,Social Media Scam,SMS,Yes,289417.05,Business Owner,Manual Report,No,Yes,South America,High Transfer Volume,Evening
+24564597-cb63-4248-8c3d-b8337e26de37,Voice Phishing,Social Media,No,29405.36,Business Owner,AI Detection,Yes,Yes,Australia,Unusual Login,Night
+b74a7e2a-ccc0-43de-b460-320a7a0da77c,Fake Investment Scam,Email,Yes,3713.2,Business Owner,Manual Report,Yes,No,South America,Unusual Login,Night
+152106cd-2b90-480a-96f8-76bef7e3b1ab,Impersonation Fraud,Phone Call,No,7.65,Fintech User,AI Detection,Yes,Yes,US,None,Afternoon
+9aeb7942-8d87-4027-bcf8-31ffc5463539,Fake Bank App,Social Media,No,769135.02,Bank Employee,Bank Flag,No,Yes,EU,Unusual Login,Evening
+29742575-55d2-4830-8008-37ee9e46bd84,Fake Investment Scam,Website,No,18375.62,Fintech User,Law Enforcement,No,Yes,Africa,Odd Hours Activity,Afternoon
+bccd8848-7132-4ada-92cf-bb3a4175a1ed,Impersonation Fraud,Email,No,95631.16,Retail Customer,User Realization,Yes,Yes,Africa,High Transfer Volume,Night
+af4086f0-799c-456b-895c-9b46c1fd727d,Social Media Scam,In-person,Yes,3991.92,Retail Customer,AI Detection,Yes,Yes,Africa,High Transfer Volume,Morning
+a5d25532-dd0b-41ee-8467-9ab7c57a4849,Voice Phishing,Website,No,750729.17,Business Owner,AI Detection,No,Yes,Asia,None,Evening
+1e997c32-8bf9-4154-ba28-2a37acdf6e09,Social Media Scam,Phone Call,Yes,7200.98,Fintech User,AI Detection,No,Yes,South America,High Transfer Volume,Night
+82d4a834-35f5-4a02-927a-69fb4a6f030a,Fake Investment Scam,Social Media,Yes,5152.35,Fintech User,Law Enforcement,Yes,Yes,Africa,Unusual Login,Night
+cd54dd60-3f27-4fe3-bc3a-6d4be1150aad,Voice Phishing,Email,Yes,773333.89,Business Owner,Manual Report,No,Yes,US,Unusual Login,Night
+a76eb83b-d8bc-41c2-a177-6f00cc4db963,Fake Investment Scam,Phone Call,No,774.09,Fintech User,User Realization,Yes,No,US,None,Evening
+0a54bdda-565c-4e27-b6aa-b2bf94f2ee4f,Fake Bank App,Social Media,No,685198.64,Business Owner,Bank Flag,Yes,No,Australia,Odd Hours Activity,Night
+917fccbc-80b0-49ea-b7b0-ddaf9ae29275,Fake Investment Scam,Video,No,247.81,Fintech User,AI Detection,No,Yes,Africa,High Transfer Volume,Afternoon
+4c979c47-e6f8-44ad-97ed-793e5dd69f5f,Fake Investment Scam,SMS,Yes,7313.18,Business Owner,AI Detection,No,Yes,Asia,Unusual Login,Morning
+53a8e465-b3cc-45f0-897d-4eaffc95afc8,Fake Investment Scam,Phone Call,Yes,6727.09,Business Owner,Bank Flag,Yes,Yes,Asia,Odd Hours Activity,Night
+5e701c46-9dc2-423b-94d1-af9a295ad070,Fake Bank App,Social Media,No,6050.01,Business Owner,AI Detection,Yes,Yes,South America,High Transfer Volume,Evening
+72019c4e-3c4c-4378-ad4c-8cd6aae84b61,Voice Phishing,App,Yes,817.2,Fintech User,Bank Flag,No,Yes,South America,None,Afternoon
+9c5130f7-06c2-4a48-9e50-258ee9b8c5ba,Voice Phishing,Email,Yes,182.2,Business Owner,Manual Report,Yes,No,US,Odd Hours Activity,Morning
+d31519f0-3c52-4f2a-8181-6931be49a852,Phishing Email,Phone Call,No,69835.8,Bank Employee,Bank Flag,Yes,Yes,Australia,None,Night
+d76b465c-b04e-4e20-af1e-01e022095144,Impersonation Fraud,In-person,No,8547.84,Bank Employee,Law Enforcement,Yes,Yes,EU,Odd Hours Activity,Afternoon

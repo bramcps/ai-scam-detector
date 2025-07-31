@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberShield Nexus - AI Scam Detector</title>
+    <meta name="description" content="Revolutionary AI-powered scam detection system with cutting-edge cybersecurity interface">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div id="particles-bg"></div>
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            <div class="cyber-logo">
+                <div class="logo-hexagon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+            </div>
+            <div class="loading-text">
+                <span class="loading-title">CYBERSHIELD NEXUS</span>
+                <div class="loading-bar">
+                    <div class="loading-progress"></div>
+                </div>
+                <span class="loading-status">Initializing Security Protocols...</span>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="main-container">
+
+        <header class="cyber-header">
+            <div class="header-content">
+                <div class="logo-section">
+                    <div class="logo-container">
+                        <div class="logo-hexagon-main">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="logo-text">
+                            <h1>CYBERSHIELD</h1>
+                            <span>NEXUS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="header-status">
+                    <div class="status-indicator">
+                        <div class="status-dot"></div>
+                        <span>SYSTEM ONLINE</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+        <section class="hero-section" id="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h2 class="hero-title">
+                        <span class="title-line">AI-POWERED</span>
+                        <span class="title-line highlight">THREAT DETECTION</span>
+                    </h2>
+                    <p class="hero-description">
+                        Advanced machine learning algorithms analyze screenshots to identify scams, 
+                        phishing attempts, and malicious content in real-time.
+                    </p>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">99.8%</span>
+                            <span class="stat-label">Accuracy</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">2.3s</span>
+                            <span class="stat-label">Analysis Time</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">1M+</span>
+                            <span class="stat-label">Threats Detected</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="cyber-eye">
+                        <div class="eye-outer">
+                            <div class="eye-inner">
+                                <div class="eye-pupil"></div>
+                            </div>
+                        </div>
+                        <div class="eye-scanner"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="scanner-section" id="scanner">
+            <div class="scanner-container">
+                <div class="scanner-header">
+                    <h3>DIGITAL EVIDENCE CHAMBER</h3>
+                    <p>Upload screenshots for AI-powered threat analysis</p>
+                </div>
+                
+                <div class="upload-zone" id="upload-zone">
+                    <div class="upload-content">
+                        <div class="upload-icon">
+                            <i class="fas fa-cloud-upload-alt"></i>
+                        </div>
+                        <h4>Drop your screenshot here</h4>
+                        <p>or click to browse files</p>
+                        <span class="file-types">Supports: PNG, JPG, JPEG</span>
+                    </div>
+                    <input type="file" id="file-input" accept="image/*" hidden>
+                </div>
+
+                <div class="analysis-container" id="analysis-container" style="display: none;">
+                    <div class="analysis-header">
+                        <h4>NEURAL NETWORK ANALYSIS</h4>
+                        <div class="analysis-progress">
+                            <div class="progress-bar">
+                                <div class="progress-fill" id="progress-fill"></div>
+                            </div>
+                            <span class="progress-text" id="progress-text">Initializing...</span>
+                        </div>
+                    </div>
+                    
+                    <div class="analysis-visualization">
+                        <div class="neural-network" id="neural-network">
+                            <!-- Neural network nodes will be generated by JS -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="results-container" id="results-container" style="display: none;">
+                    <div class="results-header">
+                        <h4>THREAT ASSESSMENT RESULTS</h4>
+                        <div class="results-timestamp" id="results-timestamp"></div>
+                    </div>
+                    
+                    <div class="results-grid">
+                        <div class="result-card threat-level" id="threat-level-card">
+                            <div class="card-header">
+                                <i class="fas fa-exclamation-triangle"></i>
+                                <span>Threat Level</span>
+                            </div>
+                            <div class="card-content">
+                                <div class="threat-indicator" id="threat-indicator">
+                                    <div class="threat-circle">
+                                        <span class="threat-text" id="threat-text">SAFE</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="result-card confidence" id="confidence-card">
+                            <div class="card-header">
+                                <i class="fas fa-brain"></i>
+                                <span>AI Confidence</span>
+                            </div>
+                            <div class="card-content">
+                                <div class="confidence-meter">
+                                    <div class="confidence-bar">
+                                        <div class="confidence-fill" id="confidence-fill"></div>
+                                    </div>
+                                    <span class="confidence-text" id="confidence-text">0%</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="result-card extracted-text" id="extracted-text-card">
+                            <div class="card-header">
+                                <i class="fas fa-file-text"></i>
+                                <span>Extracted Text</span>
+                            </div>
+                            <div class="card-content">
+                                <div class="text-content" id="extracted-text-content">
+        
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="result-card analysis-details" id="analysis-details-card">
+                            <div class="card-header">
+                                <i class="fas fa-chart-line"></i>
+                                <span>Analysis Details</span>
+                            </div>
+                            <div class="card-content">
+                                <div class="details-list" id="analysis-details">
+        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="action-buttons">
+                        <button class="cyber-btn primary" id="analyze-again">
+                            <i class="fas fa-redo"></i>
+                            Analyze Another
+                        </button>
+                        <button class="cyber-btn secondary" id="export-results">
+                            <i class="fas fa-download"></i>
+                            Export Report
+                        </button>
+                        <button class="cyber-btn secondary" id="share-results">
+                            <i class="fas fa-share"></i>
+                            Share Results
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="analytics-section" id="analytics">
+            <div class="analytics-container">
+                <div class="analytics-header">
+                    <h3>SECURITY ANALYTICS DASHBOARD</h3>
+                    <p>Real-time threat intelligence and system performance metrics</p>
+                </div>
+                
+                <div class="analytics-grid">
+                    <div class="analytics-card">
+                        <div class="card-header">
+                            <i class="fas fa-chart-pie"></i>
+                            <span>Threat Distribution</span>
+                        </div>
+                        <div class="card-content">
+                            <canvas id="threat-chart"></canvas>
+                        </div>
+                    </div>
+                    
+                    <div class="analytics-card">
+                        <div class="card-header">
+                            <i class="fas fa-clock"></i>
+                            <span>Response Time</span>
+                        </div>
+                        <div class="card-content">
+                            <canvas id="response-chart"></canvas>
+                        </div>
+                    </div>
+                    
+                    <div class="analytics-card">
+                        <div class="card-header">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>System Health</span>
+                        </div>
+                        <div class="card-content">
+                            <div class="health-indicators">
+                                <div class="health-item">
+                                    <span class="health-label">AI Engine</span>
+                                    <div class="health-bar">
+                                        <div class="health-fill" style="width: 98%"></div>
+                                    </div>
+                                    <span class="health-value">98%</span>
+                                </div>
+                                <div class="health-item">
+                                    <span class="health-label">OCR System</span>
+                                    <div class="health-bar">
+                                        <div class="health-fill" style="width: 95%"></div>
+                                    </div>
+                                    <span class="health-value">95%</span>
+                                </div>
+                                <div class="health-item">
+                                    <span class="health-label">Database</span>
+                                    <div class="health-bar">
+                                        <div class="health-fill" style="width: 100%"></div>
+                                    </div>
+                                    <span class="health-value">100%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+  
+        <section class="about-section" id="about">
+            <div class="about-container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>ABOUT CYBERSHIELD NEXUS</h3>
+                        <p>
+                            CyberShield Nexus represents the cutting edge of AI-powered cybersecurity. 
+                            Our advanced machine learning algorithms analyze visual content to detect 
+                            sophisticated threats that traditional security measures might miss.
+                        </p>
+                        <div class="features-list">
+                            <div class="feature-item">
+                                <i class="fas fa-robot"></i>
+                                <span>Advanced AI Algorithms</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-eye"></i>
+                                <span>Visual Content Analysis</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-bolt"></i>
+                                <span>Real-time Processing</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-lock"></i>
+                                <span>Privacy-First Design</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-visual">
+                        <div class="tech-stack">
+                            <div class="tech-item">
+                                <i class="fab fa-python"></i>
+                                <span>Python</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fab fa-js"></i>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fas fa-brain"></i>
+                                <span>TensorFlow</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fas fa-database"></i>
+                                <span>Machine Learning</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <footer class="cyber-footer">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>CYBERSHIELD NEXUS</h4>
+                    <p>Protecting digital lives through advanced AI</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#scanner">Scanner</a></li>
+                        <li><a href="#analytics">Analytics</a></li>
+                        <li><a href="#about">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>zzzz
+                    
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 CyberShield Nexus. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
