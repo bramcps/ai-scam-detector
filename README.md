@@ -1,4 +1,4 @@
-# 🛡️ CyberShield Nexus - Revolutionary AI Scam Detector
+# 🛡️ Revolutionary AI Scam Detector
 
 > **The Future of Cybersecurity is Here** - A cutting-edge web application that revolutionizes how users interact with AI-powered security tools through unprecedented visual design and interactive experiences.
 
@@ -264,7 +264,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Performance**: Web.dev and MDN documentation
 
 
-## >> Why This is Revolutionary
+## >> Why This is Revolutionary?
 
 CyberShield Nexus represents a **fundamental shift** in web application design:
 
