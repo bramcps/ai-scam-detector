@@ -41,7 +41,7 @@ CyberShield Nexus membaca teks di screenshot dengan [Tesseract.js](https://githu
 
 ## Cara pakai
 
-1. Buka [scam-detector-bay.vercel.app](https://scam-detector-bay.vercel.app)
+1. Buka [scam-detector-sece.vercel.app](https://scam-detector-sece.vercel.app)
 2. Taruh screenshot pesannya, atau tempel teksnya lalu klik **Periksa Teks**
 3. Baca bagian **"Kenapa Hasilnya Begini?"**
 
