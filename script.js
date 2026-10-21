@@ -1,10 +1,11 @@
-// ===== CYBERSHIELD NEXUS - REVOLUTIONARY JAVASCRIPT =====
+// ===== CYBERSHIELD NEXUS - SCAM DETECTOR UI =====
 
 // Global variables
 let particles = [];
 let neuralNetwork = null;
 let isAnalyzing = false;
 let currentFile = null;
+let lastResult = null;
 
 // DOM elements
 const loadingScreen = document.getElementById('loading-screen');
@@ -23,6 +24,8 @@ const confidenceText = document.getElementById('confidence-text');
 const extractedTextContent = document.getElementById('extracted-text-content');
 const analysisDetails = document.getElementById('analysis-details');
 const resultsTimestamp = document.getElementById('results-timestamp');
+const threatCircle = document.querySelector('.threat-circle');
+const messageInput = document.getElementById('message-input');
 
 // ===== INITIALIZATION =====
 document.addEventListener('DOMContentLoaded', function() {
@@ -42,8 +45,8 @@ function initializeApp() {
     // Initialize event listeners
     initEventListeners();
     
-    // Initialize analytics charts
-    initAnalyticsCharts();
+    // List the scam patterns the detector knows
+    renderScamTypes();
     
     // Initialize smooth scrolling
     initSmoothScrolling();
@@ -71,7 +74,7 @@ function simulateLoading() {
         if (currentStep < loadingSteps.length) {
             statusElement.textContent = loadingSteps[currentStep];
             currentStep++;
-            setTimeout(updateLoading, 800);
+            setTimeout(updateLoading, 250);
         } else {
             setTimeout(() => {
                 loadingScreen.style.opacity = '0';
@@ -80,7 +83,7 @@ function simulateLoading() {
                     mainContainer.classList.add('loaded');
                     initHeroAnimations();
                 }, 500);
-            }, 1000);
+            }, 300);
         }
     };
     
@@ -463,6 +466,12 @@ function initEventListeners() {
     uploadZone.addEventListener('drop', handleDrop);
     fileInput.addEventListener('change', handleFileSelect);
     
+    // Pasted text
+    document.getElementById('analyze-text-btn').addEventListener('click', handleTextSubmit);
+    messageInput.addEventListener('keydown', e => {
+        if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) handleTextSubmit();
+    });
+    
     // Action buttons
     document.getElementById('analyze-again').addEventListener('click', resetAnalysis);
     document.getElementById('export-results').addEventListener('click', exportResults);
@@ -511,151 +520,144 @@ function handleFileSelect(e) {
 
 function handleFile(file) {
     if (!file.type.startsWith('image/')) {
-        showNotification('Please select an image file', 'error');
+        showNotification('Pilih file gambar (PNG/JPG)', 'error');
         return;
     }
     
     currentFile = file;
-    startAnalysis();
+    startAnalysis({ file });
+}
+
+function handleTextSubmit() {
+    const text = messageInput.value.trim();
+    if (!text) {
+        showNotification('Tempel dulu isi pesannya', 'error');
+        return;
+    }
+    startAnalysis({ text });
 }
 
 // ===== ANALYSIS PROCESS =====
-function startAnalysis() {
+async function startAnalysis({ file, text }) {
     if (isAnalyzing) return;
     
     isAnalyzing = true;
     
-    // Show analysis container
     analysisContainer.style.display = 'block';
     resultsContainer.style.display = 'none';
+    resultsContainer.classList.remove('show');
+    analysisContainer.scrollIntoView({ behavior: 'smooth', block: 'center' });
     
-    // Reset progress
-    progressFill.style.width = '0%';
-    progressText.textContent = 'Initializing...';
-    
-    // Start neural network animation
+    setProgress(5, 'Menyiapkan...');
     activateNeuralNetwork();
     
-    // Enhanced analysis steps with detailed descriptions
-    const analysisSteps = [
-        { progress: 15, text: 'Initializing AI Engine...', phase: 'startup' },
-        { progress: 30, text: 'Processing Image Data...', phase: 'input' },
-        { progress: 45, text: 'Extracting Text Content...', phase: 'ocr' },
-        { progress: 60, text: 'Analyzing Language Patterns...', phase: 'nlp' },
-        { progress: 75, text: 'Running Neural Networks...', phase: 'ai' },
-        { progress: 90, text: 'Cross-referencing Threat Database...', phase: 'threat' },
-        { progress: 100, text: 'Generating Security Report...', phase: 'final' }
-    ];
-    
-    let currentStep = 0;
-    
-    const updateProgress = () => {
-        if (currentStep < analysisSteps.length) {
-            const step = analysisSteps[currentStep];
-            progressFill.style.width = step.progress + '%';
-            progressText.textContent = step.text;
-            currentStep++;
-            setTimeout(updateProgress, 1000);
-        } else {
-            setTimeout(() => {
-                completeAnalysis();
-            }, 500);
+    try {
+        if (file) {
+            text = await readTextFromImage(file);
         }
-    };
-    
-    updateProgress();
+        setProgress(90, 'Mencocokkan dengan pola penipuan...');
+        const result = ScamDetector.analyzeMessage(text);
+        setProgress(100, 'Selesai');
+        setTimeout(() => completeAnalysis(text, result), 400);
+    } catch (err) {
+        console.error(err);
+        isAnalyzing = false;
+        analysisContainer.style.display = 'none';
+        showNotification('Gagal membaca gambar. Coba tempel teksnya saja.', 'error');
+    }
 }
 
-function completeAnalysis() {
+function setProgress(percent, label) {
+    progressFill.style.width = percent + '%';
+    progressText.textContent = label;
+}
+
+async function readTextFromImage(file) {
+    if (typeof Tesseract === 'undefined') {
+        throw new Error('Tesseract.js failed to load');
+    }
+    setProgress(10, 'Memuat mesin OCR...');
+    const { data } = await Tesseract.recognize(file, 'ind+eng', {
+        logger: m => {
+            if (m.status === 'recognizing text') {
+                setProgress(20 + Math.round(m.progress * 65), `Membaca teks dari gambar... ${Math.round(m.progress * 100)}%`);
+            } else if (m.status && m.status.startsWith('loading')) {
+                setProgress(15, 'Mengunduh data bahasa (sekali saja)...');
+            }
+        }
+    });
+    return data.text;
+}
+
+function completeAnalysis(text, result) {
     isAnalyzing = false;
+    lastResult = { text, ...result };
     
-    // Hide analysis container
     analysisContainer.style.display = 'none';
+    displayResults(lastResult);
     
-    // Generate mock results
-    const results = generateMockResults();
-    
-    // Display results
-    displayResults(results);
-    
-    // Show results container
     resultsContainer.style.display = 'block';
     setTimeout(() => {
         resultsContainer.classList.add('show');
+        resultsContainer.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }, 100);
 }
 
-function generateMockResults() {
-    const isScam = Math.random() > 0.6;
-    const confidence = Math.random() * 0.4 + 0.6; // 60-100%
-    
-    return {
-        threatLevel: isScam ? 'SCAM' : 'SAFE',
-        confidence: confidence,
-        extractedText: generateMockText(),
-        details: generateMockDetails(isScam)
-    };
-}
-
-function generateMockText() {
-    const texts = [
-        "URGENT: Your account has been suspended. Click here to verify: bit.ly/suspicious-link",
-        "Congratulations! You've won $1,000,000! Claim your prize now!",
-        "Hi, this is your bank. We detected suspicious activity. Please call 1-800-FAKE-NUMBER",
-        "Your package is ready for delivery. Track at: fake-tracking.com",
-        "Free iPhone 15! Limited time offer. Click to claim your prize!"
-    ];
-    
-    return texts[Math.floor(Math.random() * texts.length)];
-}
-
-function generateMockDetails(isScam) {
-    const details = [
-        { label: 'Suspicious Keywords', value: isScam ? 'High' : 'Low' },
-        { label: 'URL Analysis', value: isScam ? 'Malicious' : 'Safe' },
-        { label: 'Language Patterns', value: isScam ? 'Suspicious' : 'Normal' },
-        { label: 'Sender Reputation', value: isScam ? 'Unknown' : 'Verified' },
-        { label: 'Threat Score', value: isScam ? '85/100' : '12/100' }
-    ];
-    
-    return details;
-}
+const LEVEL_LABELS = {
+    DANGER: { text: 'BAHAYA', css: 'danger' },
+    WARNING: { text: 'WASPADA', css: 'warning' },
+    SAFE: { text: 'AMAN', css: 'safe' },
+    UNKNOWN: { text: 'KOSONG', css: 'warning' }
+};
 
 function displayResults(results) {
-    // Update threat level
-    threatText.textContent = results.threatLevel;
-    threatIndicator.className = 'threat-indicator';
+    const level = LEVEL_LABELS[results.level];
+    threatText.textContent = level.text;
+    threatCircle.className = 'threat-circle ' + level.css;
     
-    if (results.threatLevel === 'SAFE') {
-        threatIndicator.classList.add('safe');
-    } else if (results.threatLevel === 'WARNING') {
-        threatIndicator.classList.add('warning');
+    confidenceFill.style.width = results.score + '%';
+    confidenceText.textContent = results.score + '/100';
+    
+    extractedTextContent.textContent = results.text.trim() || '(Tidak ada teks yang terbaca)';
+    
+    analysisDetails.innerHTML = '';
+    if (results.level === 'UNKNOWN') {
+        addDetail('Tidak ada teks', 'Gambar tidak berisi teks yang bisa dibaca. Coba screenshot yang lebih jelas, atau tempel teksnya.');
+    } else if (!results.hits.length) {
+        addDetail('Tidak ada pola penipuan', 'Pesan ini tidak cocok dengan pola penipuan yang dikenal. Tetap hati-hati kalau ada permintaan uang atau data.');
     } else {
-        threatIndicator.classList.add('danger');
+        results.hits.forEach(hit => addDetail(hit.label, hit.reason));
     }
     
-    // Update confidence
-    const confidencePercent = Math.round(results.confidence * 100);
-    confidenceFill.style.width = confidencePercent + '%';
-    confidenceText.textContent = confidencePercent + '%';
-    
-    // Update extracted text
-    extractedTextContent.textContent = results.extractedText;
-    
-    // Update analysis details
-    analysisDetails.innerHTML = '';
-    results.details.forEach(detail => {
-        const detailItem = document.createElement('div');
-        detailItem.className = 'detail-item';
-        detailItem.innerHTML = `
-            <span class="detail-label">${detail.label}</span>
-            <span class="detail-value">${detail.value}</span>
-        `;
-        analysisDetails.appendChild(detailItem);
+    resultsTimestamp.textContent = new Date().toLocaleString('id-ID');
+}
+
+function addDetail(label, reason) {
+    const item = document.createElement('div');
+    item.className = 'detail-item reason-item';
+    const labelEl = document.createElement('span');
+    labelEl.className = 'detail-value';
+    labelEl.textContent = label;
+    const reasonEl = document.createElement('span');
+    reasonEl.className = 'detail-label';
+    reasonEl.textContent = reason;
+    item.append(labelEl, reasonEl);
+    analysisDetails.appendChild(item);
+}
+
+function renderScamTypes() {
+    const container = document.getElementById('scam-types');
+    if (!container || typeof ScamDetector === 'undefined') return;
+    ScamDetector.RULES.forEach(rule => {
+        const card = document.createElement('div');
+        card.className = 'scam-type-card';
+        const title = document.createElement('h5');
+        title.textContent = rule.label;
+        const desc = document.createElement('p');
+        desc.textContent = rule.reason;
+        card.append(title, desc);
+        container.appendChild(card);
     });
-    
-    // Update timestamp
-    resultsTimestamp.textContent = new Date().toLocaleString();
 }
 
 // ===== UTILITY FUNCTIONS =====
@@ -666,40 +668,47 @@ function resetAnalysis() {
         analysisContainer.style.display = 'none';
         currentFile = null;
         fileInput.value = '';
+        messageInput.value = '';
+        document.getElementById('scanner').scrollIntoView({ behavior: 'smooth' });
     }, 500);
 }
 
+function buildReportText() {
+    const r = lastResult;
+    const reasons = r.hits.map(h => `- ${h.label}: ${h.reason}`).join('\n') || '- Tidak ada pola penipuan yang dikenal';
+    return `Hasil CyberShield Nexus: ${LEVEL_LABELS[r.level].text} (skor risiko ${r.score}/100)\n${reasons}\n\nCek pesanmu sendiri: ${window.location.href}`;
+}
+
 function exportResults() {
-    const results = {
+    if (!lastResult) return;
+    const report = {
         timestamp: new Date().toISOString(),
-        threatLevel: threatText.textContent,
-        confidence: confidenceText.textContent,
-        extractedText: extractedTextContent.textContent
+        level: lastResult.level,
+        riskScore: lastResult.score,
+        reasons: lastResult.hits.map(h => ({ id: h.id, label: h.label, reason: h.reason })),
+        urls: lastResult.urls,
+        text: lastResult.text
     };
     
-    const blob = new Blob([JSON.stringify(results, null, 2)], { type: 'application/json' });
+    const blob = new Blob([JSON.stringify(report, null, 2)], { type: 'application/json' });
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = 'cybershield-analysis.json';
+    a.download = 'hasil-cek-penipuan.json';
     a.click();
     URL.revokeObjectURL(url);
     
-    showNotification('Results exported successfully!', 'success');
+    showNotification('Laporan diunduh', 'success');
 }
 
 function shareResults() {
+    if (!lastResult) return;
+    const text = buildReportText();
     if (navigator.share) {
-        navigator.share({
-            title: 'CyberShield Analysis Results',
-            text: `Threat Level: ${threatText.textContent} | Confidence: ${confidenceText.textContent}`,
-            url: window.location.href
-        });
+        navigator.share({ title: 'Hasil cek pesan penipuan', text }).catch(() => {});
     } else {
-        // Fallback: copy to clipboard
-        const text = `Threat Level: ${threatText.textContent}\nConfidence: ${confidenceText.textContent}\nExtracted Text: ${extractedTextContent.textContent}`;
         navigator.clipboard.writeText(text).then(() => {
-            showNotification('Results copied to clipboard!', 'success');
+            showNotification('Hasil disalin, tinggal tempel ke WA', 'success');
         });
     }
 }
@@ -790,97 +799,6 @@ function animateNumber(element, start, end, finalText, duration) {
 
 function easeOutQuart(t) {
     return 1 - Math.pow(1 - t, 4);
-}
-
-// ===== ANALYTICS CHARTS =====
-function initAnalyticsCharts() {
-    // Threat Distribution Chart
-    const threatCtx = document.getElementById('threat-chart').getContext('2d');
-    new Chart(threatCtx, {
-        type: 'doughnut',
-        data: {
-            labels: ['Safe', 'Suspicious', 'Scam'],
-            datasets: [{
-                data: [65, 20, 15],
-                backgroundColor: [
-                    'rgba(0, 255, 136, 0.8)',
-                    'rgba(255, 215, 0, 0.8)',
-                    'rgba(255, 71, 87, 0.8)'
-                ],
-                borderColor: [
-                    'rgba(0, 255, 136, 1)',
-                    'rgba(255, 215, 0, 1)',
-                    'rgba(255, 71, 87, 1)'
-                ],
-                borderWidth: 2
-            }]
-        },
-        options: {
-            responsive: true,
-            maintainAspectRatio: false,
-            plugins: {
-                legend: {
-                    labels: {
-                        color: 'rgba(255, 255, 255, 0.8)',
-                        font: {
-                            family: 'Rajdhani'
-                        }
-                    }
-                }
-            }
-        }
-    });
-    
-    // Response Time Chart
-    const responseCtx = document.getElementById('response-chart').getContext('2d');
-    new Chart(responseCtx, {
-        type: 'line',
-        data: {
-            labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
-            datasets: [{
-                label: 'Average Response Time (s)',
-                data: [2.1, 1.8, 2.3, 1.9, 2.0, 2.2, 1.7],
-                borderColor: 'rgba(0, 212, 255, 1)',
-                backgroundColor: 'rgba(0, 212, 255, 0.1)',
-                borderWidth: 2,
-                fill: true,
-                tension: 0.4
-            }]
-        },
-        options: {
-            responsive: true,
-            maintainAspectRatio: false,
-            plugins: {
-                legend: {
-                    labels: {
-                        color: 'rgba(255, 255, 255, 0.8)',
-                        font: {
-                            family: 'Rajdhani'
-                        }
-                    }
-                }
-            },
-            scales: {
-                y: {
-                    beginAtZero: true,
-                    grid: {
-                        color: 'rgba(255, 255, 255, 0.1)'
-                    },
-                    ticks: {
-                        color: 'rgba(255, 255, 255, 0.6)'
-                    }
-                },
-                x: {
-                    grid: {
-                        color: 'rgba(255, 255, 255, 0.1)'
-                    },
-                    ticks: {
-                        color: 'rgba(255, 255, 255, 0.6)'
-                    }
-                }
-            }
-        }
-    });
 }
 
 // ===== SMOOTH SCROLLING =====
@@ -1050,7 +968,7 @@ function handleDropdownNavigation(e) {
 
 // Update active navigation based on scroll position
 function updateActiveNavigation() {
-    const sections = ['#scanner', '#analytics', '#about'];
+    const sections = ['#scanner', '#patterns', '#about'];
     const navLinks = document.querySelectorAll('.nav-link');
     
     let currentSection = '';

@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CyberShield Nexus - AI Scam Detector</title>
-    <meta name="description" content="Revolutionary AI-powered scam detection system with cutting-edge cybersecurity interface">
+    <title>CyberShield Nexus - Cek Pesan Penipuan</title>
+    <meta name="description" content="Cek apakah pesan WA/SMS itu penipuan. Upload screenshot atau tempel teksnya. Gratis, jalan di browser, tidak ada data yang dikirim ke server.">
+    <meta property="og:title" content="CyberShield Nexus - Cek Pesan Penipuan">
+    <meta property="og:description" content="Upload screenshot chat atau tempel teksnya, langsung ketahuan tanda-tanda penipuannya. Gratis dan privat.">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -60,25 +62,25 @@
             <div class="hero-content">
                 <div class="hero-text">
                     <h2 class="hero-title">
-                        <span class="title-line">AI-POWERED</span>
-                        <span class="title-line highlight">THREAT DETECTION</span>
+                        <span class="title-line">CEK PESAN</span>
+                        <span class="title-line highlight">PENIPUAN</span>
                     </h2>
                     <p class="hero-description">
-                        Advanced machine learning algorithms analyze screenshots to identify scams, 
-                        phishing attempts, and malicious content in real-time.
+                        Dapat chat aneh di WA atau SMS? Upload screenshot-nya atau tempel teksnya.
+                        Kami tunjukkan tanda-tanda penipuannya dan alasannya, langsung di browser kamu.
                     </p>
                     <div class="hero-stats">
                         <div class="stat-item">
-                            <span class="stat-number">99.8%</span>
-                            <span class="stat-label">Accuracy</span>
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Di Browser</span>
                         </div>
                         <div class="stat-item">
-                            <span class="stat-number">2.3s</span>
-                            <span class="stat-label">Analysis Time</span>
+                            <span class="stat-number">0</span>
+                            <span class="stat-label">Data Dikirim</span>
                         </div>
                         <div class="stat-item">
-                            <span class="stat-number">1M+</span>
-                            <span class="stat-label">Threats Detected</span>
+                            <span class="stat-number">20</span>
+                            <span class="stat-label">Pola Penipuan</span>
                         </div>
                     </div>
                 </div>
@@ -99,8 +101,8 @@
         <section class="scanner-section" id="scanner">
             <div class="scanner-container">
                 <div class="scanner-header">
-                    <h3>DIGITAL EVIDENCE CHAMBER</h3>
-                    <p>Upload screenshots for AI-powered threat analysis</p>
+                    <h3>PERIKSA PESAN</h3>
+                    <p>Screenshot dan teks diproses di perangkatmu sendiri, tidak diunggah ke mana pun</p>
                 </div>
                 
                 <div class="upload-zone" id="upload-zone">
@@ -108,21 +110,30 @@
                         <div class="upload-icon">
                             <i class="fas fa-cloud-upload-alt"></i>
                         </div>
-                        <h4>Drop your screenshot here</h4>
-                        <p>or click to browse files</p>
-                        <span class="file-types">Supports: PNG, JPG, JPEG</span>
+                        <h4>Taruh screenshot di sini</h4>
+                        <p>atau klik untuk pilih gambar</p>
+                        <span class="file-types">PNG, JPG, JPEG</span>
                     </div>
                     <input type="file" id="file-input" accept="image/*" hidden>
                 </div>
 
+                <div class="text-input-zone">
+                    <div class="input-divider"><span>atau tempel teks pesannya</span></div>
+                    <textarea id="message-input" rows="5" placeholder="Contoh: Ma, ini aku. Ganti nomor, hp lama rusak. Tolong isiin pulsa 100rb dulu ya..."></textarea>
+                    <button class="cyber-btn primary" id="analyze-text-btn">
+                        <i class="fas fa-search"></i>
+                        Periksa Teks
+                    </button>
+                </div>
+
                 <div class="analysis-container" id="analysis-container" style="display: none;">
                     <div class="analysis-header">
-                        <h4>NEURAL NETWORK ANALYSIS</h4>
+                        <h4>SEDANG MEMERIKSA</h4>
                         <div class="analysis-progress">
                             <div class="progress-bar">
                                 <div class="progress-fill" id="progress-fill"></div>
                             </div>
-                            <span class="progress-text" id="progress-text">Initializing...</span>
+                            <span class="progress-text" id="progress-text">Menyiapkan...</span>
                         </div>
                     </div>
                     
@@ -135,7 +146,7 @@
 
                 <div class="results-container" id="results-container" style="display: none;">
                     <div class="results-header">
-                        <h4>THREAT ASSESSMENT RESULTS</h4>
+                        <h4>HASIL PEMERIKSAAN</h4>
                         <div class="results-timestamp" id="results-timestamp"></div>
                     </div>
                     
@@ -143,12 +154,12 @@
                         <div class="result-card threat-level" id="threat-level-card">
                             <div class="card-header">
                                 <i class="fas fa-exclamation-triangle"></i>
-                                <span>Threat Level</span>
+                                <span>Tingkat Bahaya</span>
                             </div>
                             <div class="card-content">
                                 <div class="threat-indicator" id="threat-indicator">
                                     <div class="threat-circle">
-                                        <span class="threat-text" id="threat-text">SAFE</span>
+                                        <span class="threat-text" id="threat-text">-</span>
                                     </div>
                                 </div>
                             </div>
@@ -156,23 +167,23 @@
                         
                         <div class="result-card confidence" id="confidence-card">
                             <div class="card-header">
-                                <i class="fas fa-brain"></i>
-                                <span>AI Confidence</span>
+                                <i class="fas fa-gauge-high"></i>
+                                <span>Skor Risiko</span>
                             </div>
                             <div class="card-content">
                                 <div class="confidence-meter">
                                     <div class="confidence-bar">
                                         <div class="confidence-fill" id="confidence-fill"></div>
                                     </div>
-                                    <span class="confidence-text" id="confidence-text">0%</span>
+                                    <span class="confidence-text" id="confidence-text">0/100</span>
                                 </div>
                             </div>
                         </div>
                         
                         <div class="result-card extracted-text" id="extracted-text-card">
                             <div class="card-header">
-                                <i class="fas fa-file-text"></i>
-                                <span>Extracted Text</span>
+                                <i class="fas fa-file-lines"></i>
+                                <span>Teks yang Terbaca</span>
                             </div>
                             <div class="card-content">
                                 <div class="text-content" id="extracted-text-content">
@@ -183,8 +194,8 @@
                         
                         <div class="result-card analysis-details" id="analysis-details-card">
                             <div class="card-header">
-                                <i class="fas fa-chart-line"></i>
-                                <span>Analysis Details</span>
+                                <i class="fas fa-list-check"></i>
+                                <span>Kenapa Hasilnya Begini?</span>
                             </div>
                             <div class="card-content">
                                 <div class="details-list" id="analysis-details">
@@ -194,18 +205,24 @@
                         </div>
                     </div>
                     
+                    <p class="results-disclaimer">
+                        Hasil ini berdasarkan pola penipuan yang umum dan bisa keliru. Kalau ragu, hubungi langsung
+                        orangnya atau call center resmi. Cek nomor rekening penipu di
+                        <a href="https://cekrekening.id" target="_blank" rel="noopener">cekrekening.id</a>.
+                    </p>
+
                     <div class="action-buttons">
                         <button class="cyber-btn primary" id="analyze-again">
                             <i class="fas fa-redo"></i>
-                            Analyze Another
+                            Periksa Lagi
                         </button>
                         <button class="cyber-btn secondary" id="export-results">
                             <i class="fas fa-download"></i>
-                            Export Report
+                            Unduh Laporan
                         </button>
                         <button class="cyber-btn secondary" id="share-results">
                             <i class="fas fa-share"></i>
-                            Share Results
+                            Bagikan Hasil
                         </button>
                     </div>
                 </div>
@@ -213,66 +230,13 @@
         </section>
 
 
-        <section class="analytics-section" id="analytics">
+        <section class="analytics-section" id="patterns">
             <div class="analytics-container">
                 <div class="analytics-header">
-                    <h3>SECURITY ANALYTICS DASHBOARD</h3>
-                    <p>Real-time threat intelligence and system performance metrics</p>
+                    <h3>MODUS YANG DIKENALI</h3>
+                    <p>Pola penipuan yang dicek setiap kali kamu memeriksa pesan</p>
                 </div>
-                
-                <div class="analytics-grid">
-                    <div class="analytics-card">
-                        <div class="card-header">
-                            <i class="fas fa-chart-pie"></i>
-                            <span>Threat Distribution</span>
-                        </div>
-                        <div class="card-content">
-                            <canvas id="threat-chart"></canvas>
-                        </div>
-                    </div>
-                    
-                    <div class="analytics-card">
-                        <div class="card-header">
-                            <i class="fas fa-clock"></i>
-                            <span>Response Time</span>
-                        </div>
-                        <div class="card-content">
-                            <canvas id="response-chart"></canvas>
-                        </div>
-                    </div>
-                    
-                    <div class="analytics-card">
-                        <div class="card-header">
-                            <i class="fas fa-shield-alt"></i>
-                            <span>System Health</span>
-                        </div>
-                        <div class="card-content">
-                            <div class="health-indicators">
-                                <div class="health-item">
-                                    <span class="health-label">AI Engine</span>
-                                    <div class="health-bar">
-                                        <div class="health-fill" style="width: 98%"></div>
-                                    </div>
-                                    <span class="health-value">98%</span>
-                                </div>
-                                <div class="health-item">
-                                    <span class="health-label">OCR System</span>
-                                    <div class="health-bar">
-                                        <div class="health-fill" style="width: 95%"></div>
-                                    </div>
-                                    <span class="health-value">95%</span>
-                                </div>
-                                <div class="health-item">
-                                    <span class="health-label">Database</span>
-                                    <div class="health-bar">
-                                        <div class="health-fill" style="width: 100%"></div>
-                                    </div>
-                                    <span class="health-value">100%</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <div class="scam-types" id="scam-types"></div>
             </div>
         </section>
 
@@ -281,48 +245,49 @@
             <div class="about-container">
                 <div class="about-content">
                     <div class="about-text">
-                        <h3>ABOUT CYBERSHIELD NEXUS</h3>
+                        <h3>TENTANG CYBERSHIELD NEXUS</h3>
                         <p>
-                            CyberShield Nexus represents the cutting edge of AI-powered cybersecurity. 
-                            Our advanced machine learning algorithms analyze visual content to detect 
-                            sophisticated threats that traditional security measures might miss.
+                            Proyek open source untuk membantu orang Indonesia mengenali pesan penipuan
+                            sebelum terlanjur transfer atau memberi kode OTP. Teks di screenshot dibaca
+                            dengan Tesseract.js, lalu dicocokkan dengan pola modus penipuan yang sering
+                            beredar. Semuanya terjadi di browser kamu.
                         </p>
                         <div class="features-list">
                             <div class="feature-item">
-                                <i class="fas fa-robot"></i>
-                                <span>Advanced AI Algorithms</span>
-                            </div>
-                            <div class="feature-item">
                                 <i class="fas fa-eye"></i>
-                                <span>Visual Content Analysis</span>
+                                <span>Baca teks dari screenshot</span>
                             </div>
                             <div class="feature-item">
-                                <i class="fas fa-bolt"></i>
-                                <span>Real-time Processing</span>
+                                <i class="fas fa-comment-dots"></i>
+                                <span>Jelaskan alasan tiap tanda bahaya</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-code-branch"></i>
+                                <span>Open source, siapa pun bisa menambah pola</span>
                             </div>
                             <div class="feature-item">
                                 <i class="fas fa-lock"></i>
-                                <span>Privacy-First Design</span>
+                                <span>Tidak ada data yang dikirim ke server</span>
                             </div>
                         </div>
                     </div>
                     <div class="about-visual">
                         <div class="tech-stack">
                             <div class="tech-item">
-                                <i class="fab fa-python"></i>
-                                <span>Python</span>
+                                <i class="fab fa-html5"></i>
+                                <span>HTML & CSS</span>
                             </div>
                             <div class="tech-item">
                                 <i class="fab fa-js"></i>
                                 <span>JavaScript</span>
                             </div>
                             <div class="tech-item">
-                                <i class="fas fa-brain"></i>
-                                <span>TensorFlow</span>
+                                <i class="fas fa-eye"></i>
+                                <span>Tesseract.js</span>
                             </div>
                             <div class="tech-item">
-                                <i class="fas fa-database"></i>
-                                <span>Machine Learning</span>
+                                <i class="fas fa-list-check"></i>
+                                <span>Rule Engine</span>
                             </div>
                         </div>
                     </div>
@@ -335,35 +300,33 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <h4>CYBERSHIELD NEXUS</h4>
-                    <p>Protecting digital lives through advanced AI</p>
+                    <p>Cek dulu sebelum transfer</p>
                 </div>
                 <div class="footer-section">
                     <h4>Quick Links</h4>
                     <ul>
-                        <li><a href="#scanner">Scanner</a></li>
-                        <li><a href="#analytics">Analytics</a></li>
-                        <li><a href="#about">About</a></li>
+                        <li><a href="#scanner">Periksa Pesan</a></li>
+                        <li><a href="#patterns">Modus Penipuan</a></li>
+                        <li><a href="#about">Tentang</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
-                    <h4>Connect</h4>zzzz
-                    
+                    <h4>Open Source</h4>
+                    <p>Kode dan cara menambah pola ada di GitHub</p>
                     <div class="social-links">
-                        <a href="#"><i class="fab fa-github"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/bramcps/ai-scam-detector" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
                     </div>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2024 CyberShield Nexus. All rights reserved.</p>
+                <p>&copy; 2025 CyberShield Nexus &middot; Lisensi MIT</p>
             </div>
         </footer>
     </div>
 
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tesseract.js@5.1.1/dist/tesseract.min.js"></script>
+    <script src="detector.js"></script>
     <script src="script.js"></script>
 </body>
 </html> 

@@ -2,15 +2,18 @@ import streamlit as st
 from PIL import Image
 import pytesseract
 import pickle
-import numpy as np
+import os
 
-# Set path ke tesseract.exe 
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+# Windows: set TESSERACT_CMD, e.g. C:\Program Files\Tesseract-OCR\tesseract.exe
+if os.environ.get('TESSERACT_CMD'):
+    pytesseract.pytesseract.tesseract_cmd = os.environ['TESSERACT_CMD']
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # Load model and vectorizer
-with open('scam_model.pkl', 'rb') as f:
+with open(os.path.join(BASE_DIR, 'scam_model.pkl'), 'rb') as f:
     model = pickle.load(f)
-with open('vectorizer.pkl', 'rb') as f:
+with open(os.path.join(BASE_DIR, 'vectorizer.pkl'), 'rb') as f:
     vectorizer = pickle.load(f)
 
 def predict_scam(text):
