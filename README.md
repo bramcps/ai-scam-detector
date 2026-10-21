@@ -23,7 +23,10 @@
 
 CyberShield Nexus membaca teks di screenshot dengan [Tesseract.js](https://github.com/naptha/tesseract.js), lalu mencocokkannya dengan pola modus penipuan yang sering beredar di Indonesia. Hasilnya bukan cuma "aman" atau "bahaya", tapi juga **alasannya**, supaya kamu belajar mengenali modusnya sendiri.
 
-<img src="docs/result.png" alt="Contoh hasil pemeriksaan" width="800" />
+<p align="center">
+  <img src="docs/result.png" alt="Contoh hasil pemeriksaan di desktop" width="520" />
+  <img src="docs/mobile.png" alt="Tampilan di HP" width="240" />
+</p>
 
 ## Fitur
 
@@ -33,6 +36,8 @@ CyberShield Nexus membaca teks di screenshot dengan [Tesseract.js](https://githu
 - **Cek link**: link pendek, domain murah (.xyz, .top, dll), dan domain tiruan bank atau e-commerce
 - **Privat**: semua proses terjadi di browser, tidak ada screenshot atau teks yang dikirim ke server
 - **Bagikan hasil** ke WA keluarga dengan satu klik
+- **Contoh siap coba**: belum punya screenshot? Klik salah satu contoh pesan
+- **Nyaman di semua layar**: HP, tablet, layar mobil, dan desktop, dengan mode terang dan gelap
 
 ## Cara pakai
 
@@ -108,6 +113,6 @@ Detailnya ada di [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Lisensi
 
-[MIT](LICENSE) © 2025 Mas Bram
+[MIT](LICENSE) © 2025 Mas Bram. Ikon dari [Font Awesome Free](https://fontawesome.com) (CC BY 4.0).
 
 Kalau proyek ini bermanfaat, kasih ⭐ supaya lebih banyak orang menemukannya.
