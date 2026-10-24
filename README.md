@@ -1,10 +1,10 @@
 <div align="center">
 
-# 🛡️ CyberShield Nexus
+# CyberShield Nexus
 
 **Cek apakah pesan WA/SMS itu penipuan. Upload screenshot atau tempel teksnya, langsung keluar tanda bahayanya beserta alasannya.**
 
-[**➡️ Coba sekarang: scam-detector-sece.vercel.app**](https://scam-detector-sece.vercel.app)
+[**Coba sekarang: scam-detector-sece.vercel.app**](https://scam-detector-sece.vercel.app)
 
 ![License: MIT](https://img.shields.io/badge/license-MIT-00d4ff?style=flat-square)
 ![Jalan di browser](https://img.shields.io/badge/jalan%20di-browser-8b5cf6?style=flat-square)
@@ -115,4 +115,4 @@ Detailnya ada di [CONTRIBUTING.md](CONTRIBUTING.md).
 
 [MIT](LICENSE) © 2025 Mas Bram. Ikon dari [Font Awesome Free](https://fontawesome.com) (CC BY 4.0).
 
-Kalau proyek ini bermanfaat, kasih ⭐ supaya lebih banyak orang menemukannya.
+Kalau proyek ini bermanfaat, kasih bintang supaya lebih banyak orang menemukannya.
